@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="ipo2_pokedex.PokedexPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ipo2_pokedex"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF004B8F"/>
+            <GradientStop Color="#FF64AAEA" Offset="1"/>
+        </LinearGradientBrush>
+    </Page.Background>
+
+    <Grid>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="80*" />
+        </Grid.RowDefinitions>
+
+
+
+        <GridView x:Name="gvPokemons" RequestedTheme="Light" IsItemClickEnabled="True" Margin="20,0,0,153" UseLayoutRounding="False" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.RowSpan="2" Grid.ColumnSpan="1" Grid.Row="1" SelectionChanged="pokemonSearch"/>
+        <TextBox x:Name="tbSearch" Margin="315,0,315,0" TextWrapping="Wrap"  FontSize="48" VerticalAlignment="Center" PlaceholderText="Buscar pokemon ..." KeyDown="searchPokemon"/>
+
+      
+    </Grid>
+</Page>
