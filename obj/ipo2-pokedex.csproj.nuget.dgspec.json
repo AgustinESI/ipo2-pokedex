@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\ipo2-pokedex\\ipo2-pokedex.csproj": {}
+    "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\ipo2-pokedex\\ipo2-pokedex.csproj": {
+    "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\ipo2-pokedex\\ipo2-pokedex.csproj",
+        "projectUniqueName": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj",
         "projectName": "ipo2-pokedex",
-        "projectPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\ipo2-pokedex\\ipo2-pokedex.csproj",
+        "projectPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj",
         "packagesPath": "C:\\Users\\agust\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\ipo2-pokedex\\obj\\",
+        "outputPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -51,6 +51,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"
+            },
+            "Microsoft.Toolkit.Uwp.Notifications": {
+              "target": "Package",
+              "version": "[7.1.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

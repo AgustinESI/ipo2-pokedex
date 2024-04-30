@@ -141,7 +141,8 @@ namespace ipo2_pokedex
 
         private void viewPokemon(object sender, PointerRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(ViewPokemonPage), poke);
+            Frame PokemonDetailPage = (Frame)this.Parent;
+            PokemonDetailPage.Navigate(typeof(ViewPokemonPage), this);
         }
     }
 }

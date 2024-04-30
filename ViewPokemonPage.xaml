@@ -10,5 +10,17 @@
 
     <Grid>
         <local:CharizardASM x:Name="Charizard" Visibility="Collapsed" />
+        <local:PiplupMLTN x:Name="Piplup" Visibility="Collapsed" />
+        <local:SnorlaxROC x:Name="Snorlax" Visibility="Collapsed" />
+        <local:ArticunoACG x:Name="Articuno" Visibility="Collapsed" />
+        <local:PikachuAPCC x:Name="Pikachu" Visibility="Collapsed" />
+        <local:DragoniteCSD x:Name="Dragonite" Visibility="Collapsed"/>
+        <local:GengarJCC x:Name="Gengar" Visibility="Collapsed" />
+        <local:GrookeyJGPMP x:Name="Grookey" Visibility="Collapsed" />
+        <local:LaprasACE x:Name="Lapras" Visibility="Collapsed"/>
+        <local:MakuhitaAPQ x:Name="Makuhita" Visibility="Collapsed" />
+        <local:ScizorAPJ x:Name="Scizor" Visibility="Collapsed" />
+        <local:ToxicroackJPG x:Name="Toxicroak" Visibility="Collapsed" />
+        <local:SquirtleJRSL1 x:Name="Squirtle" Visibility="Collapsed" />
     </Grid>
 </Page>

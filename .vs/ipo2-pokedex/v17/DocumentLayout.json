@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FAD70C6-AA25-4739-A35F-5BF1767D85C5}|ipo2-pokedex.csproj|c:\\users\\agust\\desktop\\uclm\\3 curso\\segundo cuatrimestre\\ipo2\\laboratorio\\pokemon_personal\\git\\ipo2-pokedex\\minigamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FAD70C6-AA25-4739-A35F-5BF1767D85C5}|ipo2-pokedex.csproj|solutionrelative:minigamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FAD70C6-AA25-4739-A35F-5BF1767D85C5}|ipo2-pokedex.csproj|c:\\users\\agust\\desktop\\uclm\\3 curso\\segundo cuatrimestre\\ipo2\\laboratorio\\pokemon_personal\\git\\ipo2-pokedex\\minigamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0FAD70C6-AA25-4739-A35F-5BF1767D85C5}|ipo2-pokedex.csproj|solutionrelative:minigamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FAD70C6-AA25-4739-A35F-5BF1767D85C5}|ipo2-pokedex.csproj|c:\\users\\agust\\desktop\\uclm\\3 curso\\segundo cuatrimestre\\ipo2\\laboratorio\\pokemon_personal\\git\\ipo2-pokedex\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0FAD70C6-AA25-4739-A35F-5BF1767D85C5}|ipo2-pokedex.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T15:29:22.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MiniGamePage.xaml",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\MiniGamePage.xaml",
+              "RelativeDocumentMoniker": "MiniGamePage.xaml",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\MiniGamePage.xaml",
+              "RelativeToolTip": "MiniGamePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T10:53:42.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MiniGamePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\MiniGamePage.xaml.cs",
+              "RelativeDocumentMoniker": "MiniGamePage.xaml.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\MiniGamePage.xaml.cs",
+              "RelativeToolTip": "MiniGamePage.xaml.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAswPwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:21:24.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

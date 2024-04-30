@@ -129,12 +129,42 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CharizardASM.xaml.cs">
+    <Compile Include="BattlePage.xaml.cs">
+      <DependentUpon>BattlePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MiniGamePage.xaml.cs">
+      <DependentUpon>MiniGamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\GrookeyJGPMP.xaml.cs">
+      <DependentUpon>GrookeyJGPMP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\LaprasACE.xaml.cs">
+      <DependentUpon>LaprasACE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\MakuhitaAPQ.xaml.cs">
+      <DependentUpon>MakuhitaAPQ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\DragoniteCSD.xaml.cs">
+      <DependentUpon>DragoniteCSD.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\GengarJCC.xaml.cs">
+      <DependentUpon>GengarJCC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\PikachuAPCC.xaml.cs">
+      <DependentUpon>PikachuAPCC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\ArticunoACG.xaml.cs">
+      <DependentUpon>ArticunoACG.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\CharizardASM.xaml.cs">
       <DependentUpon>CharizardASM.xaml</DependentUpon>
     </Compile>
     <Compile Include="model\iPokemon.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\PiplupMLTN.xaml.cs">
+      <DependentUpon>PiplupMLTN.xaml</DependentUpon>
     </Compile>
     <Compile Include="PokedexPage.xaml.cs">
       <DependentUpon>PokedexPage.xaml</DependentUpon>
@@ -144,8 +174,26 @@
       <DependentUpon>PokemonDetailPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pokemons\SnorlaxROC.xaml.cs">
+      <DependentUpon>SnorlaxROC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\ScizorAPJ.xaml.cs">
+      <DependentUpon>ScizorAPJ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\SquirtleJRSL1.xaml.cs">
+      <DependentUpon>SquirtleJRSL1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SelectBattlePage.xaml.cs">
+      <DependentUpon>SelectBattlePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SelectPokemonPage.xaml.cs">
+      <DependentUpon>SelectPokemonPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TemplatePokemon.xaml.cs">
       <DependentUpon>TemplatePokemon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemons\ToxicroackJPG.xaml.cs">
+      <DependentUpon>ToxicroackJPG.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewPokemonPage.xaml.cs">
       <DependentUpon>ViewPokemonPage.xaml</DependentUpon>
@@ -157,11 +205,47 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\battleground.jpg" />
+    <Content Include="Assets\images\cards\Grass.png" />
+    <Content Include="Assets\images\cards\Fire.png" />
+    <Content Include="Assets\images\cards\Fighting.png" />
+    <Content Include="Assets\images\cards\Dark.png" />
+    <Content Include="Assets\images\cards\Dragon.png" />
+    <Content Include="Assets\images\cards\Empty.png" />
+    <Content Include="Assets\images\cards\Steel.png" />
+    <Content Include="Assets\images\cards\Psychic.png" />
+    <Content Include="Assets\images\cards\Water.png" />
+    <Content Include="Assets\images\cards\Electric.png" />
+    <Content Include="Assets\images\hearts\hearts-0.png" />
+    <Content Include="Assets\images\hearts\hearts-1.png" />
+    <Content Include="Assets\images\hearts\hearts-2.png" />
+    <Content Include="Assets\images\hearts\hearts-3.png" />
     <Content Include="Assets\images\icon\pokeball.png" />
+    <Content Include="Assets\images\icon\search-white.png" />
     <Content Include="Assets\images\main_background.png" />
+    <Content Include="Assets\images\message-removebg-preview.png" />
+    <Content Include="Assets\images\pokeball_background_cornet.png" />
     <Content Include="Assets\images\pokedex.jpg" />
+    <Content Include="Assets\images\pokemon-battle-background.gif" />
     <Content Include="Assets\images\pokemons\charizard.png" />
     <Content Include="Assets\images\icon\search.png" />
+    <Content Include="Assets\images\stars\star-0.png" />
+    <Content Include="Assets\images\stars\star-1.png" />
+    <Content Include="Assets\images\stars\star-2.png" />
+    <Content Include="Assets\images\stars\star-3.png" />
+    <Content Include="Assets\images\stars\star-4.png" />
+    <Content Include="Assets\images\stars\star-5.png" />
+    <Content Include="Assets\images\stars\star-6.png" />
+    <Content Include="Assets\pokemons\ArticunoACG\CabezazoRalentizado.mp3" />
+    <Content Include="Assets\pokemons\ArticunoACG\corazonVida.png" />
+    <Content Include="Assets\pokemons\ArticunoACG\DerrotadoBien.mp3" />
+    <Content Include="Assets\pokemons\ArticunoACG\energia.png" />
+    <Content Include="Assets\pokemons\ArticunoACG\Escudo.mp3" />
+    <Content Include="Assets\pokemons\ArticunoACG\fondoPokemon1.png" />
+    <Content Include="Assets\pokemons\ArticunoACG\pocimaEnergia.png" />
+    <Content Include="Assets\pokemons\ArticunoACG\pocimaVida.png" />
+    <Content Include="Assets\pokemons\ArticunoACG\RayoHielo.mp3" />
+    <Content Include="Assets\pokemons\ArticunoACG\RecuperarVida.mp3" />
     <Content Include="Assets\pokemons\CharizardASM\audios\evolucion.mp3" />
     <Content Include="Assets\pokemons\CharizardASM\audios\garra.mp3" />
     <Content Include="Assets\pokemons\CharizardASM\audios\lanzallamas.mp3" />
@@ -182,6 +266,193 @@
     <Content Include="Assets\pokemons\CharizardASM\mewing.png" />
     <Content Include="Assets\pokemons\CharizardASM\mewing_black.png" />
     <Content Include="Assets\pokemons\CharizardASM\shield.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\angel.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\arañazo.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\Ataque.mp3" />
+    <Content Include="Assets\pokemons\DragoniteCSD\cansado.mp3" />
+    <Content Include="Assets\pokemons\DragoniteCSD\colazo.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\colazo.wav" />
+    <Content Include="Assets\pokemons\DragoniteCSD\CuraVida.mp3" />
+    <Content Include="Assets\pokemons\DragoniteCSD\default.mp3" />
+    <Content Include="Assets\pokemons\DragoniteCSD\Enfado.mp3" />
+    <Content Include="Assets\pokemons\DragoniteCSD\escenariopokemon.jpg" />
+    <Content Include="Assets\pokemons\DragoniteCSD\escudo.mp3" />
+    <Content Include="Assets\pokemons\DragoniteCSD\escudoesfera.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\escudoReal.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\explosion.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\explosion.wav" />
+    <Content Include="Assets\pokemons\DragoniteCSD\herido.mp3" />
+    <Content Include="Assets\pokemons\DragoniteCSD\herido.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\humoenfado.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\img_meteorito.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\img_stamina.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\muertedef.mp3" />
+    <Content Include="Assets\pokemons\DragoniteCSD\muerto.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\oxigeno.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\pocionstamina.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\pocionvida.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\recuperarenergiavida.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\stamina.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\sudor.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\termometro.png" />
+    <Content Include="Assets\pokemons\DragoniteCSD\Vidapokemon2.png" />
+    <Content Include="Assets\pokemons\GengarJCC\corazon.png" />
+    <Content Include="Assets\pokemons\GengarJCC\energia.png" />
+    <Content Include="Assets\pokemons\GengarJCC\pocion.png" />
+    <Content Include="Assets\pokemons\GengarJCC\pocionEnergia.png" />
+    <Content Include="Assets\pokemons\GengarJCC\z10o_buuk_210129.jpg" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\AtaqueDebil.mp3" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\AtaqueFuerte.mp3" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\Corazon.png" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\Derrotado.mp3" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\Descanso.mp3" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\Escudo.mp4" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\imgFondo.jpg" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\PocionEnergia.png" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\PocionVida.png" />
+    <Content Include="Assets\pokemons\GrookeyJGPMP\Power.png" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\AtaqueDebil.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\AtaqueFuerte.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\Cansado.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\Descanso.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\Escudo.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\lapras.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\Muerte.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\PonerEscudo.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\PowerDown.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\PowerUp.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\QuitarCansado.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\Sounds\QuitarEscudo.mp3" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\almohada2.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\brillo.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\bubble.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\destello.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\escudo.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\forest.jpg" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\forest2.jpg" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\heart.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\heart_potion.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\moraton.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\shield.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\shield_potion.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\sudor.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\tirita.png" />
+    <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\tumba3.png" />
+    <Content Include="Assets\pokemons\MakuhitaAPQ\Corazon.png" />
+    <Content Include="Assets\pokemons\MakuhitaAPQ\Energia.png" />
+    <Content Include="Assets\pokemons\MakuhitaAPQ\fondo.jpg" />
+    <Content Include="Assets\pokemons\MakuhitaAPQ\PocionEnergia.png" />
+    <Content Include="Assets\pokemons\MakuhitaAPQ\PocionVida.png" />
+    <Content Include="Assets\pokemons\PikachuAPCC\pocima.jpeg" />
+    <Content Include="Assets\pokemons\PikachuAPCC\pocima_azul.jpg" />
+    <Content Include="Assets\pokemons\PikachuAPCC\rayo.jpg" />
+    <Content Include="Assets\pokemons\PikachuAPCC\SplashScreen.png" />
+    <Content Include="Assets\pokemons\PikachuAPCC\vida.jpg" />
+    <Content Include="Assets\pokemons\PikachuAPCC\wp10311649.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\alma.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\bocadillo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\bola_rayo_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\burbujas.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\carambano.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\copo_de_nieve_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\corazon_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\cruz.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\cubito_de_hielo_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\destello_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\energia_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\escudo_de_hielo_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\espiral_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\FondoFinal.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\gota_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\herida1.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\lloro.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\ojeras_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\ola.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\pocion_amarilla_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\pocion_roja_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\rayo_burbuja_sin_fondo.png" />
+    <Content Include="Assets\pokemons\PiplupMLTN\sonido_cansado.mp3" />
+    <Content Include="Assets\pokemons\PiplupMLTN\sonido_derrotado.mp3" />
+    <Content Include="Assets\pokemons\PiplupMLTN\sonido_descanso.mp3" />
+    <Content Include="Assets\pokemons\PiplupMLTN\sonido_escudo.mp3" />
+    <Content Include="Assets\pokemons\PiplupMLTN\sonido_frioPolar.mp3" />
+    <Content Include="Assets\pokemons\PiplupMLTN\sonido_herir.m4a" />
+    <Content Include="Assets\pokemons\PiplupMLTN\sonido_surf.mp3" />
+    <Content Include="Assets\pokemons\PiplupMLTN\tabla_surf.png" />
+    <Content Include="Assets\pokemons\ScizorAPJ\icoEnergia.png" />
+    <Content Include="Assets\pokemons\ScizorAPJ\icoSalud.png" />
+    <Content Include="Assets\pokemons\ScizorAPJ\paisajePokemon.png" />
+    <Content Include="Assets\pokemons\ScizorAPJ\PocionEnergia.png" />
+    <Content Include="Assets\pokemons\ScizorAPJ\PocionSalud.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\1fa78.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\aDormir.mp3" />
+    <Content Include="Assets\pokemons\SnorlaxROC\arabn.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\arañazo.jpg" />
+    <Content Include="Assets\pokemons\SnorlaxROC\arañazoSan2.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\arañazoSangre.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\baba.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\caida.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\cama.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\cartel-minimo-ilustracion-vector-arbol-coco_969863-6808.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\cartoon-bunny-easy-to-use-without-gradients-or-other-effects-vector.jpg" />
+    <Content Include="Assets\pokemons\SnorlaxROC\corazon.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\derrumbe.mp3" />
+    <Content Include="Assets\pokemons\SnorlaxROC\energia.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\escudo.mp3" />
+    <Content Include="Assets\pokemons\SnorlaxROC\fondo.jpg" />
+    <Content Include="Assets\pokemons\SnorlaxROC\heridas.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\lapida.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\manta.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\moraton.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\moraton2.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\muerte.mp3" />
+    <Content Include="Assets\pokemons\SnorlaxROC\ojosmuerto.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\pocionA.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\pocionR.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\roncar.mp3" />
+    <Content Include="Assets\pokemons\SnorlaxROC\tierra.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\tierrabn.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\uñas.mp3" />
+    <Content Include="Assets\pokemons\SnorlaxROC\vidaBaja.mp3" />
+    <Content Include="Assets\pokemons\SnorlaxROC\z.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\z2b.png" />
+    <Content Include="Assets\pokemons\SnorlaxROC\zb.png" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\1up.png" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\Burbuja.png" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\burbujas.gif" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\Chorro.gif" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\escudo.png" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\fondo.jpg" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\GotadeAgua.png" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\Pegar.png" />
+    <Content Include="Assets\pokemons\SquirtleJRSL\pngegg.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Agujero.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Bostezo.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Burbujas.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Calavera.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Corazon.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Dormir.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Energi.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Escudo.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Fondo.jpg" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\herida_1.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Herida_2.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Herida_3.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\muerto.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\nubes moradas.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\NubesOscuras.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Planta.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Planta_2.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Pocima_Energia-removebg-preview.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Pocima_Vida-removebg-preview.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Imagenes\Venom.png" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Muerte.mp3" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Sonidos\AtaqueDebil2.mp3" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Sonidos\AtaqueFuerte.mp3" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Sonidos\Bostezo.mp3" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Sonidos\Herido.mp3" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Sonidos\Muerte.mp3" />
+    <Content Include="Assets\pokemons\ToxicroackJPG\Sonidos\Ronquido.mp3" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -196,13 +467,53 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CharizardASM.xaml">
+    <Page Include="BattlePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MiniGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\GrookeyJGPMP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\LaprasACE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\MakuhitaAPQ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\DragoniteCSD.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\GengarJCC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\PikachuAPCC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\ArticunoACG.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\CharizardASM.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pokemons\PiplupMLTN.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PokedexPage.xaml">
       <SubType>Designer</SubType>
@@ -212,7 +523,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pokemons\SnorlaxROC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\ScizorAPJ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\SquirtleJRSL1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SelectBattlePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SelectPokemonPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TemplatePokemon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pokemons\ToxicroackJPG.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -228,6 +563,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications">
+      <Version>7.1.3</Version>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>13.0.3</Version>
     </PackageReference>
@@ -237,6 +575,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\pokemons\PikachuAPCC\vida2.avif" />
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

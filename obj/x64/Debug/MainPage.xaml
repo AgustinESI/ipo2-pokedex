@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="ipo2_pokedex.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ipo2_pokedex"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF004B8F" Offset="0.007"/>
+            <GradientStop Color="#FF64AAEA" Offset="1"/>
+        </LinearGradientBrush>
+    </Page.Background>
+
+    <Grid x:ConnectionId='2' x:Name="Grid_Principal">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="319.2"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border x:ConnectionId='3' x:Name="Border_Arriba_Blanco" Grid.ColumnSpan="2">
+            <Button x:ConnectionId='18' x:Name="Btn_Menu" Margin="4"                       >
+                <FontIcon x:ConnectionId='19' x:Name="FontIcon_Btn_Menu" Foreground="White" Glyph="&#xE700;" FontFamily="Segoe MDL2 Assets" />
+            </Button>
+        </Border>
+
+
+        <SplitView x:ConnectionId='4' x:Name="sView_Abajo_Principal" IsPaneOpen="True" DisplayMode="CompactInline" CompactPaneLength="50" Grid.ColumnSpan="2" Margin="0,50,0,0" Grid.RowSpan="2">
+            <SplitView.Pane>
+                <Grid x:ConnectionId='5' x:Name="Grid_Izquierda_Menu">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" MinHeight="50"/>
+                        <RowDefinition Height="Auto" MinHeight="50"/>
+                        <RowDefinition Height="Auto" MinHeight="50"/>
+                        <RowDefinition Height="Auto" MinHeight="50"/>
+                        <RowDefinition Height="Auto" MinHeight="50"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="0*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <SymbolIcon x:ConnectionId='6' x:Name="SymbolIcon_Home" Grid.Row="0" Symbol="Home"                                                   Width="45" Height="40"/>
+                    <SymbolIcon x:ConnectionId='7' x:Name="SymbolIcon_Pokedex" Grid.Row="1" Symbol="Pictures"                                                      Width="45" Height="40"/>
+                    <SymbolIcon x:ConnectionId='8' x:Name="SymbolIcon_Lucha" Grid.Row="2" Symbol="People"                                                    Width="45" Height="40"/>
+                    <SymbolIcon x:ConnectionId='9' x:Name="SymbolIcon_MasInfo" Grid.Row="3" Symbol="Help"                                                      Width="45" Height="40"/>
+                    <Button x:ConnectionId='10' AutomationProperties.Name="Home" x:Uid="Btn_Inicio" x:Name="btn_Inicio" Content="Inicio" Width="252" Margin="8,0,0,0"                        Grid.Column="1" Height="33"/>
+                    <Button x:ConnectionId='11' AutomationProperties.Name="Pokedex" x:Name="btn_Pokedex" Content="Pokedex" Width="252" Margin="8,0,0,0"                           Grid.Column="1" Grid.Row="1" Height="33"/>
+                    <Button x:ConnectionId='12' AutomationProperties.Name="Lucha Pokemon" x:Name="btn_LuchaPokemon" x:Uid="btn_LuchaPokemon" Content="Lucha Pokemon" Width="252" Margin="8,0,0,0"                                Grid.Column="1" Grid.Row="2" Height="33"/>
+                    <Button x:ConnectionId='13' AutomationProperties.Name="Mini Juego" x:Name="btn_MiniJuego" x:Uid="btn_LuchaPokemon" Content="Mini Juego" Width="252" Margin="8,0,0,0"                             Grid.Column="1" Grid.Row="4" Height="33"/>
+                    <Button x:ConnectionId='14' AutomationProperties.Name="Mas Información" x:Name="btn_MasInfo" x:Uid="btn_MasInfo" Content="Mas Información" Width="252" Margin="8,0,0,0"                           Grid.Column="1" Grid.Row="3" Height="33"/>
+
+                    <SymbolIcon x:ConnectionId='15' x:Name="SymbolIcon_Ajustes" Grid.Row="3" Symbol="Setting" Margin="0,50,0,0" Grid.RowSpan="2"/>
+
+                </Grid>
+            </SplitView.Pane>
+            <Frame x:ConnectionId='16' x:Name="FrameMain">
+                <Grid x:ConnectionId='17' x:Name="Grid_FrameMain">
+                    <Image HorizontalAlignment="Left" Margin="100,100,100,100" VerticalAlignment="Top" Source="/Assets/images/main_background.png"/>
+                </Grid>
+            </Frame>
+        </SplitView>
+    </Grid>
+</Page>
+

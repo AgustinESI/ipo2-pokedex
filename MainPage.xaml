@@ -38,6 +38,7 @@
                         <RowDefinition Height="Auto" MinHeight="50"/>
                         <RowDefinition Height="Auto" MinHeight="50"/>
                         <RowDefinition Height="Auto" MinHeight="50"/>
+                        <RowDefinition Height="Auto" MinHeight="50"/>
                         <RowDefinition/>
                         <RowDefinition Height="0*"/>
                     </Grid.RowDefinitions>
@@ -52,6 +53,7 @@
                     <Button AutomationProperties.Name="Home" x:Uid="Btn_Inicio" x:Name="btn_Inicio" Content="Inicio" Width="252" Margin="8,0,0,0" Click="btn_Home_Click" Grid.Column="1" Height="33"/>
                     <Button AutomationProperties.Name="Pokedex" x:Name="btn_Pokedex" Content="Pokedex" Width="252" Margin="8,0,0,0" Click="btn_Pokedex_Click" Grid.Column="1" Grid.Row="1" Height="33"/>
                     <Button AutomationProperties.Name="Lucha Pokemon" x:Name="btn_LuchaPokemon" x:Uid="btn_LuchaPokemon" Content="Lucha Pokemon" Width="252" Margin="8,0,0,0" Click="btn_LuchaPokemon_Click" Grid.Column="1" Grid.Row="2" Height="33"/>
+                    <Button AutomationProperties.Name="Mini Juego" x:Name="btn_MiniJuego" x:Uid="btn_LuchaPokemon" Content="Mini Juego" Width="252" Margin="8,0,0,0" Click="btn_MiniJuego_Click" Grid.Column="1" Grid.Row="4" Height="33"/>
                     <Button AutomationProperties.Name="Mas Información" x:Name="btn_MasInfo" x:Uid="btn_MasInfo" Content="Mas Información" Width="252" Margin="8,0,0,0" Click="btn_MasInfo_Click" Grid.Column="1" Grid.Row="3" Height="33"/>
 
                     <SymbolIcon x:Name="SymbolIcon_Ajustes" Grid.Row="3" Symbol="Setting" Margin="0,50,0,0" Grid.RowSpan="2"/>

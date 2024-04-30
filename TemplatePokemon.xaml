@@ -9,16 +9,20 @@
     d:DesignHeight="300"
     d:DesignWidth="300">
 
-    <Grid HorizontalAlignment="Right" Width="300" PointerEntered="Grid_PointerEntered">
+
+    <Grid x:Name="gTemplate" HorizontalAlignment="Right" Width="300" PointerEntered="Grid_PointerEntered">
         <Grid.Background>
             <AcrylicBrush TintColor="#CCC1C1C1"/>
         </Grid.Background>
 
-        <Image x:Name="Image" Stretch="Uniform" Margin="0,13,0,61" HorizontalAlignment="Center" Width="183"/>
-        <TextBlock x:Name="id" TextWrapping="Wrap" Text="ID" Height="27" TextAlignment="Center" FontFamily="Berlin Sans FB" Foreground="Black" FontSize="25" Margin="84,209,85,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="name" TextWrapping="Wrap"  Text="Name" TextAlignment="Center" FontFamily="Berlin Sans FB" Foreground="Black" FontSize="25" Height="29" Margin="59,236,0,0" HorizontalAlignment="Left" Width="177" VerticalAlignment="Top"/>
-        <TextBlock x:Name="type" TextWrapping="Wrap"  Text="Type" TextAlignment="Center" FontFamily="Berlin Sans FB" Foreground="Black" FontSize="25" Height="29" Margin="59,263,0,0" HorizontalAlignment="Left" Width="177" VerticalAlignment="Top"/>
-        <Image x:Name="pokeball" Height="40" Width="40" Margin="240,10,10,240" Source="/Assets/images/icon/pokeball.png"  HorizontalAlignment="Center" Visibility="Collapsed" VerticalAlignment="Center"/>
+     
+        <TextBox x:Name="id" TextWrapping="Wrap" Text="ID" Height="37" TextAlignment="Center" FontFamily="Berlin Sans FB" Foreground="Black" FontSize="25" Margin="10,0,0,10"  VerticalAlignment="Bottom" SelectionHighlightColor="White" Background="#FFE2E2E2" IsReadOnly="True" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="79" SelectionHighlightColorWhenNotFocused="White"/>
+        <TextBlock x:Name="name" TextWrapping="Wrap"  Text="Name" TextAlignment="Left" FontFamily="Berlin Sans FB" Foreground="White" FontSize="25" Height="29" Margin="10,34,0,0" HorizontalAlignment="Left" Width="177" VerticalAlignment="Top"/>
+        <TextBlock x:Name="type" TextWrapping="Wrap"  Text="Type" TextAlignment="Left" FontFamily="Berlin Sans FB" Foreground="White" FontSize="20" Height="29" Margin="10,152,0,0" HorizontalAlignment="Left" Width="177" VerticalAlignment="Top"/>
+        <Image x:Name="pokeball" Height="40" Width="40" Margin="243,21,0,0" Source="/Assets/images/icon/pokeball.png"  HorizontalAlignment="Left" Visibility="Collapsed" VerticalAlignment="Top"/>
+        <TextBlock x:Name="typeTitle" TextWrapping="Wrap"  Text="Type:" TextAlignment="Left" FontFamily="Berlin Sans FB" Foreground="White" FontSize="25" Height="39" Margin="10,111,0,0" HorizontalAlignment="Left" Width="177" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Margin="130,111,0,0" Width="201" Opacity="0.2" Source="/Assets/images/pokeball_background_cornet.png" Height="189" VerticalAlignment="Top"/>
+        <Image x:Name="Image" Stretch="Uniform" Margin="117,63,0,14" HorizontalAlignment="Left" Width="166" Source="/Assets/images/pokemons/charizard.png"/>
 
     </Grid>
 </UserControl>

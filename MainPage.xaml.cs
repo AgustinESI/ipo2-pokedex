@@ -31,76 +31,82 @@ namespace ipo2_pokedex
             }
         }
 
-        private void btn_Home_Click(object sender, RoutedEventArgs e) // Terminado
+        private void btn_Home_Click(object sender, RoutedEventArgs e) 
         {
-            // Este boton sirve para que aparezca la pagina de "Inicio"
+      
             //FrameMain.Navigate(typeof(InicioPage), this);
             //sView_Abajo_Principal.IsPaneOpen = false;
             //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
         }
 
+        private void btn_MiniJuego_Click(object sender, RoutedEventArgs e)
+        {
+            FrameMain.Navigate(typeof(MiniGamePage), this); 
+            sView_Abajo_Principal.IsPaneOpen = false;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+        }
 
-        private void btn_Pokedex_Click(object sender, RoutedEventArgs e) // Terminado
+
+        private void btn_Pokedex_Click(object sender, RoutedEventArgs e) 
         {
             // Este boton sirve para que aparezca la pagina de "Pokedex"
-            FrameMain.Navigate(typeof(PokedexPage), this); // Este this es para que se le pase como parámetro a la pagina creada, la pagina anterior
+            FrameMain.Navigate(typeof(PokedexPage), this); 
             sView_Abajo_Principal.IsPaneOpen = false;
             sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
         }
 
 
 
-        private void btn_LuchaPokemon_Click(object sender, RoutedEventArgs e) // Terminado
+        private void btn_LuchaPokemon_Click(object sender, RoutedEventArgs e) 
         {
-            // Este boton sirve para que aparezca la pagina de "CombatePokemon"
-            //FrameMain.Navigate(typeof(CombatePage), this); // Este this es para que se le pase como parámetro a la pagina creada, la pagina anterior
-            //sView_Abajo_Principal.IsPaneOpen = false;
-            //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            FrameMain.Navigate(typeof(SelectBattlePage), this);
+            sView_Abajo_Principal.IsPaneOpen = false;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
         }
 
-        private void btn_MasInfo_Click(object sender, RoutedEventArgs e) // Terminado
+        private void btn_MasInfo_Click(object sender, RoutedEventArgs e) 
         {
-            // Este boton sirve para que aparezca la pagina de "Acerca De"
-            //FrameMain.Navigate(typeof(Acerca_De), this); // Este this es para que se le pase como parámetro a la pagina creada, la pagina anterior
+
+            //FrameMain.Navigate(typeof(Acerca_De), this); 
             //sView_Abajo_Principal.IsPaneOpen = false;
             //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
         }
-        private void Btn_Menu_Click(object sender, RoutedEventArgs e) // Terminado
+        private void Btn_Menu_Click(object sender, RoutedEventArgs e) 
         {
-            // Este boton sirve para que el boton de las Tres rallitas de arriba a la izquierda oculte o haga aparecer el menu
+           
             sView_Abajo_Principal.IsPaneOpen = !sView_Abajo_Principal.IsPaneOpen;
         }
-        private void SymbolIcon_Home_PointerReleased(object sender, PointerRoutedEventArgs e) // Terminado
+        private void SymbolIcon_Home_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
-            // Este boton sirve para que aparezca la pagina de "Inicio"
+           
             //FrameMain.Navigate(typeof(InicioPage), this);
             //sView_Abajo_Principal.IsPaneOpen = false;
             //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
-            //leerFrase("Inicio");
+          
         }
-        private void SymbolIcon_Pokedex_PointerReleased(object sender, PointerRoutedEventArgs e) // Terminado
+        private void SymbolIcon_Pokedex_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
-            // Este Icono sirve para que aparezca la pagina de "Pokedex"
-            FrameMain.Navigate(typeof(PokedexPage), this); // Este this es para que se le pase como parámetro a la pagina creada, la pagina anterior
+           
+            FrameMain.Navigate(typeof(PokedexPage), this); 
             sView_Abajo_Principal.IsPaneOpen = false;
             sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
             //leerFrase("Pokedex");
         }
-        private void SymbolIcon_Lucha_PointerReleased(object sender, PointerRoutedEventArgs e) // Terminado
+        private void SymbolIcon_Lucha_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
-            // Este Icono sirve para que aparezca la pagina de "CombatePokemon"
-            //FrameMain.Navigate(typeof(CombatePage), this); // Este this es para que se le pase como parámetro a la pagina creada, la pagina anterior
+           
+            //FrameMain.Navigate(typeof(CombatePage), this); 
             //sView_Abajo_Principal.IsPaneOpen = false;
             //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
-            //leerFrase("Combate Pokemon");
+           
         }
-        private void SymbolIcon_MasInfo_PointerReleased(object sender, PointerRoutedEventArgs e) // Terminado
+        private void SymbolIcon_MasInfo_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
-            // Este Icono sirve para que aparezca la pagina de "Acerca De"
-            //FrameMain.Navigate(typeof(Acerca_De), this); // Este this es para que se le pase como parámetro a la pagina creada, la pagina anterior
+            
+            //FrameMain.Navigate(typeof(Acerca_De), this); 
             //sView_Abajo_Principal.IsPaneOpen = false;
             //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
-            //leerFrase("AcercaDe");
+            
 
         }
     }

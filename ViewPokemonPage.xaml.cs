@@ -22,16 +22,88 @@ namespace ipo2_pokedex
     /// </summary>
     public sealed partial class ViewPokemonPage : Page
     {
-        public ViewPokemonPage(Pokemon pokemon)
+        public ViewPokemonPage()
         {
             this.InitializeComponent();
 
        
 
+         
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e) // Terminado
+        {
+            // Metodo que sirve para heredar atributos de la page anterior
+            base.OnNavigatedTo(e);
+            var Padre = (PokemonDetailPage)e.Parameter;
+            Pokemon pokemon = Padre.poke;
+
             if (this.Charizard.Name == pokemon.name)
             {
                 this.Charizard.Visibility = Visibility.Visible;
             }
+
+            if (this.Piplup.Name == pokemon.name)
+            {
+                this.Piplup.Visibility = Visibility.Visible;
+            }
+
+            if (this.Snorlax.Name == pokemon.name)
+            {
+                this.Snorlax.Visibility = Visibility.Visible;
+            }
+
+            if (this.Articuno.Name == pokemon.name)
+            {
+                this.Articuno.Visibility = Visibility.Visible;
+            }
+
+            if (this.Pikachu.Name == pokemon.name)
+            {
+                this.Pikachu.Visibility = Visibility.Visible;
+            }
+
+            if (this.Dragonite.Name == pokemon.name)
+            {
+                this.Dragonite.Visibility = Visibility.Visible;
+            }
+
+            if (this.Gengar.Name == pokemon.name)
+            {
+                this.Gengar.Visibility = Visibility.Visible;
+            }
+
+            if (this.Grookey.Name == pokemon.name)
+            {
+                this.Grookey.Visibility = Visibility.Visible;
+            }
+
+            if (this.Lapras.Name == pokemon.name)
+            {
+                this.Lapras.Visibility = Visibility.Visible;
+            }
+
+            if (this.Makuhita.Name == pokemon.name)
+            {
+                this.Makuhita.Visibility = Visibility.Visible;
+            }
+
+            if (this.Scizor.Name == pokemon.name)
+            {
+                this.Scizor.Visibility = Visibility.Visible;
+            }
+
+            if (this.Toxicroak.Name == pokemon.name)
+            {
+                this.Toxicroak.Visibility = Visibility.Visible;
+            }
+
+            if (this.Squirtle.Name == pokemon.name)
+            {
+                this.Squirtle.Visibility = Visibility.Visible;
+            }
+
         }
+
     }
 }

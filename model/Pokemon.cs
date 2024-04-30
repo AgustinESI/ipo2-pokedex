@@ -1,5 +1,4 @@
-﻿using System;
-using Windows.UI.Xaml.Media.Imaging;
+﻿using System.Transactions;
 
 namespace ipo2_pokedex
 {
@@ -57,6 +56,11 @@ namespace ipo2_pokedex
             this.level = level;
             this.health = health;
             this.experience = experience;
+        }
+
+        public Pokemon()
+        {
+          
         }
     }
 }

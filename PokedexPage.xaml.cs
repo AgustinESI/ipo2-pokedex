@@ -1,7 +1,10 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.IO;
+using System.Threading.Tasks;
+using Windows.Storage;
+using Windows.Storage.Streams;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -16,24 +19,73 @@ namespace ipo2_pokedex
 
         List<Pokemon> Pokemons { get; set; }
         List<Pokemon> PokemonsAux { get; set; } = new List<Pokemon>();
+        Boolean captured = false;
 
         public PokedexPage()
         {
             this.InitializeComponent();
 
+            this.Loaded += MainPage_Loaded;           
+        }
 
-            //C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\ipo2-pokedex\bin\x86\Debug\AppX
+        private async void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Execute the readFile method here
+            await readFile();
+        }
 
-            string json = System.IO.File.ReadAllText(@"pokemonList.json");
-            Pokemons = JsonConvert.DeserializeObject<List<Pokemon>>(json);
+        private async Task readFile()
+        {
 
+            //string json = System.IO.File.ReadAllText(@"pokemonList.json");
+            //Pokemons = JsonConvert.DeserializeObject<List<Pokemon>>(json);
 
-            foreach(Pokemon pokemon in Pokemons)
+            StorageFolder appFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+            Windows.Storage.StorageFile sampleFile = await appFolder.GetFileAsync(@"pokemonList.json");
+
+            string text = await Windows.Storage.FileIO.ReadTextAsync(sampleFile);
+            Pokemons = JsonConvert.DeserializeObject<List<Pokemon>>(text);
+
+            foreach (Pokemon pokemon in Pokemons)
             {
                 TemplatePokemon template = new TemplatePokemon(pokemon);
                 this.gvPokemons.Items.Add(template);
                 this.PokemonsAux.Add(pokemon);
             }
+
+        }
+
+        private async void writeFile()
+        {
+
+            //json =  JsonConvert.SerializeObject(Pokemons);
+            //System.IO.File.WriteAllText(@"pokemonList.json", json);
+
+            try
+            {
+               string json = JsonConvert.SerializeObject(Pokemons);
+               // System.IO.File.WriteAllText(@"pokemonList.json", json);
+                
+                StorageFolder installedFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+                Windows.Storage.StorageFile pokemonListInstalledFolder = await installedFolder.GetFileAsync(@"pokemonList.json");
+                await Windows.Storage.FileIO.WriteTextAsync(pokemonListInstalledFolder, json);
+
+
+                string path = installedFolder.Path;
+                path = path.Replace("\\", "/");
+                path = path.Replace("/bin/x64/Debug/AppX", "");
+                path = path;
+
+                StorageFolder localFolder = await StorageFolder.GetFolderFromPathAsync(@path);
+                Windows.Storage.StorageFile pokemonListLocalFolder = await localFolder.GetFileAsync(@"pokemonList.json");
+                await Windows.Storage.FileIO.WriteTextAsync(pokemonListLocalFolder, json);
+                
+            }
+            catch (Exception ex) { 
+                throw ex;
+            }
+
+            
 
         }
 
@@ -61,6 +113,57 @@ namespace ipo2_pokedex
             Pokemon pokemon = PokemonsAux[this.gvPokemons.SelectedIndex];
             Frame.Navigate(typeof(PokemonDetailPage), pokemon);
 
+        }
+
+        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            this.gvPokemons.Items.Clear();
+            this.PokemonsAux.Clear();
+
+
+
+            if (this.captured)
+            {
+                foreach (Pokemon p in Pokemons)
+                {
+                    PokemonsAux.Add(p);
+                    TemplatePokemon template = new TemplatePokemon(p);
+                    this.gvPokemons.Items.Add(template);
+                }
+                captured = false;
+            }
+            else
+            {
+                foreach (Pokemon p in Pokemons)
+                {
+                    if (p.captured)
+                    {
+                        PokemonsAux.Add(p);
+                        TemplatePokemon template = new TemplatePokemon(p);
+                        this.gvPokemons.Items.Add(template);
+                    }
+                }
+                captured = true;
+            }
+        }
+
+        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+            foreach (Pokemon pokemon in Pokemons) { 
+            
+                if (pokemon.name.Equals("Charizard"))
+                {
+                    pokemon.name = "Chorizo";
+                    break;
+                }
+            }
+
+
+            writeFile();
+
+            //string json = JsonConvert.SerializeObject(Pokemons);
+            //System.IO.File.WriteAllText(@"pokemonList.json", json);
         }
     }
 }
