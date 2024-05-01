@@ -20,8 +20,12 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Grid x:Name="pokemon1" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Padding="30,30,30,30"/>
-        <Grid x:Name="pokemon2" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Padding="30,30,30,30"/>
+        <Viewbox Margin="40,15,40,15" Grid.Row="1">
+            <Grid x:Name="pokemon1" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
+        </Viewbox>
+        <Viewbox Margin="40,21,40,9" Grid.Column="1">
+            <Grid x:Name="pokemon2" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
+        </Viewbox>
 
 
         <Grid x:Name="p1actions" Grid.Row="1" Grid.Column="1">

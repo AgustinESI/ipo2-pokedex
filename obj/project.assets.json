@@ -10761,18 +10761,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\agust\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\ipo2-pokedex.csproj",
       "projectName": "ipo2-pokedex",
-      "projectPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj",
-      "packagesPath": "C:\\Users\\agust\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\ipo2-pokedex.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10780,7 +10780,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\agust\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10795,11 +10795,6 @@
         "uap10.0.17763": {
           "projectReferences": {}
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
