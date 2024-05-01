@@ -40,7 +40,7 @@ namespace ipo2_pokedex
 
 
         public double Vida { get { return this.vida.Value; } set { this.vida.Value = value; } }
-        public double Energia { get { return this.energia.Value; } set { this.Energia = value; } }
+        public double Energia { get { return this.energia.Value; } set { this.energia.Value = value; } }
         string iPokemon.Nombre { get { return this.Nombre.Text; } set { this.Nombre.Text = value; } }
         public string Categoría { get { return this.categoria; } set { this.categoria = value; } }
         public string Tipo { get { return this.tipo; } set { this.tipo = value; } }
