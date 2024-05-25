@@ -32,7 +32,7 @@
             </Border>
             <SplitView x:Name="sView_Abajo_Principal" IsPaneOpen="True" DisplayMode="CompactInline" CompactPaneLength="50" Grid.ColumnSpan="2" Margin="0,10,10,0" Grid.Row="1">
                 <SplitView.Pane>
-                    <Grid x:Name="Grid_Izquierda_Menu">
+                    <Grid x:Name="Grid_Izquierda_Menu" Margin="0,0,-2,0">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" MinHeight="50"/>
                             <RowDefinition Height="Auto" MinHeight="50"/>
@@ -60,10 +60,10 @@
 
                     </Grid>
                 </SplitView.Pane>
-                <Frame x:Name="FrameMain" Margin="0,0,0,89">
+                <Frame x:Name="FrameMain" Margin="0,0,-8,0">
                     <Viewbox>
                         <Grid x:Name="Grid_FrameMain" Height="936" Width="1170">
-                            <Image HorizontalAlignment="Left" Margin="100,0,0,0" VerticalAlignment="Center" Source="/Assets/images/main_background.png" Width="1036"/>
+                            <Image Margin="39,-114,37,44" Source="/Assets/images/main_background.png"/>
                         </Grid>
                     </Viewbox>
                 </Frame>
