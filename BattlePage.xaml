@@ -10,78 +10,82 @@
         <ImageBrush ImageSource="/Assets/images/battleground.jpg"/>
     </Page.Background>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="45*"/>
-            <RowDefinition Height="45*"/>
-            <RowDefinition Height="10*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Viewbox Margin="40,15,40,15" Grid.Row="1">
-            <Grid x:Name="pokemon1" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
-        </Viewbox>
-        <Viewbox Margin="40,21,40,9" Grid.Column="1">
-            <Grid x:Name="pokemon2" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
-        </Viewbox>
+    <Viewbox Stretch="Fill">
 
-
-        <Grid x:Name="p1actions" Grid.Row="1" Grid.Column="1">
-            <Grid.Background>
-                <ImageBrush ImageSource="/Assets/images/message-removebg-preview.png"/>
-            </Grid.Background>
-
+        <Grid Height="1000" Width="1500">
             <Grid.RowDefinitions>
-                <RowDefinition Height="15*"/>
-                <RowDefinition Height="15*"/>
-                <RowDefinition Height="30*"/>
-                <RowDefinition Height="30*"/>
+                <RowDefinition Height="45*"/>
+                <RowDefinition Height="45*"/>
                 <RowDefinition Height="10*"/>
             </Grid.RowDefinitions>
-
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+            <Viewbox Margin="40,15,40,15" Grid.Row="1">
+                <Grid x:Name="pokemon1" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
+            </Viewbox>
+            <Viewbox Margin="40,21,40,9" Grid.Column="1">
+                <Grid x:Name="pokemon2" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
+            </Viewbox>
+            <Viewbox>
+                <Grid x:Name="p2actions" Height="450" Width="750">
 
-            <Button x:Name="p1strong" FontFamily="Berlin Sans FB" Content="Ataque Fuerte" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p1StrongAttack" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0"/>
-            <Button x:Name="p1weak" FontFamily="Berlin Sans FB" Content="Ataque Flojo" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p1WeakAttack" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1"/>
-            <Button x:Name="p1flee" FontFamily="Berlin Sans FB" Content="Huir" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p1Flee" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0"/>
-            <Button x:Name="p1ultrabeast" FontFamily="Berlin Sans FB" Content="Mega-Evolución" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p1doultrabeast" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" IsEnabled="False" Opacity="0"/>
-            <TextBlock x:Name="p1name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="33,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="46" Width="680" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="36"/>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="10*"/>
+                    </Grid.RowDefinitions>
 
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Assets/images/message-removebg-preview.png"/>
+                    </Grid.Background>
+                    <Button x:Name="p2strong" FontFamily="Berlin Sans FB" Content="Ataque Fuerte" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p2StrongAttack" HorizontalAlignment="Center" IsEnabled="False" Grid.Column="0" Grid.Row="2"/>
+                    <Button x:Name="p2weak" FontFamily="Berlin Sans FB" Content="Ataque Flojo" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p2WeakAttack" IsEnabled="False" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center"/>
+                    <Button x:Name="p2flee" FontFamily="Berlin Sans FB" Content="Huir"  VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p2Flee" HorizontalAlignment="Center" IsEnabled="False" Grid.Column="0" Grid.Row="3"/>
+                    <TextBlock x:Name="p2name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="33,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="46" Width="680" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="36"/>
+                    <Button x:Name="p2ultrabeast" FontFamily="Berlin Sans FB" Content="Mega-Evolución" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p2doultrabeast" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" IsEnabled="False" Opacity="0"/>
+                </Grid>
+            </Viewbox>
+            <Viewbox Grid.ColumnSpan="2" Margin="746,6,4,94" Grid.RowSpan="2" Grid.Row="1">
+                <Grid x:Name="p1actions" Height="450" Width="750">
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Assets/images/message-removebg-preview.png"/>
+                    </Grid.Background>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="10*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="p1strong" FontFamily="Berlin Sans FB" Content="Ataque Fuerte" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p1StrongAttack" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0"/>
+                    <Button x:Name="p1weak" FontFamily="Berlin Sans FB" Content="Ataque Flojo" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p1WeakAttack" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1"/>
+                    <Button x:Name="p1flee" FontFamily="Berlin Sans FB" Content="Huir" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p1Flee" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0"/>
+                    <Button x:Name="p1ultrabeast" FontFamily="Berlin Sans FB" Content="Mega-Evolución" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p1doultrabeast" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" IsEnabled="False" Opacity="0"/>
+                    <TextBlock x:Name="p1name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="33,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="46" Width="680" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="36"/>
+
+
+                </Grid>
+            </Viewbox>
+            <Viewbox Grid.ColumnSpan="2" Margin="0,442,4,9" Grid.Row="1" Grid.RowSpan="2">
+                <TextBox x:Name="message" FontFamily="Berlin Sans FB" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="1481" FontSize="30" TextAlignment="Center" Foreground="White" Background="#FF2C4B60" BorderBrush="#FFC6A341" BorderThickness="10,10,10,10" Padding="10,10,10,10" IsReadOnly="True" SelectionHighlightColor="#FF2C4B60" PlaceholderForeground="White" SelectionHighlightColorWhenNotFocused="#FFC6A341" FocusVisualPrimaryBrush="#99000000"/>
+            </Viewbox>
 
         </Grid>
-
-        <Grid x:Name="p2actions" Grid.Row="0" Grid.Column="0">
-
-            <Grid.RowDefinitions>
-                <RowDefinition Height="15*"/>
-                <RowDefinition Height="15*"/>
-                <RowDefinition Height="30*"/>
-                <RowDefinition Height="30*"/>
-                <RowDefinition Height="10*"/>
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-
-            <Grid.Background>
-                <ImageBrush ImageSource="/Assets/images/message-removebg-preview.png"/>
-            </Grid.Background>
-            <Button x:Name="p2strong" FontFamily="Berlin Sans FB" Content="Ataque Fuerte" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p2StrongAttack" HorizontalAlignment="Center" IsEnabled="False" Grid.Column="0" Grid.Row="2"/>
-            <Button x:Name="p2weak" FontFamily="Berlin Sans FB" Content="Ataque Flojo" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p2WeakAttack" IsEnabled="False" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center"/>
-            <Button x:Name="p2flee" FontFamily="Berlin Sans FB" Content="Huir"  VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p2Flee" HorizontalAlignment="Center" IsEnabled="False" Grid.Column="0" Grid.Row="3"/>
-            <TextBlock x:Name="p2name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="33,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="46" Width="680" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="36"/>
-            <Button x:Name="p2ultrabeast" FontFamily="Berlin Sans FB" Content="Mega-Evolución" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black" Click="p2doultrabeast" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" IsEnabled="False" Opacity="0"/>
-        </Grid>
-
-
-        <TextBox x:Name="message" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Text="" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Height="79" Width="1481" FontSize="30" Grid.ColumnSpan="2" Margin="10,10,10,10" TextAlignment="Center" Foreground="White" Background="#FF2C4B60" BorderBrush="#FFC6A341" BorderThickness="10,10,10,10" Padding="10,10,10,10" IsReadOnly="True" SelectionHighlightColor="#FF2C4B60" PlaceholderForeground="White" SelectionHighlightColorWhenNotFocused="#FFC6A341" FocusVisualPrimaryBrush="#99000000"/>
-
-    </Grid>
+    </Viewbox>
 </Page>

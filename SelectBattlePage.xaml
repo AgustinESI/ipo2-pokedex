@@ -7,14 +7,17 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="gsepectabattle">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Button x:Name="onevsone" Content="1 vs 1"  FontFamily="Berlin Sans FB" Margin="0,299,0,0" VerticalAlignment="Top" Height="392" Width="596" HorizontalAlignment="Center" FontSize="120" Foreground="Black" Click="onevsone_Click"/>
-        <Button x:Name="onevsia" Content="1 vs IA"  FontFamily="Berlin Sans FB" Margin="0,299,0,0" VerticalAlignment="Top" Height="392" Width="596" HorizontalAlignment="Center" FontSize="120" Foreground="Black" Grid.Column="1" Click="onevsia_Click"/>
+    <Viewbox>
+
+        <Grid x:Name="gsepectabattle" Height="1000" Width="1500">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="onevsone" Content="1 vs 1"  FontFamily="Berlin Sans FB" Margin="0,299,0,0" VerticalAlignment="Top" Height="392" Width="596" HorizontalAlignment="Center" FontSize="120" Foreground="Black" Click="onevsone_Click"/>
+            <Button x:Name="onevsia" Content="1 vs IA"  FontFamily="Berlin Sans FB" Margin="0,299,0,0" VerticalAlignment="Top" Height="392" Width="596" HorizontalAlignment="Center" FontSize="120" Foreground="Black" Grid.Column="1" Click="onevsia_Click"/>
 
 
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Page>

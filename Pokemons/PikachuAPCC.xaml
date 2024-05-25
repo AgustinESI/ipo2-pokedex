@@ -219,7 +219,7 @@
         <Image x:Name="imgPocima" Grid.Column="2" Margin="5,5,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Source="/Assets/pokemons/PikachuAPCC/pocima.jpeg" Stretch="Fill"  PointerReleased="imgPocima_PointerReleased" />
 
         <Image x:Name="imgPocima2" Grid.Column="2"  Grid.Row="1"  Margin="5,5,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Source="/Assets/pokemons/PikachuAPCC/pocima_azul.jpg" Stretch="Fill" />
-        <Viewbox x:Name="vbCanvas" Grid.Row="2" Grid.Column="1" Grid.RowSpan="2"  Width="auto" Height="auto" Margin="145,94,97,193">
+        <Viewbox x:Name="vbCanvas" Grid.RowSpan="4"  Width="auto" Height="auto" Margin="-38,-63,5,10" Grid.ColumnSpan="3">
 
 
             <Canvas x:Name="canvas"  HorizontalAlignment="Center" Height="344.043" Grid.RowSpan="2" VerticalAlignment="Top" Width="783.333" Margin="0,305,0,0" Grid.Column="1" Grid.Row="2" RenderTransformOrigin="0.5,0.5">

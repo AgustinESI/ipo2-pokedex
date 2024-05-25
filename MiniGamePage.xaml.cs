@@ -88,28 +88,28 @@ namespace ipo2_pokedex
             this.p1image.Source = new BitmapImage(new Uri(this.PokemonsSelected[0].image));
             this.p1description.Text = this.PokemonsSelected[0].description.Replace(this.PokemonsSelected[0].name, "****");
             this.p1description.Text = this.p1description.Text.Replace(this.PokemonsSelected[0].name.ToUpper(), "****");
-            this.p1name.Text = this.PokemonsSelected[0].name;
+            this.p1name.Text = "****";
             this.p1types.Text = this.PokemonsSelected[0].type;
 
             this.p2.Source = new BitmapImage(getPokemonType(this.PokemonsSelected[1]));
             this.p2image.Source = new BitmapImage(new Uri(this.PokemonsSelected[1].image));
             this.p2description.Text = this.PokemonsSelected[1].description.Replace(this.PokemonsSelected[1].name, "****");
             this.p2description.Text = this.p2description.Text.Replace(this.PokemonsSelected[1].name.ToUpper(), "****");
-            this.p2name.Text = this.PokemonsSelected[1].name;
+            this.p2name.Text = "****";
             this.p2types.Text = this.PokemonsSelected[1].type;
 
             this.p3.Source = new BitmapImage(getPokemonType(this.PokemonsSelected[2]));
             this.p3image.Source = new BitmapImage(new Uri(this.PokemonsSelected[2].image));
             this.p3description.Text = this.PokemonsSelected[2].description.Replace(this.PokemonsSelected[2].name, "****");
             this.p3description.Text = this.p3description.Text.Replace(this.PokemonsSelected[2].name.ToUpper(), "****");
-            this.p3name.Text = this.PokemonsSelected[2].name;
+            this.p3name.Text = "****";
             this.p3types.Text = this.PokemonsSelected[2].type;
 
             this.p4.Source = new BitmapImage(getPokemonType(this.PokemonsSelected[3]));
             this.p4image.Source = new BitmapImage(new Uri(this.PokemonsSelected[3].image));
             this.p4description.Text = this.PokemonsSelected[3].description.Replace(this.PokemonsSelected[3].name, "****");
             this.p4description.Text = this.p4description.Text.Replace(this.PokemonsSelected[3].name.ToUpper(), "****");
-            this.p4name.Text = this.PokemonsSelected[3].name;
+            this.p4name.Text = "****";
             this.p4types.Text = this.PokemonsSelected[3].type;
 
             GuessPokemon = this.PokemonsSelected[new Random().Next(this.PokemonsSelected.Count - 1)];
