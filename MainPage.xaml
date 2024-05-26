@@ -39,32 +39,38 @@
                             <RowDefinition Height="Auto" MinHeight="50"/>
                             <RowDefinition Height="Auto" MinHeight="50"/>
                             <RowDefinition Height="Auto" MinHeight="50"/>
-                            <RowDefinition/>
+                            <RowDefinition Height="70*"/>
+                            <RowDefinition Height="617*"/>
                             <RowDefinition Height="0*"/>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="50"/>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
-                        <SymbolIcon x:Name="SymbolIcon_Home" Grid.Row="0" Symbol="Home" PointerReleased="SymbolIcon_Home_PointerReleased" Width="45" Height="40"/>
-                        <SymbolIcon x:Name="SymbolIcon_Pokedex" Grid.Row="1" Symbol="Pictures" PointerReleased="SymbolIcon_Pokedex_PointerReleased" Width="45" Height="40"/>
-                        <SymbolIcon x:Name="SymbolIcon_Lucha" Grid.Row="2" Symbol="People" PointerReleased="SymbolIcon_Lucha_PointerReleased" Width="45" Height="40"/>
-                        <SymbolIcon x:Name="SymbolIcon_MasInfo" Grid.Row="3" Symbol="Help" PointerReleased="SymbolIcon_MasInfo_PointerReleased" Width="45" Height="40"/>
+                        <SymbolIcon x:Name="SymbolIcon_Home" Grid.Row="0" Symbol="Home" PointerReleased="SymbolIcon_Home_PointerReleased" Width="45" Height="40" Margin="3,5,2,5"/>
+                        <SymbolIcon x:Name="SymbolIcon_Pokedex" Grid.Row="1" Symbol="Pictures" PointerReleased="SymbolIcon_Pokedex_PointerReleased" Width="45" Height="40" Margin="3,6,2,5"/>
+                        <SymbolIcon x:Name="SymbolIcon_Lucha" Grid.Row="2" Symbol="People" PointerReleased="SymbolIcon_Lucha_PointerReleased" Width="45" Height="40" Margin="3,5,2,5"/>
+                        <SymbolIcon x:Name="SymbolIcon_MasInfo" Grid.Row="3" Symbol="Help" PointerReleased="SymbolIcon_MasInfo_PointerReleased" Width="45" Height="40" Margin="3,5,2,6"/>
                         <Button AutomationProperties.Name="Home" x:Uid="Btn_Inicio" x:Name="btn_Inicio" Content="Inicio" Width="252" Margin="8,0,0,0" Click="btn_Home_Click" Grid.Column="1" Height="33"/>
-                        <Button AutomationProperties.Name="Pokedex" x:Name="btn_Pokedex" Content="Pokedex" Width="252" Margin="8,0,0,0" Click="btn_Pokedex_Click" Grid.Column="1" Grid.Row="1" Height="33"/>
-                        <Button AutomationProperties.Name="Lucha Pokemon" x:Name="btn_LuchaPokemon" x:Uid="btn_LuchaPokemon" Content="Lucha Pokemon" Width="252" Margin="8,0,0,0" Click="btn_LuchaPokemon_Click" Grid.Column="1" Grid.Row="2" Height="33"/>
-                        <Button AutomationProperties.Name="Mini Juego" x:Name="btn_MiniJuego" x:Uid="btn_LuchaPokemon" Content="Mini Juego" Width="252" Margin="8,0,0,0" Click="btn_MiniJuego_Click" Grid.Column="1" Grid.Row="4" Height="33"/>
+                        <Button AutomationProperties.Name="Pokedex" x:Uid="btn_Pokedex" x:Name="btn_Pokedex" Content="Pokedex" Width="252" Margin="8,0,0,0" Click="btn_Pokedex_Click" Grid.Column="1" Grid.Row="1" Height="33"/>
+                        <Button AutomationProperties.Name="Lucha Pokemon"  x:Name="btn_LuchaPokemon" x:Uid="btn_LuchaPokemon" Content="Lucha Pokemon" Width="252" Margin="8,0,0,0" Click="btn_LuchaPokemon_Click" Grid.Column="1" Grid.Row="2" Height="33"/>
+                        <Button AutomationProperties.Name="Mini Juego" x:Name="btn_MiniJuego" x:Uid="btn_MiniJuego" Content="Mini Juego" Width="252" Margin="8,0,0,0" Click="btn_MiniJuego_Click" Grid.Column="1" Grid.Row="4" Height="33"/>
                         <Button AutomationProperties.Name="Mas Información" x:Name="btn_MasInfo" x:Uid="btn_MasInfo" Content="Mas Información" Width="252" Margin="8,0,0,0" Click="btn_MasInfo_Click" Grid.Column="1" Grid.Row="3" Height="33"/>
 
                         <SymbolIcon x:Name="SymbolIcon_Ajustes" Grid.Row="3" Symbol="Setting" Margin="0,50,0,0" Grid.RowSpan="2"/>
-                        <ToggleSwitch x:Name="lector_de_voz" Margin="11,10,0,0" Grid.Row="5" VerticalAlignment="Top" Grid.Column="1" Header="Lector de Voz" Toggled="ToggleSwitch_Toggled"/>
+                        <ToggleSwitch x:Name="lector_de_voz" x:Uid="lector_de_voz" Margin="11,10,0,0" Grid.Row="5" VerticalAlignment="Top" Grid.Column="1" Header="Lector de Voz" Toggled="ToggleSwitch_Toggled"/>
+                        <ToggleSwitch x:Name="SelectIdioma" x:Uid="SelectIdioma" Header="Idioma" OffContent="Español" OnContent="English" Grid.Column="1" Margin="10,10,0,0" Grid.Row="6" VerticalAlignment="Top" Toggled="SelectIdioma_Toggled"/>
 
                     </Grid>
                 </SplitView.Pane>
                 <Frame x:Name="FrameMain" Margin="0,0,-8,0">
                     <Viewbox>
                         <Grid x:Name="Grid_FrameMain" Height="936" Width="1170">
-                            <Image Margin="39,-114,37,44" Source="/Assets/images/main_background.png"/>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="73*"/>
+                                <RowDefinition Height="395*"/>
+                            </Grid.RowDefinitions>
+                            <Image Margin="39,-114,37,44" Source="/Assets/images/main_background.png" Grid.RowSpan="2"/>
                         </Grid>
                     </Viewbox>
                 </Frame>

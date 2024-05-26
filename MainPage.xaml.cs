@@ -8,6 +8,9 @@ using Windows.Media.SpeechSynthesis;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
+using Windows.Globalization;
+using Windows.Storage;
+using Windows.ApplicationModel.Resources.Core;
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
 namespace ipo2_pokedex
@@ -26,7 +29,9 @@ namespace ipo2_pokedex
         public MainPage()
         {
             this.InitializeComponent();
-
+            FrameMain.Navigate(typeof(InicioPage), this);
+            sView_Abajo_Principal.IsPaneOpen = true;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
 
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
             SystemNavigationManager.GetForCurrentView().BackRequested += opcionVolver;
@@ -38,6 +43,28 @@ namespace ipo2_pokedex
             voiceReader.LeerTexto(texto);
 
 
+
+            var localSettings = ApplicationData.Current.LocalSettings;
+            string userLanguage = localSettings.Values["AppLanguage"] as string;
+            userLanguage = "es-ES";
+           // if (userLanguage == null)
+            //{
+                // Si no hay preferencia almacenada, usar el idioma del sistema
+                // string systemLanguage = Windows.System.UserProfile.GlobalizationPreferences.Languages[0];
+                // userLanguage = systemLanguage.StartsWith("es") ? "es-ES" : "en-GB";
+                
+            //}
+
+            if (userLanguage == "es-ES")
+            {
+                SelectIdioma.IsOn = false;
+                ApplicationLanguages.PrimaryLanguageOverride = "es-ES";
+            }
+            else
+            {
+                SelectIdioma.IsOn = true;
+                ApplicationLanguages.PrimaryLanguageOverride = "en-GB";
+            }
         }
 
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
@@ -101,9 +128,9 @@ namespace ipo2_pokedex
         private void btn_Home_Click(object sender, RoutedEventArgs e) 
         {
 
-            //FrameMain.Navigate(typeof(InicioPage), this);
-            //sView_Abajo_Principal.IsPaneOpen = false;
-            //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            FrameMain.Navigate(typeof(InicioPage), this);
+            sView_Abajo_Principal.IsPaneOpen = true;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
             var button = sender as Button;
             if (button != null)
             {
@@ -172,9 +199,9 @@ namespace ipo2_pokedex
         private void SymbolIcon_Home_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
            
-            //FrameMain.Navigate(typeof(InicioPage), this);
-            //sView_Abajo_Principal.IsPaneOpen = false;
-            //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            FrameMain.Navigate(typeof(InicioPage), this);
+            sView_Abajo_Principal.IsPaneOpen = true;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
           
         }
         private void SymbolIcon_Pokedex_PointerReleased(object sender, PointerRoutedEventArgs e) 
@@ -202,6 +229,61 @@ namespace ipo2_pokedex
             
 
         }
+
+        private void UpdateLanguage(string languageCode)
+        {
+            // Aquí actualizas los textos de la UI con los recursos correspondientes al idioma seleccionado.
+            if (languageCode == "en")
+            {
+                btn_Inicio.Content = "Home";
+                btn_MiniJuego.Content = "Mini Game";
+                btn_Pokedex.Content = "Pokedex";
+                btn_LuchaPokemon.Content = "Battle Pokemon";
+                btn_MasInfo.Content = "More Info";
+                SelectIdioma.Header = "Language";
+                lector_de_voz.Header = "Voice reades";
+                // Actualiza otros elementos de la UI según sea necesario
+            }
+            else if (languageCode == "es")
+            {
+                btn_Inicio.Content = "Inicio";
+                btn_MiniJuego.Content = "Mini Juego";
+                btn_Pokedex.Content = "Pokedex";
+                btn_LuchaPokemon.Content = "Lucha Pokemon";
+                btn_MasInfo.Content = "Más Info";
+                SelectIdioma.Header = "Idioma";
+                lector_de_voz.Header = "Lector de voz";
+                // Actualiza otros elementos de la UI según sea necesario
+            }
+        }
+
+        private void SelectIdioma_Toggled(object sender, RoutedEventArgs e)
+        {
+            var localSettings = ApplicationData.Current.LocalSettings;
+
+            if (SelectIdioma.IsOn)
+            {
+                ApplicationLanguages.PrimaryLanguageOverride = "en-GB";
+                localSettings.Values["AppLanguage"] = "en-GB";
+                UpdateLanguage("en");
+            }
+            else
+            {
+                ApplicationLanguages.PrimaryLanguageOverride = "es-ES";
+                localSettings.Values["AppLanguage"] = "es-ES";
+                UpdateLanguage("es");
+            }
+
+            FrameMain.Navigate(typeof(InicioPage), this);
+            sView_Abajo_Principal.IsPaneOpen = true;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+
+
+        }
+
+        
+
+
     }
 
 

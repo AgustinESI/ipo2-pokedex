@@ -125,9 +125,22 @@ namespace ipo2_pokedex
             this.p4types.Text = this.PokemonsSelected[3].type;
 
             GuessPokemon = this.PokemonsSelected[new Random().Next(this.PokemonsSelected.Count - 1)];
-            this.message.Text = this.message.Text + "¿Que Pokemon es " + GuessPokemon.name + "?";
-            string texto = "¿Que Pokemon es " + GuessPokemon.name + "?";
-            voiceReader.LeerTexto(texto);
+            var localSettings = ApplicationData.Current.LocalSettings;
+            string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+            if (appLanguage == "en-GB")
+            {
+                this.message.Text = this.message.Text + "What Pokemon is " + GuessPokemon.name + "?";
+                string texto = "¿What Pokemon is  " + GuessPokemon.name + "?";
+                voiceReader.LeerTexto(texto);
+            }
+            else if (appLanguage == "es-ES")
+            {
+                this.message.Text = this.message.Text + "¿Que Pokemon es " + GuessPokemon.name + "?";
+                string texto = "¿Que Pokemon es " + GuessPokemon.name + "?";
+                voiceReader.LeerTexto(texto);
+            }
+            
 
         }
 
@@ -213,15 +226,42 @@ namespace ipo2_pokedex
                 this.tbstars.Text = "Aciertos: " + (6 - this.PokemonsToWin) + " /6";
                 if (this.PokemonsToWin == 0)
                 {
-                    this.message.Text = "Superaste el reto! Subiste 400 xp a tu Pokemon "+this.UpgradePokemon;
-                    string texto = "Superaste el reto! Subiste 400 xp a tu Pokemon ";
-                    voiceReader.LeerTexto(texto);
+                    var localSettings = ApplicationData.Current.LocalSettings;
+                    string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                    if (appLanguage == "en-GB")
+                    {
+                        this.message.Text = "You overcame the challenge! You raised 400 xp to your Pokemon. " + this.UpgradePokemon;
+                        string texto = "You overcame the challenge! You raised 400 xp to your Pokemon. ";
+                        voiceReader.LeerTexto(texto);
+                    }
+                    else if (appLanguage == "es-ES")
+                    {
+                        this.message.Text = "Superaste el reto! Subiste 400 xp a tu Pokemon " + this.UpgradePokemon;
+                        string texto = "Superaste el reto! Subiste 400 xp a tu Pokemon ";
+                        voiceReader.LeerTexto(texto);
+                    }
+                    
                 }
                 else
                 {
-                    this.message.Text = "Correcto! ";
-                    string texto = "¡Correcto!";
-                    voiceReader.LeerTexto(texto);
+                    var localSettings = ApplicationData.Current.LocalSettings;
+                    string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                    if (appLanguage == "en-GB")
+                    {
+                        this.message.Text = "Corrct! ";
+                        string texto = "Correct!";
+                        voiceReader.LeerTexto(texto);
+                    }
+                    else if (appLanguage == "es-ES")
+                    {
+                        this.message.Text = "Correcto! ";
+                        string texto = "¡Correcto!";
+                        voiceReader.LeerTexto(texto);
+                    }
+
+                    
                     this.generatePokemons();
                 }
 
@@ -237,9 +277,23 @@ namespace ipo2_pokedex
                 this.ilifes.Source = new BitmapImage(new Uri("ms-appx:///Assets/images/hearts/hearts-" + this.Lifes + ".png"));
                 if (this.Lifes == 0)
                 {
-                    this.message.Text = "Has perdido!";
-                    string texto = "Has perdido";
-                    voiceReader.LeerTexto(texto);
+                    var localSettings = ApplicationData.Current.LocalSettings;
+                    string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                    if (appLanguage == "en-GB")
+                    {
+                        this.message.Text = "You have lost!";
+                        string texto = "You have lost";
+                        voiceReader.LeerTexto(texto);
+                    }
+                    else if (appLanguage == "es-ES")
+                    {
+                        this.message.Text = "Has perdido!";
+                        string texto = "Has perdido";
+                        voiceReader.LeerTexto(texto);
+                    }
+
+                    
 
                     this.p1select.Opacity = 40;
                     this.p1select.IsTapEnabled = false;
@@ -255,9 +309,22 @@ namespace ipo2_pokedex
                 }
                 else
                 {
-                    this.message.Text = "Te equivocaste de pokemon, te quedan " + this.Lifes + " vidas y " + this.PokemonsToWin + " Pokemons por acertar.";
-                    string texto = "Te equivocaste de pokemon, te quedan " + this.Lifes + " vidas y " + this.PokemonsToWin + " Pokemons por acertar.";
-                    voiceReader.LeerTexto(texto);
+                    var localSettings = ApplicationData.Current.LocalSettings;
+                    string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                    if (appLanguage == "en-GB")
+                    {
+                        this.message.Text = "You got the wrong pokemon, you have " + this.Lifes + " lives left and " + this.PokemonsToWin + " Pokemons to hit.";
+                        string texto = "You got the wrong pokemon, you have " + this.Lifes + " lives left and " + this.PokemonsToWin + " Pokemons to hit.";
+                        voiceReader.LeerTexto(texto);
+                    }
+                    else if (appLanguage == "es-ES")
+                    {
+                        this.message.Text = "Te equivocaste de pokemon, te quedan " + this.Lifes + " vidas y " + this.PokemonsToWin + " Pokemons por acertar.";
+                        string texto = "Te equivocaste de pokemon, te quedan " + this.Lifes + " vidas y " + this.PokemonsToWin + " Pokemons por acertar.";
+                        voiceReader.LeerTexto(texto);
+                    }
+                    
                 }
             }
         }

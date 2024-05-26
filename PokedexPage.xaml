@@ -51,7 +51,7 @@
 
                 </GridView>
             </Viewbox>
-            <TextBox x:Name="tbSearch" Margin="10,0,0,0" TextWrapping="Wrap"  FontSize="48" VerticalAlignment="Center" PlaceholderText="Buscar pokemon ..." KeyDown="searchPokemon" HorizontalAlignment="Left" Width="870" Grid.Column="1"/>
+            <TextBox x:Name="tbSearch" x:Uid="tbSearch" Margin="10,0,0,0" TextWrapping="Wrap"  FontSize="48" VerticalAlignment="Center" PlaceholderText="Buscar pokemon ..." KeyDown="searchPokemon" HorizontalAlignment="Left" Width="870" Grid.Column="1"/>
             <Button x:Name="bCaptured" BorderThickness="3" Height="77" Width="330"  Click="Button_Click" Grid.Column="2" BorderBrush="White" Margin="14,0,0,0">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -61,8 +61,8 @@
                 </Button.Background>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="/Assets/images/icon/pokeball.png"  Width="60" Height="60"/>
-                    <TextBlock Text="Capturados"
-                        FontSize="36" Margin="0,0,0,2" FontFamily="Berlin Sans FB" Width="210" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock x:Name="textCap" x:Uid="textCap" Text="Capturados"
+                        FontSize="36"  Margin="0,0,0,2"  FontFamily="Berlin Sans FB" Width="210" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
                 </StackPanel>
             </Button>
 

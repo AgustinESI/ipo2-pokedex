@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="ipo2_pokedex.InicioPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ipo2_pokedex"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+
+    <Viewbox FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Stretch="Fill">
+
+        <Grid Height="1000" Width="1500" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+            <Image Margin="329,-95,77,89" Source="/Assets/images/main_background.png"/>
+        </Grid>
+    </Viewbox>
+</Page>

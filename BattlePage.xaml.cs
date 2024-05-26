@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Windows.Storage;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
@@ -495,17 +496,45 @@ namespace ipo2_pokedex
 
             if (randomNumberInRange < 50)
             {
-                this.message.Text = this.selectedPokemon1.name + " huyo correctamente";
-                this.disableAllButtons();
-                endGame(this.selectedPokemon1.name + " huyo correctamente, Empate");
-                string texto = selectedPokemon1.name + "ha huido. Empate";
-                voiceReader.LeerTexto(texto);
+                var localSettings = ApplicationData.Current.LocalSettings;
+                string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                if (appLanguage == "en-GB")
+                {
+                    this.message.Text = this.selectedPokemon1.name + " fled correctly";
+                    this.disableAllButtons();
+                    endGame(this.selectedPokemon1.name + " fled correctly, Tie");
+                    string texto = selectedPokemon1.name + " has run away. Tie";
+                    voiceReader.LeerTexto(texto);
+                }
+                else if (appLanguage == "es-ES")
+                {
+                    this.message.Text = this.selectedPokemon1.name + " huyo correctamente";
+                    this.disableAllButtons();
+                    endGame(this.selectedPokemon1.name + " huyo correctamente, Empate");
+                    string texto = selectedPokemon1.name + "ha huido. Empate";
+                    voiceReader.LeerTexto(texto);
+                }
+               
             }
             else
             {
-                this.message.Text = this.selectedPokemon1.name + " no pudo escapar";
-                string texto = selectedPokemon1.name + "no ha podido escapar";
-                voiceReader.LeerTexto(texto);
+                var localSettings = ApplicationData.Current.LocalSettings;
+                string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                if (appLanguage == "en-GB")
+                {
+                    this.message.Text = this.selectedPokemon1.name + " couldn't escape";
+                    string texto = selectedPokemon1.name + " couldn't escape";
+                    voiceReader.LeerTexto(texto);
+                }
+                else if (appLanguage == "es-ES")
+                {
+                    this.message.Text = this.selectedPokemon1.name + " no pudo escapar";
+                    string texto = selectedPokemon1.name + "no ha podido escapar";
+                    voiceReader.LeerTexto(texto);
+                }
+                
                 if (turn == 1)
                 {
                     turn = 2;
@@ -655,15 +684,42 @@ namespace ipo2_pokedex
         {
             if (turn == 1)
             {
-                this.message.Text = this.selectedPokemon1.name + " ha utilizando el ataque " + btn.Content + ", turno de " + this.selectedPokemon2.name;
-                string texto = selectedPokemon1.name + "ha utilizado el" + btn.Content + ".Turno de" + selectedPokemon2.name;
-                voiceReader.LeerTexto(texto);
+                var localSettings = ApplicationData.Current.LocalSettings;
+                string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                if (appLanguage == "en-GB")
+                {
+                    this.message.Text = this.selectedPokemon1.name + " has used the attack " + btn.Content + ", turn of " + this.selectedPokemon2.name;
+                    string texto = selectedPokemon1.name + "has used the attack" + btn.Content + ".turn of" + selectedPokemon2.name;
+                    voiceReader.LeerTexto(texto);
+                }
+                else if (appLanguage == "es-ES")
+                {
+                    this.message.Text = this.selectedPokemon1.name + " ha utilizando el ataque " + btn.Content + ", turno de " + this.selectedPokemon2.name;
+                    string texto = selectedPokemon1.name + "ha utilizado el" + btn.Content + ".Turno de" + selectedPokemon2.name;
+                    voiceReader.LeerTexto(texto);
+                }
+                
             }
             else
             {
-                this.message.Text = this.selectedPokemon2.name + " ha utilizando el ataque " + btn.Content + ", turno de " + this.selectedPokemon1.name;
-                string texto = selectedPokemon2.name + "ha utilizado el" + btn.Content + ".Turno de" + selectedPokemon1.name;
-                voiceReader.LeerTexto(texto);
+                var localSettings = ApplicationData.Current.LocalSettings;
+                string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                if (appLanguage == "en-GB")
+                {
+                    this.message.Text = this.selectedPokemon2.name + " has used the attack " + btn.Content + ", turn of " + this.selectedPokemon1.name;
+                    string texto = selectedPokemon2.name + " has used the attack" + btn.Content + ".turn of" + selectedPokemon1.name;
+                    voiceReader.LeerTexto(texto);
+                }
+                else if (appLanguage == "es-ES")
+                {
+                    this.message.Text = this.selectedPokemon2.name + " ha utilizando el ataque " + btn.Content + ", turno de " + this.selectedPokemon1.name;
+                    string texto = selectedPokemon2.name + "ha utilizado el" + btn.Content + ".Turno de" + selectedPokemon1.name;
+                    voiceReader.LeerTexto(texto);
+                }
+
+                
             }
 
         }
@@ -672,15 +728,41 @@ namespace ipo2_pokedex
         {
             if (turn == 1)
             {
-                this.message.Text = this.selectedPokemon1.name + " ha utilizando el ataque " + btn.Content + " y ha derrotado a " + this.selectedPokemon2.name;
-                string texto = selectedPokemon1.name + "ha utilizado el" + btn.Content + "y ha derrotado a " + selectedPokemon2.name;
-                voiceReader.LeerTexto(texto);
+                var localSettings = ApplicationData.Current.LocalSettings;
+                string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                if (appLanguage == "en-GB")
+                {
+                    this.message.Text = this.selectedPokemon1.name + " has used the attack " + btn.Content + " and has defeated " + this.selectedPokemon2.name;
+                    string texto = selectedPokemon1.name + "has used the attack" + btn.Content + " and has defeated " + selectedPokemon2.name;
+                    voiceReader.LeerTexto(texto);
+                }
+                else if (appLanguage == "es-ES")
+                {
+                    this.message.Text = this.selectedPokemon1.name + " ha utilizando el ataque " + btn.Content + " y ha derrotado a " + this.selectedPokemon2.name;
+                    string texto = selectedPokemon1.name + "ha utilizado el" + btn.Content + "y ha derrotado a " + selectedPokemon2.name;
+                    voiceReader.LeerTexto(texto);
+                }
+               
             }
             else
             {
-                this.message.Text = this.selectedPokemon2.name + " ha utilizando el ataque " + btn.Content + " y ha derrotado a " + this.selectedPokemon1.name;
-                string texto = selectedPokemon2.name + "ha utilizado el" + btn.Content + "y ha derrotado a" + selectedPokemon1.name;
-                voiceReader.LeerTexto(texto);
+                var localSettings = ApplicationData.Current.LocalSettings;
+                string appLanguage = localSettings.Values["AppLanguage"] as string;
+
+                if (appLanguage == "en-GB")
+                {
+                    this.message.Text = this.selectedPokemon2.name + " has used the attack " + btn.Content + " and has defeated " + this.selectedPokemon1.name;
+                    string texto = selectedPokemon2.name + "has used the attack" + btn.Content + " and has defeated " + selectedPokemon1.name;
+                    voiceReader.LeerTexto(texto);
+                }
+                else if (appLanguage == "es-ES")
+                {
+                    this.message.Text = this.selectedPokemon2.name + " ha utilizando el ataque " + btn.Content + " y ha derrotado a " + this.selectedPokemon1.name;
+                    string texto = selectedPokemon2.name + "ha utilizado el" + btn.Content + "y ha derrotado a" + selectedPokemon1.name;
+                    voiceReader.LeerTexto(texto);
+                }
+                
             }
 
         }
