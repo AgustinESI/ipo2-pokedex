@@ -22,6 +22,7 @@
   </Dependencies>
   <Resources>
     <Resource Language="ES-ES" />
+    <Resource Language="EN-GB" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="ipo2-pokedex.exe" EntryPoint="ipo2_pokedex.App">
