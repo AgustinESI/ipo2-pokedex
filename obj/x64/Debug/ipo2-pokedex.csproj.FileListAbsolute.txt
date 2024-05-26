@@ -468,3 +468,13 @@ C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\MultipleQualifiersPerDi
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638316334480000000.json
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638441419520000000.json
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\obj\x64\Debug\Doubts.g.i.cs
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\obj\x64\Debug\Doubts.g.cs
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\obj\x64\Debug\MoreInformation.g.i.cs
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\obj\x64\Debug\MoreInformation.g.cs
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\obj\x64\Debug\Doubts.xaml
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\obj\x64\Debug\MoreInformation.xaml
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\obj\x64\Debug\Doubts.xbf
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\obj\x64\Debug\MoreInformation.xbf
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\bin\x64\Debug\Doubts.xbf
+C:\Users\agust\Desktop\UCLM\3 CURSO\SEGUNDO CUATRIMESTRE\IPO2\LABORATORIO\POKEMON_PERSONAL\git\ipo2-pokedex\bin\x64\Debug\MoreInformation.xbf

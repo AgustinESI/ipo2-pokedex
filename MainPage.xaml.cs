@@ -154,9 +154,9 @@ namespace ipo2_pokedex
         private void btn_MasInfo_Click(object sender, RoutedEventArgs e) 
         {
 
-            //FrameMain.Navigate(typeof(Acerca_De), this); 
-            //sView_Abajo_Principal.IsPaneOpen = false;
-            //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            FrameMain.Navigate(typeof(MoreInformation), this); 
+            sView_Abajo_Principal.IsPaneOpen = false;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
             var button = sender as Button;
             if (button != null)
             {
@@ -188,17 +188,17 @@ namespace ipo2_pokedex
         private void SymbolIcon_Lucha_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
            
-            //FrameMain.Navigate(typeof(CombatePage), this); 
-            //sView_Abajo_Principal.IsPaneOpen = false;
-            //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            FrameMain.Navigate(typeof(SelectBattlePage), this); 
+            sView_Abajo_Principal.IsPaneOpen = false;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
            
         }
         private void SymbolIcon_MasInfo_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
             
-            //FrameMain.Navigate(typeof(Acerca_De), this); 
-            //sView_Abajo_Principal.IsPaneOpen = false;
-            //sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            FrameMain.Navigate(typeof(MoreInformation), this); 
+            sView_Abajo_Principal.IsPaneOpen = false;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
             
 
         }

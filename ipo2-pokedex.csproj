@@ -132,8 +132,14 @@
     <Compile Include="BattlePage.xaml.cs">
       <DependentUpon>BattlePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Doubts.xaml.cs">
+      <DependentUpon>Doubts.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MiniGamePage.xaml.cs">
       <DependentUpon>MiniGamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MoreInformation.xaml.cs">
+      <DependentUpon>MoreInformation.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pokemons\GrookeyJGPMP.xaml.cs">
       <DependentUpon>GrookeyJGPMP.xaml</DependentUpon>
@@ -217,6 +223,9 @@
     <Content Include="Assets\images\cards\Psychic.png" />
     <Content Include="Assets\images\cards\Water.png" />
     <Content Include="Assets\images\cards\Electric.png" />
+    <Content Include="Assets\images\developers\agustin.png" />
+    <Content Include="Assets\images\developers\miriam.png" />
+    <Content Include="Assets\images\developers\roberto.png" />
     <Content Include="Assets\images\hearts\hearts-0.png" />
     <Content Include="Assets\images\hearts\hearts-1.png" />
     <Content Include="Assets\images\hearts\hearts-2.png" />
@@ -472,7 +481,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Doubts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MiniGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MoreInformation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

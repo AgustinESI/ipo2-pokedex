@@ -10,6 +10,9 @@ Assets\images\cards\Grass.png
 Assets\images\cards\Psychic.png
 Assets\images\cards\Steel.png
 Assets\images\cards\Water.png
+Assets\images\developers\agustin.png
+Assets\images\developers\miriam.png
+Assets\images\developers\roberto.png
 Assets\images\hearts\hearts-0.png
 Assets\images\hearts\hearts-1.png
 Assets\images\hearts\hearts-2.png
@@ -256,9 +259,11 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 BattlePage.xbf
+Doubts.xbf
 ipo2-pokedex.xr.xml
 MainPage.xbf
 MiniGamePage.xbf
+MoreInformation.xbf
 PokedexPage.xbf
 PokemonDetailPage.xbf
 Pokemons\ArticunoACG.xbf
