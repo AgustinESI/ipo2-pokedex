@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj": {}
+    "C:\\Users\\rober\\Source\\Repos\\ipo2-pokedex_fin_fin\\ipo2-pokedex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj": {
+    "C:\\Users\\rober\\Source\\Repos\\ipo2-pokedex_fin_fin\\ipo2-pokedex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj",
+        "projectUniqueName": "C:\\Users\\rober\\Source\\Repos\\ipo2-pokedex_fin_fin\\ipo2-pokedex.csproj",
         "projectName": "ipo2-pokedex",
-        "projectPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\ipo2-pokedex.csproj",
-        "packagesPath": "C:\\Users\\agust\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agust\\Desktop\\UCLM\\3 CURSO\\SEGUNDO CUATRIMESTRE\\IPO2\\LABORATORIO\\POKEMON_PERSONAL\\git\\ipo2-pokedex\\obj\\",
+        "projectPath": "C:\\Users\\rober\\Source\\Repos\\ipo2-pokedex_fin_fin\\ipo2-pokedex.csproj",
+        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rober\\Source\\Repos\\ipo2-pokedex_fin_fin\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\agust\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

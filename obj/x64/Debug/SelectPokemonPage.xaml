@@ -22,11 +22,11 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" Margin="0,0,0,810" TextWrapping="Wrap" Text="PLAYER 1" VerticalAlignment="Bottom" FontSize="72" Grid.Column="0"/>
-            <TextBlock HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" Margin="0,0,0,811" TextWrapping="Wrap" Text="PLAYER 2" VerticalAlignment="Bottom" FontSize="72" Grid.Column="1"/>
+            <TextBlock x:ConnectionId='3' x:Name="player1" x:Uid="player1" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" Margin="0,0,0,810" TextWrapping="Wrap" Text="PLAYER 1" VerticalAlignment="Bottom" FontSize="72" Grid.Column="0"/>
+            <TextBlock x:ConnectionId='4' x:Name="player2" x:Uid="player2" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" Margin="0,0,0,811" TextWrapping="Wrap" Text="PLAYER 2" VerticalAlignment="Bottom" FontSize="72" Grid.Column="1"/>
 
-            <GridView x:ConnectionId='3' x:Name="gvPokemonsPlayer1" RequestedTheme="Light" IsItemClickEnabled="True" Margin="10,194,10,10" UseLayoutRounding="False" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"                                     Grid.Column="0"/>
-            <GridView x:ConnectionId='4' x:Name="gvPokemonsPlayer2" RequestedTheme="Light" IsItemClickEnabled="True" Margin="10,194,10,10" UseLayoutRounding="False" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"                                     Grid.Column="1"/>
+            <GridView x:ConnectionId='5' x:Name="gvPokemonsPlayer1" RequestedTheme="Light" IsItemClickEnabled="True" Margin="10,194,10,10" UseLayoutRounding="False" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"                                     Grid.Column="0"/>
+            <GridView x:ConnectionId='6' x:Name="gvPokemonsPlayer2" RequestedTheme="Light" IsItemClickEnabled="True" Margin="10,194,10,10" UseLayoutRounding="False" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"                                     Grid.Column="1"/>
 
         </Grid>
     </Viewbox>
