@@ -7,61 +7,62 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:ConnectionId='2' x:Name="gpokemons">
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
+    <Viewbox>
+
+        <Grid x:ConnectionId='2' x:Name="gpokemons" Height="1000" Width="1500">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
 
 
-        <Image x:ConnectionId='3' x:Name="p1" HorizontalAlignment="Center" Height="480" VerticalAlignment="Center" Width="355" Grid.Row="0" Grid.Column="0" Source="/Assets/images/cards/Empty.png"/>
-        <TextBlock x:ConnectionId='4' FontFamily="Berlin Sans FB" x:Name="p1description" HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Height="157" Width="293" FontSize="18"/>
-        <Image x:ConnectionId='5' x:Name="p1image" HorizontalAlignment="Center" Height="185" Margin="0,52,0,0" VerticalAlignment="Top" Width="203" Source="/Assets/images/pokemons/charizard.png"/>
-        <TextBlock x:ConnectionId='6' x:Name="p1name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="216" Foreground="Black" Height="24" FontSize="18"/>
-        <TextBlock x:ConnectionId='7' x:Name="p1types" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" Width="191" Height="28" FontSize="18" Foreground="#FF040404" Margin="0,0,0,10"/>
-        <Rectangle x:ConnectionId='8' x:Name="p1select" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="375"                                 Grid.Row="0" Grid.Column="0" Fill="#02000000" />
+            <Image x:ConnectionId='3' x:Name="p1" HorizontalAlignment="Center" Height="480" VerticalAlignment="Center" Width="355" Grid.Row="0" Grid.Column="0" Source="/Assets/images/cards/Empty.png"/>
+            <TextBlock x:ConnectionId='4' FontFamily="Berlin Sans FB" x:Name="p1description" HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Height="157" Width="293" FontSize="18"/>
+            <Image x:ConnectionId='5' x:Name="p1image" HorizontalAlignment="Center" Height="185" Margin="0,52,0,0" VerticalAlignment="Top" Width="203" Source="/Assets/images/pokemons/charizard.png"/>
+            <TextBlock x:ConnectionId='6' x:Name="p1name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="216" Foreground="Black" Height="24" FontSize="18"/>
+            <TextBlock x:ConnectionId='7' x:Name="p1types" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="191" Height="28" FontSize="18" Foreground="#FF040404" Margin="0,452,0,0"/>
+            <Rectangle x:ConnectionId='8' x:Name="p1select" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="375"                                 Grid.Row="0" Grid.Column="0" Fill="#02000000" />
 
-        <Image x:ConnectionId='9' x:Name="p2" HorizontalAlignment="Center" Height="480" VerticalAlignment="Center" Width="355" Grid.Row="0" Grid.Column="1" Source="/Assets/images/cards/Empty.png"/>
-        <Image x:ConnectionId='10' x:Name="p2image" Grid.Column="1" HorizontalAlignment="Center" Height="170" Margin="0,64,0,0" VerticalAlignment="Top" Width="170" Source="/Assets/images/pokemons/charizard.png"/>
-        <TextBlock x:ConnectionId='11' FontFamily="Berlin Sans FB" x:Name="p2description" HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Height="157" Width="293" Grid.Column="1" FontSize="18"/>
-        <TextBlock x:ConnectionId='12' x:Name="p2name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="216" Foreground="Black" Height="24" FontSize="18" Grid.Column="1"/>
-        <TextBlock x:ConnectionId='13' x:Name="p2types" Grid.Row="0" Grid.Column="1" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" Width="191" Height="28" FontSize="18" Foreground="#FF040404" Margin="0,0,0,10"/>
-        <Rectangle x:ConnectionId='14' x:Name="p2select" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="375"                                 Grid.Row="0" Grid.Column="1" Fill="#02000000"/>
+            <Image x:ConnectionId='9' x:Name="p2" HorizontalAlignment="Center" Height="480" VerticalAlignment="Center" Width="355" Grid.Row="0" Grid.Column="1" Source="/Assets/images/cards/Empty.png"/>
+            <Image x:ConnectionId='10' x:Name="p2image" Grid.Column="1" HorizontalAlignment="Center" Height="170" Margin="0,64,0,0" VerticalAlignment="Top" Width="170" Source="/Assets/images/pokemons/charizard.png"/>
+            <TextBlock x:ConnectionId='11' FontFamily="Berlin Sans FB" x:Name="p2description" HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Height="157" Width="293" Grid.Column="1" FontSize="18"/>
+            <TextBlock x:ConnectionId='12' x:Name="p2name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="216" Foreground="Black" Height="24" FontSize="18" Grid.Column="1"/>
+            <TextBlock x:ConnectionId='13' x:Name="p2types" Grid.Row="0" Grid.Column="1" FontFamily="Berlin Sans FB" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" Width="191" Height="28" FontSize="18" Foreground="#FF040404" Margin="102,0,0,20"/>
+            <Rectangle x:ConnectionId='14' x:Name="p2select" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="375"                                 Grid.Row="0" Grid.Column="1" Fill="#02000000"/>
 
-        <Image x:ConnectionId='15' x:Name="p3" HorizontalAlignment="Center" Height="480" VerticalAlignment="Center" Width="355" Grid.Row="0" Grid.Column="2" Source="/Assets/images/cards/Empty.png"/>
-        <Image x:ConnectionId='16' x:Name="p3image" Grid.Column="2" HorizontalAlignment="Center" Height="170" Margin="0,64,0,0" VerticalAlignment="Top" Width="170" Source="/Assets/images/pokemons/charizard.png"/>
-        <TextBlock x:ConnectionId='17' FontFamily="Berlin Sans FB" x:Name="p3description" HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Height="157" Width="293" Grid.Column="2" FontSize="18"/>
-        <TextBlock x:ConnectionId='18' x:Name="p3name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="216" Foreground="Black" Height="24" FontSize="18" Grid.Column="2"/>
-        <TextBlock x:ConnectionId='19' x:Name="p3types" Grid.Row="0" Grid.Column="2" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,0,0,10" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" Width="191" Height="28" FontSize="18" Foreground="#FF040404"/>
-        <Rectangle x:ConnectionId='20' x:Name="p3select" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="375"                                 Grid.Row="0" Grid.Column="2" Fill="#02000000" />
+            <Image x:ConnectionId='15' x:Name="p3" HorizontalAlignment="Center" Height="480" VerticalAlignment="Center" Width="355" Grid.Row="0" Grid.Column="2" Source="/Assets/images/cards/Empty.png"/>
+            <Image x:ConnectionId='16' x:Name="p3image" Grid.Column="2" HorizontalAlignment="Center" Height="170" Margin="0,64,0,0" VerticalAlignment="Top" Width="170" Source="/Assets/images/pokemons/charizard.png"/>
+            <TextBlock x:ConnectionId='17' FontFamily="Berlin Sans FB" x:Name="p3description" HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Height="157" Width="293" Grid.Column="2" FontSize="18"/>
+            <TextBlock x:ConnectionId='18' x:Name="p3name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="216" Foreground="Black" Height="24" FontSize="18" Grid.Column="2"/>
+            <TextBlock x:ConnectionId='19' x:Name="p3types" Grid.Row="0" Grid.Column="2" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,452,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="191" Height="28" FontSize="18" Foreground="#FF040404"/>
+            <Rectangle x:ConnectionId='20' x:Name="p3select" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="375"                                 Grid.Row="0" Grid.Column="2" Fill="#02000000" />
 
-        <Image x:ConnectionId='21' x:Name="p4" HorizontalAlignment="Center" Height="480" VerticalAlignment="Center" Width="355" Grid.Row="0" Grid.Column="3" Source="/Assets/images/cards/Empty.png"/>
-        <Image x:ConnectionId='22' x:Name="p4image" Grid.Column="3" HorizontalAlignment="Center" Height="170" Margin="0,62,0,0" VerticalAlignment="Top" Width="170" Source="/Assets/images/pokemons/charizard.png"/>
-        <TextBlock x:ConnectionId='23' FontFamily="Berlin Sans FB" x:Name="p4description" HorizontalAlignment="Center" Margin="0,263,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Height="157" Width="293" Grid.Column="3" FontSize="18"/>
-        <TextBlock x:ConnectionId='24' x:Name="p4name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="216" Foreground="Black" Height="24" FontSize="18" Grid.Column="3"/>
-        <TextBlock x:ConnectionId='25' x:Name="p4types" Grid.Row="0" Grid.Column="3" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" Width="191" Height="28" FontSize="18" Foreground="#FF040404" Margin="0,0,0,10"/>
-        <Rectangle x:ConnectionId='26' x:Name="p4select" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="375"                                 Grid.Row="0" Grid.Column="3" Fill="#02000000" />
+            <Image x:ConnectionId='21' x:Name="p4" HorizontalAlignment="Center" Height="480" VerticalAlignment="Center" Width="355" Grid.Row="0" Grid.Column="3" Source="/Assets/images/cards/Empty.png"/>
+            <Image x:ConnectionId='22' x:Name="p4image" Grid.Column="3" HorizontalAlignment="Center" Height="170" Margin="0,62,0,0" VerticalAlignment="Top" Width="170" Source="/Assets/images/pokemons/charizard.png"/>
+            <TextBlock x:ConnectionId='23' FontFamily="Berlin Sans FB" x:Name="p4description" HorizontalAlignment="Center" Margin="0,263,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" Height="157" Width="293" Grid.Column="3" FontSize="18"/>
+            <TextBlock x:ConnectionId='24' x:Name="p4name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="216" Foreground="Black" Height="24" FontSize="18" Grid.Column="3"/>
+            <TextBlock x:ConnectionId='25' x:Name="p4types" Grid.Row="0" Grid.Column="3" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="191" Height="28" FontSize="18" Foreground="#FF040404" Margin="0,452,0,0"/>
+            <Rectangle x:ConnectionId='26' x:Name="p4select" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="375"                                 Grid.Row="0" Grid.Column="3" Fill="#02000000" />
 
 
-        <TextBox x:ConnectionId='27' x:Name="message" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Text="" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="1481" FontSize="30" Grid.ColumnSpan="4" Margin="10,30,10,10" TextAlignment="Center" Foreground="White" Background="#FF2C4B60" BorderBrush="#FFC6A341" BorderThickness="10,10,10,10" Padding="10,10,10,10" IsReadOnly="True" SelectionHighlightColor="#FF2C4B60" PlaceholderForeground="White" SelectionHighlightColorWhenNotFocused="#FFC6A341" FocusVisualPrimaryBrush="#99000000"/>
+            <TextBox x:ConnectionId='27' x:Name="message" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Text="" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="1481" FontSize="30" Grid.ColumnSpan="4" Margin="10,30,10,10" TextAlignment="Center" Foreground="White" Background="#FF2C4B60" BorderBrush="#FFC6A341" BorderThickness="10,10,10,10" Padding="10,10,10,10" IsReadOnly="True" SelectionHighlightColor="#FF2C4B60" PlaceholderForeground="White" SelectionHighlightColorWhenNotFocused="#FFC6A341" FocusVisualPrimaryBrush="#99000000"/>
 
-        <Image x:ConnectionId='28' x:Name="ilifes" HorizontalAlignment="Center" Height="78" Grid.Row="1" VerticalAlignment="Center" Width="269" Source="/Assets/images/hearts/hearts-3.png"/>
-        <TextBlock x:ConnectionId='29' x:Name="tblifes" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="Vidas 3/3" VerticalAlignment="Bottom" Height="53" Width="195" Margin="0,0,0,120" Foreground="Black" FontSize="36" TextAlignment="Center"/>
+            <Image x:ConnectionId='28' x:Name="ilifes" HorizontalAlignment="Center" Height="78" Grid.Row="1" VerticalAlignment="Center" Width="269" Source="/Assets/images/hearts/hearts-3.png"/>
+            <TextBlock x:ConnectionId='29' x:Name="tblifes" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="Vidas 3/3" VerticalAlignment="Bottom" Height="53" Width="195" Margin="0,0,0,120" Foreground="Black" FontSize="36" TextAlignment="Center"/>
 
-        <Image x:ConnectionId='30' x:Name="istars" HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="473" Source="/Assets/images/stars/star-0.png"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,204,0,0"/>
-        <TextBlock x:ConnectionId='31' x:Name="tbstars" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Aciertos 0/6" VerticalAlignment="Top" Height="53" Width="381" Margin="0,334,0,0" Foreground="Black" FontSize="36" TextAlignment="Center" Grid.ColumnSpan="2"/>
-        <ComboBox x:ConnectionId='32' x:Name="cbpokemonsupgrade" Grid.Column="3" Grid.Row="1" Width="321" Height="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                              FontSize="22" Foreground="White">
-           
-        </ComboBox>
+            <Image x:ConnectionId='30' x:Name="istars" HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="473" Source="/Assets/images/stars/star-0.png"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,204,0,0"/>
+            <TextBlock x:ConnectionId='31' x:Name="tbstars" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Aciertos 0/6" VerticalAlignment="Top" Height="53" Width="381" Margin="0,334,0,0" Foreground="Black" FontSize="36" TextAlignment="Center" Grid.ColumnSpan="2"/>
+            <ComboBox x:ConnectionId='32' x:Name="cbpokemonsupgrade" Grid.Column="3" Grid.Row="1" Width="321" Height="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                              FontSize="22" Foreground="White"/>
 
 
 
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Page>
 

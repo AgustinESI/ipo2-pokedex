@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\ipo2-pokedex.csproj": {}
+    "C:\\Users\\Usuario\\Source\\Repos\\ipo2-pokedex\\ipo2-pokedex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\ipo2-pokedex.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\ipo2-pokedex\\ipo2-pokedex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\ipo2-pokedex.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\ipo2-pokedex\\ipo2-pokedex.csproj",
         "projectName": "ipo2-pokedex",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\ipo2-pokedex.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\ipo2-pokedex\\ipo2-pokedex.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\ipo2-pokedex\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

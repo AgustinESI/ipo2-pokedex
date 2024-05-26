@@ -1171,343 +1171,345 @@
             <Image x:ConnectionId='15' x:Name="simbolo_energia" HorizontalAlignment="Left" Height="105" VerticalAlignment="Center" Width="115" Grid.Row="1" Source="/Assets/pokemons/PiplupMLTN/energia_sin_fondo.png" Margin="10,0,0,0"/>
             <Image x:ConnectionId='16' x:Name="pocion_vida" HorizontalAlignment="Left" Height="81" VerticalAlignment="Center" Width="82" Grid.Column="2" Source="/Assets/pokemons/PiplupMLTN/pocion_roja_sin_fondo.png"                                               Margin="37,0,0,0"/>
             <Image x:ConnectionId='17' x:Name="pocion_energia" HorizontalAlignment="Center" Height="101" VerticalAlignment="Center" Width="139" Grid.Column="2" Source="/Assets/pokemons/PiplupMLTN/pocion_amarilla_sin_fondo.png" RenderTransformOrigin="0.505,0.613" Stretch="Fill"                                                  Grid.Row="1"/>
-            <Grid Grid.ColumnSpan="2" Margin="127,0,0,0" Grid.Row="2">
-                <Canvas x:ConnectionId='19' x:Name="piplup" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="400" Margin="410,318,0,0" RenderTransformOrigin="0.5,0.5">
-                    <Canvas.RenderTransform>
-                        <CompositeTransform/>
-                    </Canvas.RenderTransform>
-                    <Canvas x:ConnectionId='50' x:Name="cabeza_total" Height="400" Width="400" HorizontalAlignment="Left" VerticalAlignment="Bottom">
-                        <Ellipse x:ConnectionId='69' x:Name="cabeza" Height="147" Canvas.Left="127.579" Stroke="Black" Canvas.Top="41.534" Width="152" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Fill="#FF3988CB">
-                            <Ellipse.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform/>
-                                    <SkewTransform AngleX="0.531"/>
-                                    <RotateTransform/>
-                                    <TranslateTransform X="-0.657"/>
-                                </TransformGroup>
-                            </Ellipse.RenderTransform>
-                        </Ellipse>
-                        <Ellipse Width="127" Stroke="White" Height="93" Fill="White" HorizontalAlignment="Center" Canvas.Left="139.725" Canvas.Top="94.522" VerticalAlignment="Top"/>
-                        <Path Data="M46.64382,0.5 L63.01742,24.435438 48.986303,34.033756 43.565229,26.109062 35.61595,33.63921 28.464594,26.089808 21.260037,33.476202 0.5,13.227232 12.370087,1.0575538 19.992994,8.4928033 27.615691,-3.2824104 35.112675,8.3881522 z" Fill="#FF3988CB" Height="40" Stroke="#FF3988CB" Stretch="Fill" Width="68" HorizontalAlignment="Center" Canvas.Left="165.725" Canvas.Top="80.522" VerticalAlignment="Top"/>
-                        <Path Data="M46.64382,0.5 L63.01742,24.435438 48.986303,34.033756 43.565229,26.109062 35.61595,33.63921 28.464594,26.089808 21.260037,33.476202 0.5,13.227232 12.370087,1.0575538 19.992994,8.4928033 27.615691,-3.2824104 35.112675,8.3881522 z" Fill="#FFA1D0CE" Height="40" Stroke="#FF010103" Stretch="Fill" Width="68" HorizontalAlignment="Center" Canvas.Left="171.725" Canvas.Top="98.522" VerticalAlignment="Top"/>
-                        <Path x:ConnectionId='70' x:Name="figura" Data="M17.346573,0.5 C20.936424,0.49999934 24.441311,0.61192805 27.826385,0.82506293 L29.154442,0.91937441 29.096825,1.2994069 29.059273,1.5470564 C28.808918,3.1585428 28.543915,4.7617859 28.243839,6.3383393 28.235115,6.3841648 28.225964,6.4338459 28.216396,6.487277 28.206829,6.540709 28.196846,6.5978908 28.186466,6.658719 28.17609,6.7195463 28.165314,6.7840194 28.154156,6.8520321 28.143002,6.9200453 28.131462,6.991599 28.119564,7.0665888 28.107662,7.1415772 28.095398,7.2200012 28.082787,7.3017554 28.070179,7.3835096 28.05722,7.468594 28.043934,7.5569033 28.030647,7.6452131 28.017033,7.7367477 28.003101,7.8314022 27.989174,7.9260563 27.97493,8.0238308 27.960396,8.1246199 27.945854,8.2254099 27.931023,8.3292136 27.915909,8.4359278 27.900795,8.5426421 27.885406,8.652266 27.869751,8.7646946 27.838444,8.989551 27.806087,9.2256274 27.77282,9.4720826 27.739548,9.7185358 27.705368,9.975368 27.670406,10.241737 27.635445,10.508107 27.599709,10.784014 27.563324,11.068619 27.526943,11.353222 27.489918,11.646522 27.452389,11.947679 27.414856,12.248836 27.376816,12.557848 27.338402,12.873877 27.299988,13.189905 27.261204,13.512947 27.222179,13.842165 27.183159,14.171383 27.143898,14.506776 27.104534,14.847503 27.065174,15.188229 27.025707,15.53429 26.986275,15.884844 26.946846,16.235396 26.907444,16.590443 26.868214,16.949143 26.828983,17.307843 26.789921,17.670193 26.75116,18.035359 26.712402,18.400521 26.673943,18.768496 26.635925,19.138443 L24.946571,31.33943 25.026226,39.82463 19.394146,34.938957 C17.961424,34.334544 15.727527,33.764642 13.943215,33.959547 13.065855,34.055383 11.438646,34.615356 9.496836,36.009805 8.3770298,36.813959 7.1529866,38.169808 5.9067967,39.16922 L5.477066,32.076247 5.3090744,29.388407 3.1874504,17.203576 C2.5761299,11.280276 1.435009,6.2384509 1.1545067,4.7710041 1.0037231,3.9821755 0.85195541,3.185091 0.69786835,2.3822553 L0.5,1.3633525 1.8833618,1.2193266 C6.7681847,0.75183833 11.961796,0.49999851 17.346573,0.5 z" Height="29" Stroke="#FFA1D0CE" Stretch="Fill" Width="30" Fill="#FFA1D0CE" HorizontalAlignment="Center" Canvas.Left="185.725" Canvas.Top="116.522" VerticalAlignment="Top"/>
-                        <Path Data="M35.562933,-7.5687956 C37.25375,-7.1904573 41.065329,-6.2831764 41.726746,-5.8986163 44.618584,-4.2172485 45.175809,-4.0980959 49.228351,-1.0309833 53.187549,1.9654833 55.892192,6.6797802 57.898602,12.108638 60.218912,18.386834 61.605422,25.620666 62.918538,32.25847 63.20323,33.697587 64.361399,38.64208 64.981852,44.451031 L66.783769,56.388133 67.782194,66.403569 C67.276236,69.447199 65.354567,70.196959 64.534388,72.838641 63.620942,75.780727 62.381027,75.520852 63.214966,77.938256 65.85381,85.587677 63.649378,90.326164 62.911101,93.691182 62.733569,94.500363 57.473515,108.72892 56.755684,107.86867 L49.542536,106.53968 37.802942,101.70267 C33.350675,99.39804 31.184681,97.215917 28.700653,95.250509 28.078924,94.758585 20.269118,88.587297 13.299994,79.019492 7.6987316,71.329604 2.3558052,61.731358 0.77356112,51.392754 -0.084611791,45.785332 -0.97603377,39.28725 -0.58780651,33.149672 -0.19084495,26.874011 0.2576014,21.711576 1.9437179,16.531297 5.3877233,5.95023 9.2042286,-0.45252731 12.912836,-4.5974224 13.426128,-5.1710992 18.886682,-7.5716631 21.379155,-7.7841323 24.057511,-8.0124471 28.913652,-9.0566424 35.562933,-7.5687956 z" Height="116" Stroke="Black" Stretch="Fill" Width="67"  Fill="White" HorizontalAlignment="Center" Canvas.Left="127.725" Canvas.Top="70.522" VerticalAlignment="Top"/>
-                        <Path Data="M35.562933,-7.5687956 C37.25375,-7.1904573 41.065329,-6.2831764 41.726746,-5.8986163 44.618584,-4.2172485 45.175809,-4.0980959 49.228351,-1.0309833 53.187549,1.9654833 55.892192,6.6797802 57.898602,12.108638 60.218912,18.386834 61.605422,25.620666 62.918538,32.25847 63.20323,33.697587 64.361399,38.64208 64.981852,44.451031 L66.783769,56.388133 67.782194,66.403569 C67.276236,69.447199 65.354567,70.196959 64.534388,72.838641 63.620942,75.780727 62.381027,75.520852 63.214966,77.938256 65.85381,85.587677 63.649378,90.326164 62.911101,93.691182 62.733569,94.500363 57.473515,108.72892 56.755684,107.86867 L49.542536,106.53968 37.802942,101.70267 C33.350675,99.39804 31.184681,97.215917 28.700653,95.250509 28.078924,94.758585 20.269118,88.587297 13.299994,79.019492 7.6987316,71.329604 2.3558052,61.731358 0.77356112,51.392754 -0.084611791,45.785332 -0.97603377,39.28725 -0.58780651,33.149672 -0.19084495,26.874011 0.2576014,21.711576 1.9437179,16.531297 5.3877233,5.95023 9.2042286,-0.45252731 12.912836,-4.5974224 13.426128,-5.1710992 18.886682,-7.5716631 21.379155,-7.7841323 24.057511,-8.0124471 28.913652,-9.0566424 35.562933,-7.5687956 z" Height="120" Stroke="Black" Stretch="Fill" Width="68"  Fill="White" Canvas.Left="210.225" Canvas.Top="70.522" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <Path.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform ScaleX="-1"/>
-                                    <SkewTransform/>
-                                    <RotateTransform/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Path.RenderTransform>
-                        </Path>
-                        <Canvas x:ConnectionId='71' x:Name="ojo_izquierdo" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="-200.275" Canvas.Top="-33.478">
-                            <Ellipse x:ConnectionId='86' x:Name="ojo_azul_izq" Height="49" Stroke="Black" Width="25" Fill="#FF102A70" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="348" Canvas.Top="134"/>
-                            <Ellipse x:ConnectionId='87' x:Name="ojo_negro_izq" Height="26" Stroke="Black" Width="13" Fill="Black" HorizontalAlignment="Left" Canvas.Left="354" Canvas.Top="146" VerticalAlignment="Top"/>
-                            <Ellipse x:ConnectionId='88' x:Name="ojo_blanco_izq" Height="20" Stroke="Black" Width="13" Fill="#FFF4F4F4" HorizontalAlignment="Left" Canvas.Left="354" Canvas.Top="136" VerticalAlignment="Top"/>
-                        </Canvas>
-                        <Canvas x:ConnectionId='72' x:Name="ojo_derecho" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="-200.275" Canvas.Top="-33.478">
-                            <Ellipse x:ConnectionId='83' x:Name="ojo_azul_der" Stroke="Black" Fill="#FF102A70" Height="49" Width="25" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="434.133" Canvas.Top="133.867"/>
-                            <Ellipse x:ConnectionId='84' x:Name="ojo_negro_der" Height="26" Stroke="Black" Width="13" Fill="Black" HorizontalAlignment="Center" Canvas.Left="440.133" Canvas.Top="145.867" VerticalAlignment="Top"/>
-                            <Ellipse x:ConnectionId='85' x:Name="ojo_blanco_der" Height="20" Stroke="Black" Width="13" Fill="#FFF4F4F4" HorizontalAlignment="Center" Canvas.Left="440.133" Canvas.Top="135.867" VerticalAlignment="Top"/>
-                        </Canvas>
-                        <Canvas x:ConnectionId='73' x:Name="nariz" HorizontalAlignment="Center" Height="29" Canvas.Left="187.725" Canvas.Top="136.522" VerticalAlignment="Top">
-                            <Ellipse x:ConnectionId='74' x:Name="nariz_1" Height="13" Stroke="Black" Width="29" Fill="#FFFFD400" Canvas.Top="16" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                            <Ellipse x:ConnectionId='75' x:Name="nariz_2" Height="29" Stroke="#FF020206" Width="13" RenderTransformOrigin="0.5,0.5" Fill="#FFFFD400" Canvas.Left="2" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Viewbox Margin="-337,-259,-452,-258" Grid.ColumnSpan="3" Grid.RowSpan="3">
+                <Grid Height="849" Width="1367">
+                    <Canvas x:ConnectionId='19' x:Name="piplup" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="400" Margin="410,318,0,0" RenderTransformOrigin="0.5,0.5">
+                        <Canvas.RenderTransform>
+                            <CompositeTransform/>
+                        </Canvas.RenderTransform>
+                        <Canvas x:ConnectionId='50' x:Name="cabeza_total" Height="400" Width="400" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                            <Ellipse x:ConnectionId='69' x:Name="cabeza" Height="147" Canvas.Left="127.579" Stroke="Black" Canvas.Top="41.534" Width="152" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Fill="#FF3988CB">
                                 <Ellipse.RenderTransform>
                                     <TransformGroup>
-                                        <ScaleTransform ScaleX="1.067" ScaleY="0.937"/>
-                                        <SkewTransform AngleY="10.361000000000004"/>
-                                        <RotateTransform Angle="33.434"/>
+                                        <ScaleTransform/>
+                                        <SkewTransform AngleX="0.531"/>
+                                        <RotateTransform/>
+                                        <TranslateTransform X="-0.657"/>
+                                    </TransformGroup>
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                            <Ellipse Width="127" Stroke="White" Height="93" Fill="White" HorizontalAlignment="Center" Canvas.Left="139.725" Canvas.Top="94.522" VerticalAlignment="Top"/>
+                            <Path Data="M46.64382,0.5 L63.01742,24.435438 48.986303,34.033756 43.565229,26.109062 35.61595,33.63921 28.464594,26.089808 21.260037,33.476202 0.5,13.227232 12.370087,1.0575538 19.992994,8.4928033 27.615691,-3.2824104 35.112675,8.3881522 z" Fill="#FF3988CB" Height="40" Stroke="#FF3988CB" Stretch="Fill" Width="68" HorizontalAlignment="Center" Canvas.Left="165.725" Canvas.Top="80.522" VerticalAlignment="Top"/>
+                            <Path Data="M46.64382,0.5 L63.01742,24.435438 48.986303,34.033756 43.565229,26.109062 35.61595,33.63921 28.464594,26.089808 21.260037,33.476202 0.5,13.227232 12.370087,1.0575538 19.992994,8.4928033 27.615691,-3.2824104 35.112675,8.3881522 z" Fill="#FFA1D0CE" Height="40" Stroke="#FF010103" Stretch="Fill" Width="68" HorizontalAlignment="Center" Canvas.Left="171.725" Canvas.Top="98.522" VerticalAlignment="Top"/>
+                            <Path x:ConnectionId='70' x:Name="figura" Data="M17.346573,0.5 C20.936424,0.49999934 24.441311,0.61192805 27.826385,0.82506293 L29.154442,0.91937441 29.096825,1.2994069 29.059273,1.5470564 C28.808918,3.1585428 28.543915,4.7617859 28.243839,6.3383393 28.235115,6.3841648 28.225964,6.4338459 28.216396,6.487277 28.206829,6.540709 28.196846,6.5978908 28.186466,6.658719 28.17609,6.7195463 28.165314,6.7840194 28.154156,6.8520321 28.143002,6.9200453 28.131462,6.991599 28.119564,7.0665888 28.107662,7.1415772 28.095398,7.2200012 28.082787,7.3017554 28.070179,7.3835096 28.05722,7.468594 28.043934,7.5569033 28.030647,7.6452131 28.017033,7.7367477 28.003101,7.8314022 27.989174,7.9260563 27.97493,8.0238308 27.960396,8.1246199 27.945854,8.2254099 27.931023,8.3292136 27.915909,8.4359278 27.900795,8.5426421 27.885406,8.652266 27.869751,8.7646946 27.838444,8.989551 27.806087,9.2256274 27.77282,9.4720826 27.739548,9.7185358 27.705368,9.975368 27.670406,10.241737 27.635445,10.508107 27.599709,10.784014 27.563324,11.068619 27.526943,11.353222 27.489918,11.646522 27.452389,11.947679 27.414856,12.248836 27.376816,12.557848 27.338402,12.873877 27.299988,13.189905 27.261204,13.512947 27.222179,13.842165 27.183159,14.171383 27.143898,14.506776 27.104534,14.847503 27.065174,15.188229 27.025707,15.53429 26.986275,15.884844 26.946846,16.235396 26.907444,16.590443 26.868214,16.949143 26.828983,17.307843 26.789921,17.670193 26.75116,18.035359 26.712402,18.400521 26.673943,18.768496 26.635925,19.138443 L24.946571,31.33943 25.026226,39.82463 19.394146,34.938957 C17.961424,34.334544 15.727527,33.764642 13.943215,33.959547 13.065855,34.055383 11.438646,34.615356 9.496836,36.009805 8.3770298,36.813959 7.1529866,38.169808 5.9067967,39.16922 L5.477066,32.076247 5.3090744,29.388407 3.1874504,17.203576 C2.5761299,11.280276 1.435009,6.2384509 1.1545067,4.7710041 1.0037231,3.9821755 0.85195541,3.185091 0.69786835,2.3822553 L0.5,1.3633525 1.8833618,1.2193266 C6.7681847,0.75183833 11.961796,0.49999851 17.346573,0.5 z" Height="29" Stroke="#FFA1D0CE" Stretch="Fill" Width="30" Fill="#FFA1D0CE" HorizontalAlignment="Center" Canvas.Left="185.725" Canvas.Top="116.522" VerticalAlignment="Top"/>
+                            <Path Data="M35.562933,-7.5687956 C37.25375,-7.1904573 41.065329,-6.2831764 41.726746,-5.8986163 44.618584,-4.2172485 45.175809,-4.0980959 49.228351,-1.0309833 53.187549,1.9654833 55.892192,6.6797802 57.898602,12.108638 60.218912,18.386834 61.605422,25.620666 62.918538,32.25847 63.20323,33.697587 64.361399,38.64208 64.981852,44.451031 L66.783769,56.388133 67.782194,66.403569 C67.276236,69.447199 65.354567,70.196959 64.534388,72.838641 63.620942,75.780727 62.381027,75.520852 63.214966,77.938256 65.85381,85.587677 63.649378,90.326164 62.911101,93.691182 62.733569,94.500363 57.473515,108.72892 56.755684,107.86867 L49.542536,106.53968 37.802942,101.70267 C33.350675,99.39804 31.184681,97.215917 28.700653,95.250509 28.078924,94.758585 20.269118,88.587297 13.299994,79.019492 7.6987316,71.329604 2.3558052,61.731358 0.77356112,51.392754 -0.084611791,45.785332 -0.97603377,39.28725 -0.58780651,33.149672 -0.19084495,26.874011 0.2576014,21.711576 1.9437179,16.531297 5.3877233,5.95023 9.2042286,-0.45252731 12.912836,-4.5974224 13.426128,-5.1710992 18.886682,-7.5716631 21.379155,-7.7841323 24.057511,-8.0124471 28.913652,-9.0566424 35.562933,-7.5687956 z" Height="116" Stroke="Black" Stretch="Fill" Width="67"  Fill="White" HorizontalAlignment="Center" Canvas.Left="127.725" Canvas.Top="70.522" VerticalAlignment="Top"/>
+                            <Path Data="M35.562933,-7.5687956 C37.25375,-7.1904573 41.065329,-6.2831764 41.726746,-5.8986163 44.618584,-4.2172485 45.175809,-4.0980959 49.228351,-1.0309833 53.187549,1.9654833 55.892192,6.6797802 57.898602,12.108638 60.218912,18.386834 61.605422,25.620666 62.918538,32.25847 63.20323,33.697587 64.361399,38.64208 64.981852,44.451031 L66.783769,56.388133 67.782194,66.403569 C67.276236,69.447199 65.354567,70.196959 64.534388,72.838641 63.620942,75.780727 62.381027,75.520852 63.214966,77.938256 65.85381,85.587677 63.649378,90.326164 62.911101,93.691182 62.733569,94.500363 57.473515,108.72892 56.755684,107.86867 L49.542536,106.53968 37.802942,101.70267 C33.350675,99.39804 31.184681,97.215917 28.700653,95.250509 28.078924,94.758585 20.269118,88.587297 13.299994,79.019492 7.6987316,71.329604 2.3558052,61.731358 0.77356112,51.392754 -0.084611791,45.785332 -0.97603377,39.28725 -0.58780651,33.149672 -0.19084495,26.874011 0.2576014,21.711576 1.9437179,16.531297 5.3877233,5.95023 9.2042286,-0.45252731 12.912836,-4.5974224 13.426128,-5.1710992 18.886682,-7.5716631 21.379155,-7.7841323 24.057511,-8.0124471 28.913652,-9.0566424 35.562933,-7.5687956 z" Height="120" Stroke="Black" Stretch="Fill" Width="68"  Fill="White" Canvas.Left="210.225" Canvas.Top="70.522" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <Path.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="-1"/>
+                                        <SkewTransform/>
+                                        <RotateTransform/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Path.RenderTransform>
+                            </Path>
+                            <Canvas x:ConnectionId='71' x:Name="ojo_izquierdo" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="-200.275" Canvas.Top="-33.478">
+                                <Ellipse x:ConnectionId='86' x:Name="ojo_azul_izq" Height="49" Stroke="Black" Width="25" Fill="#FF102A70" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="348" Canvas.Top="134"/>
+                                <Ellipse x:ConnectionId='87' x:Name="ojo_negro_izq" Height="26" Stroke="Black" Width="13" Fill="Black" HorizontalAlignment="Left" Canvas.Left="354" Canvas.Top="146" VerticalAlignment="Top"/>
+                                <Ellipse x:ConnectionId='88' x:Name="ojo_blanco_izq" Height="20" Stroke="Black" Width="13" Fill="#FFF4F4F4" HorizontalAlignment="Left" Canvas.Left="354" Canvas.Top="136" VerticalAlignment="Top"/>
+                            </Canvas>
+                            <Canvas x:ConnectionId='72' x:Name="ojo_derecho" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="-200.275" Canvas.Top="-33.478">
+                                <Ellipse x:ConnectionId='83' x:Name="ojo_azul_der" Stroke="Black" Fill="#FF102A70" Height="49" Width="25" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="434.133" Canvas.Top="133.867"/>
+                                <Ellipse x:ConnectionId='84' x:Name="ojo_negro_der" Height="26" Stroke="Black" Width="13" Fill="Black" HorizontalAlignment="Center" Canvas.Left="440.133" Canvas.Top="145.867" VerticalAlignment="Top"/>
+                                <Ellipse x:ConnectionId='85' x:Name="ojo_blanco_der" Height="20" Stroke="Black" Width="13" Fill="#FFF4F4F4" HorizontalAlignment="Center" Canvas.Left="440.133" Canvas.Top="135.867" VerticalAlignment="Top"/>
+                            </Canvas>
+                            <Canvas x:ConnectionId='73' x:Name="nariz" HorizontalAlignment="Center" Height="29" Canvas.Left="187.725" Canvas.Top="136.522" VerticalAlignment="Top">
+                                <Ellipse x:ConnectionId='74' x:Name="nariz_1" Height="13" Stroke="Black" Width="29" Fill="#FFFFD400" Canvas.Top="16" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                                <Ellipse x:ConnectionId='75' x:Name="nariz_2" Height="29" Stroke="#FF020206" Width="13" RenderTransformOrigin="0.5,0.5" Fill="#FFFFD400" Canvas.Left="2" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                    <Ellipse.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform ScaleX="1.067" ScaleY="0.937"/>
+                                            <SkewTransform AngleY="10.361000000000004"/>
+                                            <RotateTransform Angle="33.434"/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Ellipse.RenderTransform>
+                                </Ellipse>
+                                <Ellipse x:ConnectionId='76' x:Name="nariz_3" Height="29" Width="13" RenderTransformOrigin="0.5,0.5" Stroke="Black" Fill="#FFFFD400" Canvas.Left="13" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                    <Ellipse.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform ScaleX="1.07" ScaleY="0.935"/>
+                                            <SkewTransform AngleY="-10.420000000000002"/>
+                                            <RotateTransform Angle="-34.899"/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Ellipse.RenderTransform>
+                                </Ellipse>
+                                <Ellipse x:ConnectionId='77' x:Name="nariz_4" Height="10" Stroke="#FFFFD400" Width="26" Fill="#FFFFD400" Canvas.Left="1" Canvas.Top="18" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                                <Ellipse x:ConnectionId='78' x:Name="nariz_5" Height="12" Stroke="#FFFFD400" Width="11" Fill="#FFFFD400" Canvas.Left="6.5" Canvas.Top="4" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                                <Ellipse x:ConnectionId='79' x:Name="nariz_6" Height="1" Width="2" Stroke="#FFFFD400" Canvas.Left="11" Canvas.Top="4" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                                <Rectangle x:ConnectionId='80' x:Name="nariz_7" Height="1" Stroke="#FFFFD400" Width="3" Fill="#FFFFD400" Canvas.Left="12" Canvas.Top="15" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                                <Path x:ConnectionId='81' x:Name="nariz_8" Data="M5.6953076,-0.6468832 C7.0848203,-2.1224832 6.5248889,-1.6891746 8.7259769,-3.42851 L10.521601,-4.5278434 11.734226,-4.8218791 C12.004535,-4.8843827 13.843534,-5.0381836 13.952987,-5.0135872 14.440964,-4.903929 14.370718,-5.0918655 17.281453,-4.4543503 L18.797923,-3.6986812 20.680848,-2.4181352 C19.961725,-2.9982037 21.992283,-1.2116033 22.960359,-0.0083093488 25.021917,2.5541552 24.665302,2.0906134 26.015977,4.4318798 L26.48023,5.2589801 26.934477,6.6883559 C27.189771,7.5452178 27.126562,7.1453016 27.147987,7.9496421 27.234145,11.184197 20.679702,13.5 13.5,13.5 6.3202982,13.5 1.4051065,10.769674 1.4051065,7.455966 1.4051065,6.2133255 1.6813524,5.6927639 2.4463411,4.3585075 L2.4959967,4.3158194 2.1613283,4.9527591 C1.4147079,6.5569659 3.7241409,1.4464073 5.6953076,-0.6468832 z" Height="20" Stroke="Black" Stretch="Fill" Width="26" Canvas.Left="1" Canvas.Top="2" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                                <Ellipse x:ConnectionId='82' x:Name="nariz_9" Height="7" Stroke="#FFFFD400" Width="10" Fill="#FFFFD400" Canvas.Left="9" Canvas.Top="12" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                            </Canvas>
+                            <Ellipse Stroke="White" RenderTransformOrigin="0.5,0.5" Fill="White" HorizontalAlignment="Center" Height="23" Canvas.Left="170.725" Canvas.Top="162.522" VerticalAlignment="Top" Width="30">
+                                <Ellipse.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="8.686"/>
                                         <TranslateTransform/>
                                     </TransformGroup>
                                 </Ellipse.RenderTransform>
                             </Ellipse>
-                            <Ellipse x:ConnectionId='76' x:Name="nariz_3" Height="29" Width="13" RenderTransformOrigin="0.5,0.5" Stroke="Black" Fill="#FFFFD400" Canvas.Left="13" HorizontalAlignment="Left" VerticalAlignment="Top">
-                                <Ellipse.RenderTransform>
-                                    <TransformGroup>
-                                        <ScaleTransform ScaleX="1.07" ScaleY="0.935"/>
-                                        <SkewTransform AngleY="-10.420000000000002"/>
-                                        <RotateTransform Angle="-34.899"/>
-                                        <TranslateTransform/>
-                                    </TransformGroup>
-                                </Ellipse.RenderTransform>
-                            </Ellipse>
-                            <Ellipse x:ConnectionId='77' x:Name="nariz_4" Height="10" Stroke="#FFFFD400" Width="26" Fill="#FFFFD400" Canvas.Left="1" Canvas.Top="18" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                            <Ellipse x:ConnectionId='78' x:Name="nariz_5" Height="12" Stroke="#FFFFD400" Width="11" Fill="#FFFFD400" Canvas.Left="6.5" Canvas.Top="4" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                            <Ellipse x:ConnectionId='79' x:Name="nariz_6" Height="1" Width="2" Stroke="#FFFFD400" Canvas.Left="11" Canvas.Top="4" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                            <Rectangle x:ConnectionId='80' x:Name="nariz_7" Height="1" Stroke="#FFFFD400" Width="3" Fill="#FFFFD400" Canvas.Left="12" Canvas.Top="15" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                            <Path x:ConnectionId='81' x:Name="nariz_8" Data="M5.6953076,-0.6468832 C7.0848203,-2.1224832 6.5248889,-1.6891746 8.7259769,-3.42851 L10.521601,-4.5278434 11.734226,-4.8218791 C12.004535,-4.8843827 13.843534,-5.0381836 13.952987,-5.0135872 14.440964,-4.903929 14.370718,-5.0918655 17.281453,-4.4543503 L18.797923,-3.6986812 20.680848,-2.4181352 C19.961725,-2.9982037 21.992283,-1.2116033 22.960359,-0.0083093488 25.021917,2.5541552 24.665302,2.0906134 26.015977,4.4318798 L26.48023,5.2589801 26.934477,6.6883559 C27.189771,7.5452178 27.126562,7.1453016 27.147987,7.9496421 27.234145,11.184197 20.679702,13.5 13.5,13.5 6.3202982,13.5 1.4051065,10.769674 1.4051065,7.455966 1.4051065,6.2133255 1.6813524,5.6927639 2.4463411,4.3585075 L2.4959967,4.3158194 2.1613283,4.9527591 C1.4147079,6.5569659 3.7241409,1.4464073 5.6953076,-0.6468832 z" Height="20" Stroke="Black" Stretch="Fill" Width="26" Canvas.Left="1" Canvas.Top="2" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                            <Ellipse x:ConnectionId='82' x:Name="nariz_9" Height="7" Stroke="#FFFFD400" Width="10" Fill="#FFFFD400" Canvas.Left="9" Canvas.Top="12" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                        </Canvas>
-                        <Ellipse Stroke="White" RenderTransformOrigin="0.5,0.5" Fill="White" HorizontalAlignment="Center" Height="23" Canvas.Left="170.725" Canvas.Top="162.522" VerticalAlignment="Top" Width="30">
-                            <Ellipse.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform/>
-                                    <SkewTransform/>
-                                    <RotateTransform Angle="8.686"/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Ellipse.RenderTransform>
-                        </Ellipse>
-                        <Ellipse Stroke="White" RenderTransformOrigin="0.5,0.5" Fill="White" Height="23" Width="30" HorizontalAlignment="Center" Canvas.Left="202.725" Canvas.Top="162.522" VerticalAlignment="Top">
-                            <Ellipse.RenderTransform
+                            <Ellipse Stroke="White" RenderTransformOrigin="0.5,0.5" Fill="White" Height="23" Width="30" HorizontalAlignment="Center" Canvas.Left="202.725" Canvas.Top="162.522" VerticalAlignment="Top">
+                                <Ellipse.RenderTransform
 >
-                                <TransformGroup>
-                                    <ScaleTransform ScaleX="-1"/>
-                                    <SkewTransform/>
-                                    <RotateTransform Angle="-8.686"/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Ellipse.RenderTransform>
-                        </Ellipse>
-                    </Canvas>
-                    <Canvas x:ConnectionId='51' x:Name="pata_dererecha" Height="33" Width="67" HorizontalAlignment="Left" Canvas.Left="219" Canvas.Top="274" VerticalAlignment="Top">
-                        <Ellipse x:ConnectionId='66' x:Name="pata_der" Height="27" Stroke="Black" Width="67" RenderTransformOrigin="0.5,0.5" Fill="#FFE8BB68" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="3.467">
-                            <Ellipse.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform ScaleX="-1"/>
-                                    <SkewTransform/>
-                                    <RotateTransform Angle="27.579"/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Ellipse.RenderTransform>
-                        </Ellipse>
-                        <Path x:ConnectionId='67' x:Name="linea4_pata" Data="M121.06667,301.86667 L125.89128,295.44581 133.86667,290.93333" Fill="#FF090103" Height="13" Stroke="#FF090103" Stretch="Fill" Width="15" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" Canvas.Left="48" Canvas.Top="19.467" VerticalAlignment="Top">
-                            <Path.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform ScaleX="-1"/>
-                                    <SkewTransform/>
-                                    <RotateTransform/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Path.RenderTransform>
-                        </Path>
-                        <Path x:ConnectionId='68' x:Name="linea3_pata" Data="M121.06667,301.86667 L125.89128,295.44581 133.86667,290.93333" Fill="#FF090103" Height="13" Stroke="#FF090103" Stretch="Fill" Width="15" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" Canvas.Left="42" Canvas.Top="23.467" VerticalAlignment="Top">
-                            <Path.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform ScaleX="-1"/>
-                                    <SkewTransform/>
-                                    <RotateTransform/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Path.RenderTransform>
-                        </Path>
-                    </Canvas>
-                    <Canvas x:ConnectionId='52' x:Name="Pata_izq" Height="33" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
-                        <Ellipse x:ConnectionId='63' x:Name="pata_izq" Height="27" Stroke="Black" Width="67" RenderTransformOrigin="0.809,0.38" Fill="#FFE8BB68" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="311.333" Canvas.Top="308.4">
-                            <Ellipse.RenderTransform
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="-1"/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="-8.686"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                        </Canvas>
+                        <Canvas x:ConnectionId='51' x:Name="pata_dererecha" Height="33" Width="67" HorizontalAlignment="Left" Canvas.Left="219" Canvas.Top="274" VerticalAlignment="Top">
+                            <Ellipse x:ConnectionId='66' x:Name="pata_der" Height="27" Stroke="Black" Width="67" RenderTransformOrigin="0.5,0.5" Fill="#FFE8BB68" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="3.467">
+                                <Ellipse.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="-1"/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="27.579"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                            <Path x:ConnectionId='67' x:Name="linea4_pata" Data="M121.06667,301.86667 L125.89128,295.44581 133.86667,290.93333" Fill="#FF090103" Height="13" Stroke="#FF090103" Stretch="Fill" Width="15" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" Canvas.Left="48" Canvas.Top="19.467" VerticalAlignment="Top">
+                                <Path.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="-1"/>
+                                        <SkewTransform/>
+                                        <RotateTransform/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Path.RenderTransform>
+                            </Path>
+                            <Path x:ConnectionId='68' x:Name="linea3_pata" Data="M121.06667,301.86667 L125.89128,295.44581 133.86667,290.93333" Fill="#FF090103" Height="13" Stroke="#FF090103" Stretch="Fill" Width="15" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" Canvas.Left="42" Canvas.Top="23.467" VerticalAlignment="Top">
+                                <Path.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="-1"/>
+                                        <SkewTransform/>
+                                        <RotateTransform/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Canvas>
+                        <Canvas x:ConnectionId='52' x:Name="Pata_izq" Height="33" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
+                            <Ellipse x:ConnectionId='63' x:Name="pata_izq" Height="27" Stroke="Black" Width="67" RenderTransformOrigin="0.809,0.38" Fill="#FFE8BB68" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="311.333" Canvas.Top="308.4">
+                                <Ellipse.RenderTransform
                         >
-                                <TransformGroup
+                                    <TransformGroup
                         >
-                                    <ScaleTransform
+                                        <ScaleTransform
                         />
-                                    <SkewTransform
+                                        <SkewTransform
                         />
-                                    <RotateTransform
+                                        <RotateTransform
                                         Angle="-27.579"/>
-                                    <TranslateTransform
+                                        <TranslateTransform
                                         X="-3.854" Y="-9.215"/>
-                                </TransformGroup>
-                            </Ellipse.RenderTransform>
-                        </Ellipse>
-                        <Path x:ConnectionId='64' x:Name="linea2_pata" Data="M121.06667,301.86667 L125.89128,295.44581 133.86667,290.93333" Fill="#FF090103" Height="13" Stroke="#FF090103" Stretch="Fill" Width="15" HorizontalAlignment="Left" Canvas.Left="315.333" Canvas.Top="325.4" VerticalAlignment="Top"/>
-                        <Path x:ConnectionId='65' x:Name="linea1_pie" Data="M121.06667,301.86667 L125.89128,295.44581 133.86667,290.93333" Fill="#FF090103" Height="13" Stroke="#FF090103" Stretch="Fill" Width="15"  HorizontalAlignment="Left" Canvas.Left="321.333" Canvas.Top="328.4" VerticalAlignment="Top"/>
-                    </Canvas>
-                    <Canvas x:ConnectionId='53' x:Name="cuerpo_total" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
-                        <Ellipse Height="49" Stroke="Black" Width="31" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Canvas.Left="346.533" Canvas.Top="209.933" HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FFA1D0CE">
-                            <Ellipse.RenderTransform>
-                                <CompositeTransform Rotation="-55.239"/>
-                            </Ellipse.RenderTransform>
-                        </Ellipse>
-                        <Ellipse Height="49" Stroke="Black" Width="31" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Canvas.Left="427.533" Canvas.Top="207.433" Fill="#FFA1D0CE">
-                            <Ellipse.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform ScaleX="-1"/>
-                                    <SkewTransform/>
-                                    <RotateTransform Angle="55.23899999999999"/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Ellipse.RenderTransform>
-                        </Ellipse>
-                        <Path x:ConnectionId='60' x:Name="cuerpo" Data="M58.225164,-14.969965 C59.779082,-14.969965 61.151906,-13.540129 62.806817,-11.996029 64.898082,-10.044793 67.439197,-7.7811635 69.870071,-5.987272 72.920253,-3.7363553 74.76629,-2.4582704 76.318904,-1.3832141 76.668177,-1.1413715 77.015555,-0.98381834 77.357299,-0.78254805 77.850213,-0.49224586 78.385911,-0.24579583 78.85034,-0.074957192 82.600382,1.3044828 86.031122,2.008728 90.0646,1.9817736 91.279922,1.973652 92.548288,1.9640405 93.88023,1.6903766 94.589542,1.5446397 95.178309,1.2770957 95.881695,0.99562481 99.380293,-0.40439375 102.57285,-3.6164668 104.96526,-3.0657079 106.41837,-2.7311857 107.62147,1.2944474 108.55146,3.7945498 109.27042,5.7273141 110.48078,7.0588715 111.38141,8.2777598 112.48746,9.774662 113.30526,11.031423 114.35905,12.164792 114.96725,12.818921 115.9477,14.462628 116.48774,15.73734 116.90491,16.722023 117.47089,18.224583 117.73003,20.014334 118.20867,23.32009 118.19775,22.989779 117.65909,28.281682 116.99942,34.762311 115.51172,45.583889 108.50295,51.374761 107.30159,52.367362 107.7785,53.616168 107.99666,53.588734 108.29423,53.551314 107.73442,58.893346 107.23723,60.297743 105.95463,63.920609 101.98509,65.981603 94.736998,68.977598 87.336194,72.036717 80.4597,70.294041 76.409403,67.075502 73.875867,65.062246 66.384917,67.379919 75.093056,65.973101 L74.991799,65.872614 74.890541,65.973101 C71.463565,66.945109 72.764135,65.67164 68.207551,66.877484 67.170111,67.152029 56.065645,67.194888 50.540212,66.437808 41.832073,65.24464 62.157419,67.076236 54.66437,66.777382 L42.715993,65.482346 31.678933,70.264016 C38.159408,70.078811 42.47387,64.971987 40.184557,66.875282 35.72923,70.579363 28.566501,70.855117 20.994167,68.249381 13.421832,65.643645 8.9412794,60.19862 10.289076,56.281895 11.257803,53.466747 10.571116,50.178162 10.571116,50.178162 L10.083465,47.982403 C8.5339525,46.92181 0.49164395,37.521045 0.49164395,29.828467 0.49164395,25.603571 1.9400707,14.814427 5.0040517,11.180928 6.8108492,9.0382918 9.8555196,5.7963426 11.45,2.3778111 12.532442,0.057078346 12.591668,-2.1919987 13.055666,-4.2742175 13.317775,-5.4504479 18.190262,-1.0822167 22.008511,0.18285451 25.471404,1.3301886 28.539615,1.4730596 31.7461,1.1379414 34.650388,0.83440658 37.996289,-0.030430651 41.310708,-1.5513822 42.738692,-2.2066687 43.958057,-3.219023 45.330682,-4.1742139 46.05958,-4.6814437 46.727191,-5.2424031 47.452869,-5.8623718 51.488941,-9.3105085 53.897977,-14.969965 58.225164,-14.969965 z" Height="86" Stretch="Fill" Width="117" Stroke="#FF1A1A1D" Fill="#FFA1D0CE" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Left="343.23" Canvas.Top="227.414"/>
-                        <Ellipse x:ConnectionId='61' x:Name="circulo_izq" Stroke="Black" Fill="White" Height="19" Canvas.Left="363.667" Canvas.Top="246.733" Width="22"/>
-                        <Ellipse x:ConnectionId='62' x:Name="circulo_der" Stroke="Black" Fill="White" Height="19" Canvas.Left="415.667" Canvas.Top="246.733" Width="24"/>
-                    </Canvas>
-                    <Canvas x:ConnectionId='54' x:Name="Cuello_corona" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
-                        <Path x:ConnectionId='59' x:Name="cuello" Data="M14.183469,2.0064559 L14.245484,2.0734128 C25.734295,13.290371 45.503171,19.908573 66.162072,19.908573 85.190003,19.908573 104.49533,14.383623 116.04699,4.6465637 116.04699,4.6465637 120.27871,8.3071014 122.41823,10.94159 124.41605,13.401579 127.64691,21.203281 127.64691,23.886787 127.64691,25.625119 128.37814,21.902446 127.75297,23.500459 127.13489,25.080308 112.92655,15.005915 111.74011,16.440427 110.30888,18.170913 114.06428,29.827229 111.87407,31.333147 109.5837,32.907938 110.26526,36.669311 107.36395,38.260079 104.75984,39.68789 102.1302,41.720194 98.82718,42.731733 95.981419,43.603237 91.457209,43.247741 88.21742,42.825832 85.235449,42.437498 80.574005,40.360612 77.056937,37.433179 74.529803,35.329718 72.399479,33.984251 69.847676,31.889962 67.144598,29.67152 65.562881,26.396338 62.811455,26.396338 59.549628,26.396338 58.890753,28.229012 56.29317,31.480206 54.568111,33.639328 51.460106,35.831996 49.729028,37.161681 48.49555,38.109146 46.639612,39.427739 45.305336,39.992865 43.845856,40.61102 42.50416,41.091563 40.518621,41.66331 37.661606,42.486005 34.18512,42.706932 32.079324,42.594105 28.977133,42.427891 26.219046,41.037204 23.423209,39.760166 22.622643,39.394497 19.43338,37.300014 18.8709,36.515271 16.933645,33.812513 15.349695,29.553097 15.253924,25.31111 15.16406,21.330781 16.773896,18.770797 15.264861,17.756235 14.300955,17.108176 13.111281,18.114467 11.636948,18.852241 7.5679414,20.88842 2.361835,25.56822 1.6442091,23.679277 0.8178551,21.50414 -1.0505787,19.766924 0.53089342,17.694112 4.4642268,12.53875 6.2898607,7.4835887 14.125306,2.2939743 z" 
+                                    </TransformGroup>
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                            <Path x:ConnectionId='64' x:Name="linea2_pata" Data="M121.06667,301.86667 L125.89128,295.44581 133.86667,290.93333" Fill="#FF090103" Height="13" Stroke="#FF090103" Stretch="Fill" Width="15" HorizontalAlignment="Left" Canvas.Left="315.333" Canvas.Top="325.4" VerticalAlignment="Top"/>
+                            <Path x:ConnectionId='65' x:Name="linea1_pie" Data="M121.06667,301.86667 L125.89128,295.44581 133.86667,290.93333" Fill="#FF090103" Height="13" Stroke="#FF090103" Stretch="Fill" Width="15"  HorizontalAlignment="Left" Canvas.Left="321.333" Canvas.Top="328.4" VerticalAlignment="Top"/>
+                        </Canvas>
+                        <Canvas x:ConnectionId='53' x:Name="cuerpo_total" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
+                            <Ellipse Height="49" Stroke="Black" Width="31" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Canvas.Left="346.533" Canvas.Top="209.933" HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FFA1D0CE">
+                                <Ellipse.RenderTransform>
+                                    <CompositeTransform Rotation="-55.239"/>
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                            <Ellipse Height="49" Stroke="Black" Width="31" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Canvas.Left="427.533" Canvas.Top="207.433" Fill="#FFA1D0CE">
+                                <Ellipse.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="-1"/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="55.23899999999999"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                            <Path x:ConnectionId='60' x:Name="cuerpo" Data="M58.225164,-14.969965 C59.779082,-14.969965 61.151906,-13.540129 62.806817,-11.996029 64.898082,-10.044793 67.439197,-7.7811635 69.870071,-5.987272 72.920253,-3.7363553 74.76629,-2.4582704 76.318904,-1.3832141 76.668177,-1.1413715 77.015555,-0.98381834 77.357299,-0.78254805 77.850213,-0.49224586 78.385911,-0.24579583 78.85034,-0.074957192 82.600382,1.3044828 86.031122,2.008728 90.0646,1.9817736 91.279922,1.973652 92.548288,1.9640405 93.88023,1.6903766 94.589542,1.5446397 95.178309,1.2770957 95.881695,0.99562481 99.380293,-0.40439375 102.57285,-3.6164668 104.96526,-3.0657079 106.41837,-2.7311857 107.62147,1.2944474 108.55146,3.7945498 109.27042,5.7273141 110.48078,7.0588715 111.38141,8.2777598 112.48746,9.774662 113.30526,11.031423 114.35905,12.164792 114.96725,12.818921 115.9477,14.462628 116.48774,15.73734 116.90491,16.722023 117.47089,18.224583 117.73003,20.014334 118.20867,23.32009 118.19775,22.989779 117.65909,28.281682 116.99942,34.762311 115.51172,45.583889 108.50295,51.374761 107.30159,52.367362 107.7785,53.616168 107.99666,53.588734 108.29423,53.551314 107.73442,58.893346 107.23723,60.297743 105.95463,63.920609 101.98509,65.981603 94.736998,68.977598 87.336194,72.036717 80.4597,70.294041 76.409403,67.075502 73.875867,65.062246 66.384917,67.379919 75.093056,65.973101 L74.991799,65.872614 74.890541,65.973101 C71.463565,66.945109 72.764135,65.67164 68.207551,66.877484 67.170111,67.152029 56.065645,67.194888 50.540212,66.437808 41.832073,65.24464 62.157419,67.076236 54.66437,66.777382 L42.715993,65.482346 31.678933,70.264016 C38.159408,70.078811 42.47387,64.971987 40.184557,66.875282 35.72923,70.579363 28.566501,70.855117 20.994167,68.249381 13.421832,65.643645 8.9412794,60.19862 10.289076,56.281895 11.257803,53.466747 10.571116,50.178162 10.571116,50.178162 L10.083465,47.982403 C8.5339525,46.92181 0.49164395,37.521045 0.49164395,29.828467 0.49164395,25.603571 1.9400707,14.814427 5.0040517,11.180928 6.8108492,9.0382918 9.8555196,5.7963426 11.45,2.3778111 12.532442,0.057078346 12.591668,-2.1919987 13.055666,-4.2742175 13.317775,-5.4504479 18.190262,-1.0822167 22.008511,0.18285451 25.471404,1.3301886 28.539615,1.4730596 31.7461,1.1379414 34.650388,0.83440658 37.996289,-0.030430651 41.310708,-1.5513822 42.738692,-2.2066687 43.958057,-3.219023 45.330682,-4.1742139 46.05958,-4.6814437 46.727191,-5.2424031 47.452869,-5.8623718 51.488941,-9.3105085 53.897977,-14.969965 58.225164,-14.969965 z" Height="86" Stretch="Fill" Width="117" Stroke="#FF1A1A1D" Fill="#FFA1D0CE" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Left="343.23" Canvas.Top="227.414"/>
+                            <Ellipse x:ConnectionId='61' x:Name="circulo_izq" Stroke="Black" Fill="White" Height="19" Canvas.Left="363.667" Canvas.Top="246.733" Width="22"/>
+                            <Ellipse x:ConnectionId='62' x:Name="circulo_der" Stroke="Black" Fill="White" Height="19" Canvas.Left="415.667" Canvas.Top="246.733" Width="24"/>
+                        </Canvas>
+                        <Canvas x:ConnectionId='54' x:Name="Cuello_corona" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
+                            <Path x:ConnectionId='59' x:Name="cuello" Data="M14.183469,2.0064559 L14.245484,2.0734128 C25.734295,13.290371 45.503171,19.908573 66.162072,19.908573 85.190003,19.908573 104.49533,14.383623 116.04699,4.6465637 116.04699,4.6465637 120.27871,8.3071014 122.41823,10.94159 124.41605,13.401579 127.64691,21.203281 127.64691,23.886787 127.64691,25.625119 128.37814,21.902446 127.75297,23.500459 127.13489,25.080308 112.92655,15.005915 111.74011,16.440427 110.30888,18.170913 114.06428,29.827229 111.87407,31.333147 109.5837,32.907938 110.26526,36.669311 107.36395,38.260079 104.75984,39.68789 102.1302,41.720194 98.82718,42.731733 95.981419,43.603237 91.457209,43.247741 88.21742,42.825832 85.235449,42.437498 80.574005,40.360612 77.056937,37.433179 74.529803,35.329718 72.399479,33.984251 69.847676,31.889962 67.144598,29.67152 65.562881,26.396338 62.811455,26.396338 59.549628,26.396338 58.890753,28.229012 56.29317,31.480206 54.568111,33.639328 51.460106,35.831996 49.729028,37.161681 48.49555,38.109146 46.639612,39.427739 45.305336,39.992865 43.845856,40.61102 42.50416,41.091563 40.518621,41.66331 37.661606,42.486005 34.18512,42.706932 32.079324,42.594105 28.977133,42.427891 26.219046,41.037204 23.423209,39.760166 22.622643,39.394497 19.43338,37.300014 18.8709,36.515271 16.933645,33.812513 15.349695,29.553097 15.253924,25.31111 15.16406,21.330781 16.773896,18.770797 15.264861,17.756235 14.300955,17.108176 13.111281,18.114467 11.636948,18.852241 7.5679414,20.88842 2.361835,25.56822 1.6442091,23.679277 0.8178551,21.50414 -1.0505787,19.766924 0.53089342,17.694112 4.4642268,12.53875 6.2898607,7.4835887 14.125306,2.2939743 z" 
                             Height="42" Stroke="Black" Stretch="Fill" Width="129" Fill="#FF3988CB" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Left="337.467" Canvas.Top="203.2"/>
+                        </Canvas>
+                        <Canvas x:ConnectionId='55' x:Name="Brazo_izquierdo" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
+                            <Path x:ConnectionId='58' x:Name="Brazo_izq" Stroke="Black" Width="76" Data="M50.136122,-0.7973552 C56.821791,-0.79448798 59.198478,-1.0541573 60.775333,-0.6375256 61.102082,-0.55119288 62.248456,-0.37309183 63.598564,-0.3381757 65.572459,-0.28712734 67.621222,-0.042536943 67.636851,0.065127879 L71.892869,0.85518144 72.001514,0.72153023 C77.477886,1.780288 74.744482,4.4260623 71.250901,8.1939839 70.115031,9.41905 69.317974,12.063601 68.827425,13.814287 68.193047,16.07827 67.607028,16.810003 67.607028,17.722251 67.607028,21.813528 60.649299,26.439012 49.809415,28.35112 48.344283,28.609563 46.549091,28.620632 44.960658,28.780274 41.64371,29.113636 36.60958,28.230741 32.982278,28.114791 24.097214,27.830774 20.833542,26.657359 15.617697,25.789052 7.0724652,24.366486 1.3848862,22.648968 1.3848862,19.047963 1.3848862,16.795907 4.5580135,14.513445 8.2167236,12.344943 10.740604,10.84905 12.577609,9.3941407 16.406051,8.1785659 L16.196133,8.4733539 14.290734,9.1550172 C14.28123,9.1172766 16.308858,8.2551314 16.338559,8.2301145 17.368247,7.3628169 18.909502,6.5818209 21.728741,5.4875313 25.772308,3.918017 31.509634,0.71540339 38.942027,-0.16493598 43.278216,-0.67854158 46.634108,-0.79885676 50.136122,-0.7973552 z" Height="29" RenderTransformOrigin="0.84,0.319" Stretch="Fill" Fill="#FFA1D0CE" Canvas.Left="294.333" Canvas.Top="236.401" UseLayoutRounding="False">
+                                <Path.RenderTransform>
+                                    <CompositeTransform Rotation="-37.082" TranslateX="-10.214" TranslateY="-15.686"/>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Canvas>
+                        <Canvas x:ConnectionId='56' x:Name="brazo_derecho" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
+                            <Path x:ConnectionId='57' x:Name="brazo_der" Stroke="Black" Width="76" Data="M50.136122,-0.7973552 C56.821791,-0.79448798 59.198478,-1.0541573 60.775333,-0.6375256 61.102082,-0.55119288 62.248456,-0.37309183 63.598564,-0.3381757 65.572459,-0.28712734 67.621222,-0.042536943 67.636851,0.065127879 L71.892869,0.85518144 72.001514,0.72153023 C77.477886,1.780288 74.744482,4.4260623 71.250901,8.1939839 70.115031,9.41905 69.317974,12.063601 68.827425,13.814287 68.193047,16.07827 67.607028,16.810003 67.607028,17.722251 67.607028,21.813528 60.649299,26.439012 49.809415,28.35112 48.344283,28.609563 46.549091,28.620632 44.960658,28.780274 41.64371,29.113636 36.60958,28.230741 32.982278,28.114791 24.097214,27.830774 20.833542,26.657359 15.617697,25.789052 7.0724652,24.366486 1.3848862,22.648968 1.3848862,19.047963 1.3848862,16.795907 4.5580135,14.513445 8.2167236,12.344943 10.740604,10.84905 12.577609,9.3941407 16.406051,8.1785659 L16.196133,8.4733539 14.290734,9.1550172 C14.28123,9.1172766 16.308858,8.2551314 16.338559,8.2301145 17.368247,7.3628169 18.909502,6.5818209 21.728741,5.4875313 25.772308,3.918017 31.509634,0.71540339 38.942027,-0.16493598 43.278216,-0.67854158 46.634108,-0.79885676 50.136122,-0.7973552 z" Height="29" RenderTransformOrigin="0.827,0.335" Stretch="Fill" Fill="#FFA1D0CE" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Left="435.333" Canvas.Top="236.267">
+                                <Path.RenderTransform>
+                                    <CompositeTransform Rotation="34.527" ScaleX="-1" TranslateX="-41.515" TranslateY="-15.206"/>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Canvas>
                     </Canvas>
-                    <Canvas x:ConnectionId='55' x:Name="Brazo_izquierdo" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
-                        <Path x:ConnectionId='58' x:Name="Brazo_izq" Stroke="Black" Width="76" Data="M50.136122,-0.7973552 C56.821791,-0.79448798 59.198478,-1.0541573 60.775333,-0.6375256 61.102082,-0.55119288 62.248456,-0.37309183 63.598564,-0.3381757 65.572459,-0.28712734 67.621222,-0.042536943 67.636851,0.065127879 L71.892869,0.85518144 72.001514,0.72153023 C77.477886,1.780288 74.744482,4.4260623 71.250901,8.1939839 70.115031,9.41905 69.317974,12.063601 68.827425,13.814287 68.193047,16.07827 67.607028,16.810003 67.607028,17.722251 67.607028,21.813528 60.649299,26.439012 49.809415,28.35112 48.344283,28.609563 46.549091,28.620632 44.960658,28.780274 41.64371,29.113636 36.60958,28.230741 32.982278,28.114791 24.097214,27.830774 20.833542,26.657359 15.617697,25.789052 7.0724652,24.366486 1.3848862,22.648968 1.3848862,19.047963 1.3848862,16.795907 4.5580135,14.513445 8.2167236,12.344943 10.740604,10.84905 12.577609,9.3941407 16.406051,8.1785659 L16.196133,8.4733539 14.290734,9.1550172 C14.28123,9.1172766 16.308858,8.2551314 16.338559,8.2301145 17.368247,7.3628169 18.909502,6.5818209 21.728741,5.4875313 25.772308,3.918017 31.509634,0.71540339 38.942027,-0.16493598 43.278216,-0.67854158 46.634108,-0.79885676 50.136122,-0.7973552 z" Height="29" RenderTransformOrigin="0.84,0.319" Stretch="Fill" Fill="#FFA1D0CE" Canvas.Left="294.333" Canvas.Top="236.401" UseLayoutRounding="False">
-                            <Path.RenderTransform>
-                                <CompositeTransform Rotation="-37.082" TranslateX="-10.214" TranslateY="-15.686"/>
-                            </Path.RenderTransform>
-                        </Path>
-                    </Canvas>
-                    <Canvas x:ConnectionId='56' x:Name="brazo_derecho" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-200" Canvas.Top="-34">
-                        <Path x:ConnectionId='57' x:Name="brazo_der" Stroke="Black" Width="76" Data="M50.136122,-0.7973552 C56.821791,-0.79448798 59.198478,-1.0541573 60.775333,-0.6375256 61.102082,-0.55119288 62.248456,-0.37309183 63.598564,-0.3381757 65.572459,-0.28712734 67.621222,-0.042536943 67.636851,0.065127879 L71.892869,0.85518144 72.001514,0.72153023 C77.477886,1.780288 74.744482,4.4260623 71.250901,8.1939839 70.115031,9.41905 69.317974,12.063601 68.827425,13.814287 68.193047,16.07827 67.607028,16.810003 67.607028,17.722251 67.607028,21.813528 60.649299,26.439012 49.809415,28.35112 48.344283,28.609563 46.549091,28.620632 44.960658,28.780274 41.64371,29.113636 36.60958,28.230741 32.982278,28.114791 24.097214,27.830774 20.833542,26.657359 15.617697,25.789052 7.0724652,24.366486 1.3848862,22.648968 1.3848862,19.047963 1.3848862,16.795907 4.5580135,14.513445 8.2167236,12.344943 10.740604,10.84905 12.577609,9.3941407 16.406051,8.1785659 L16.196133,8.4733539 14.290734,9.1550172 C14.28123,9.1172766 16.308858,8.2551314 16.338559,8.2301145 17.368247,7.3628169 18.909502,6.5818209 21.728741,5.4875313 25.772308,3.918017 31.509634,0.71540339 38.942027,-0.16493598 43.278216,-0.67854158 46.634108,-0.79885676 50.136122,-0.7973552 z" Height="29" RenderTransformOrigin="0.827,0.335" Stretch="Fill" Fill="#FFA1D0CE" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Left="435.333" Canvas.Top="236.267">
-                            <Path.RenderTransform>
-                                <CompositeTransform Rotation="34.527" ScaleX="-1" TranslateX="-41.515" TranslateY="-15.206"/>
-                            </Path.RenderTransform>
-                        </Path>
-                    </Canvas>
-                </Canvas>
-                <Image x:ConnectionId='20' x:Name="image" HorizontalAlignment="Left" Height="60" Margin="624,456,0,0" VerticalAlignment="Top" Width="27" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Source="/Assets/pokemons/PiplupMLTN/rayo_burbuja_sin_fondo.png" Stretch="Fill" Opacity="0">
-                    <Image.FocusVisualPrimaryBrush>
-                        <ImageBrush/>
-                    </Image.FocusVisualPrimaryBrush>
-                    <Image.RenderTransform>
-                        <CompositeTransform Rotation="-81.318" ScaleX="-1"/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='21' x:Name="imagen_herida1" HorizontalAlignment="Left" Height="73" Margin="566,518,0,0" VerticalAlignment="Top" Width="64" Source="/Assets/pokemons/PiplupMLTN/herida1.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='22' x:Name="imagen_herida2" HorizontalAlignment="Left" Height="73" Margin="610,489,0,0" VerticalAlignment="Top" Width="64" Source="/Assets/pokemons/PiplupMLTN/herida1.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
-                    <Image.RenderTransform>
-                        <CompositeTransform Rotation="-63.889"/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='23' x:Name="imagen_herida3" HorizontalAlignment="Left" Height="73" Margin="578,359,0,0" VerticalAlignment="Top" Width="64" Source="/Assets/pokemons/PiplupMLTN/herida1.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='24' x:Name="imagen_lloro1" HorizontalAlignment="Left" Height="32" Margin="641,450,0,0" VerticalAlignment="Top" Width="32" Source="/Assets/pokemons/PiplupMLTN/lloro.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='25' x:Name="imagen_lloro2" HorizontalAlignment="Left" Height="32" Margin="556,450,0,0" VerticalAlignment="Top" Width="32" Source="/Assets/pokemons/PiplupMLTN/lloro.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='26' x:Name="imagen_hielo1" HorizontalAlignment="Left" Height="45" Margin="721,441,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/cubito_de_hielo_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='27' x:Name="imagen_hielo2" HorizontalAlignment="Left" Height="45" Margin="447,441,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/cubito_de_hielo_sin_fondo.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
-                    <Image.RenderTransform>
-                        <CompositeTransform ScaleX="-1"/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='28' x:Name="imagen_escudo" HorizontalAlignment="Left" Height="45" Margin="588,496,0,0" VerticalAlignment="Top" Width="55" Source="/Assets/pokemons/PiplupMLTN/escudo_de_hielo_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='29' x:Name="imagen_destello" HorizontalAlignment="Left" Height="38" Margin="695,448,0,0" VerticalAlignment="Top" Width="37" Source="/Assets/pokemons/PiplupMLTN/destello_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='30' x:Name="Imagen_carambano" HorizontalAlignment="Left" Height="100" Margin="300,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='31' x:Name="Imagen_carambano_Copiar" HorizontalAlignment="Left" Height="100" Margin="469,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='32' x:Name="Imagen_carambano_Copiar1" HorizontalAlignment="Left" Height="100" Margin="573,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='33' x:Name="Imagen_carambano_Copiar2" HorizontalAlignment="Left" Height="100" Margin="665,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='34' x:Name="Imagen_carambano_Copiar3" HorizontalAlignment="Left" Height="100" Margin="785,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='35' x:Name="Imagen_carambano_Copiar4" HorizontalAlignment="Left" Height="100" Margin="909,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='36' x:Name="imagen_copo_de_nieve" HorizontalAlignment="Left" Height="154" Margin="856,386,0,0" VerticalAlignment="Top" Width="141" Source="/Assets/pokemons/PiplupMLTN/copo_de_nieve_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='37' x:Name="imagen_copo_de_nieve_Copiar" HorizontalAlignment="Left" Height="154" Margin="856,386,0,0" VerticalAlignment="Top" Width="141" Source="/Assets/pokemons/PiplupMLTN/copo_de_nieve_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='38' x:Name="imagen_ola" HorizontalAlignment="Left" Height="82" Margin="808,75,0,0" VerticalAlignment="Top" Width="145" Source="/Assets/pokemons/PiplupMLTN/ola.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='39' x:Name="imagen_tabla_surf" HorizontalAlignment="Left" Height="151" Margin="1240,400,0,0" VerticalAlignment="Top" Width="123" Source="/Assets/pokemons/PiplupMLTN/tabla_surf.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='40' x:Name="imagen_espiral" HorizontalAlignment="Left" Height="104" Margin="933,211,0,0" VerticalAlignment="Top" Width="112" Source="/Assets/pokemons/PiplupMLTN/espiral_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='41' x:Name="imagen_espiral_Copiar" HorizontalAlignment="Left" Height="104" Margin="933,211,0,0" VerticalAlignment="Top" Width="112" Source="/Assets/pokemons/PiplupMLTN/espiral_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='42' x:Name="imagen_alma" HorizontalAlignment="Left" Height="180" Margin="1098,191,0,0" VerticalAlignment="Top" Width="190" Source="/Assets/pokemons/PiplupMLTN/alma.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='43' x:Name="imagen_gota" HorizontalAlignment="Left" Height="39" Margin="507,376,0,0" VerticalAlignment="Top" Width="41" Source="/Assets/pokemons/PiplupMLTN/gota_sin_fondo.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='44' x:Name="imagen_bocadillo" HorizontalAlignment="Left" Height="100" Margin="664,328,0,0" VerticalAlignment="Top" Width="151" Source="/Assets/pokemons/PiplupMLTN/bocadillo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='45' x:Name="imagen_cruz1" HorizontalAlignment="Left" Height="73" Margin="573,207,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/pokemons/PiplupMLTN/cruz.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='46' x:Name="imagen_cruz2" HorizontalAlignment="Left" Height="73" Margin="481,206,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/pokemons/PiplupMLTN/cruz.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='47' x:Name="imagen_cruz3" HorizontalAlignment="Left" Height="73" Margin="673,206,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/pokemons/PiplupMLTN/cruz.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='48' x:Name="imagen_pocion" HorizontalAlignment="Left" Height="100" Margin="713,448,0,0" VerticalAlignment="Top" Width="85" Source="/Assets/pokemons/PiplupMLTN/pocion_roja_sin_fondo.png" Opacity="0.01" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:ConnectionId='49' x:Name="image1" Height="100" Width="100" Margin="560,475,703,265" Source="/Assets/pokemons/PiplupMLTN/bola_rayo_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform/>
-                    </Image.RenderTransform>
-                </Image>
-            </Grid>
+                    <Image x:ConnectionId='20' x:Name="image" HorizontalAlignment="Left" Height="60" Margin="624,456,0,0" VerticalAlignment="Top" Width="27" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Source="/Assets/pokemons/PiplupMLTN/rayo_burbuja_sin_fondo.png" Stretch="Fill" Opacity="0">
+                        <Image.FocusVisualPrimaryBrush>
+                            <ImageBrush/>
+                        </Image.FocusVisualPrimaryBrush>
+                        <Image.RenderTransform>
+                            <CompositeTransform Rotation="-81.318" ScaleX="-1"/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='21' x:Name="imagen_herida1" HorizontalAlignment="Left" Height="73" Margin="566,518,0,0" VerticalAlignment="Top" Width="64" Source="/Assets/pokemons/PiplupMLTN/herida1.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='22' x:Name="imagen_herida2" HorizontalAlignment="Left" Height="73" Margin="610,489,0,0" VerticalAlignment="Top" Width="64" Source="/Assets/pokemons/PiplupMLTN/herida1.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Image.RenderTransform>
+                            <CompositeTransform Rotation="-63.889"/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='23' x:Name="imagen_herida3" HorizontalAlignment="Left" Height="73" Margin="578,359,0,0" VerticalAlignment="Top" Width="64" Source="/Assets/pokemons/PiplupMLTN/herida1.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='24' x:Name="imagen_lloro1" HorizontalAlignment="Left" Height="32" Margin="641,450,0,0" VerticalAlignment="Top" Width="32" Source="/Assets/pokemons/PiplupMLTN/lloro.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='25' x:Name="imagen_lloro2" HorizontalAlignment="Left" Height="32" Margin="556,450,0,0" VerticalAlignment="Top" Width="32" Source="/Assets/pokemons/PiplupMLTN/lloro.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='26' x:Name="imagen_hielo1" HorizontalAlignment="Left" Height="45" Margin="721,441,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/cubito_de_hielo_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='27' x:Name="imagen_hielo2" HorizontalAlignment="Left" Height="45" Margin="447,441,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/cubito_de_hielo_sin_fondo.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Image.RenderTransform>
+                            <CompositeTransform ScaleX="-1"/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='28' x:Name="imagen_escudo" HorizontalAlignment="Left" Height="45" Margin="588,496,0,0" VerticalAlignment="Top" Width="55" Source="/Assets/pokemons/PiplupMLTN/escudo_de_hielo_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='29' x:Name="imagen_destello" HorizontalAlignment="Left" Height="38" Margin="695,448,0,0" VerticalAlignment="Top" Width="37" Source="/Assets/pokemons/PiplupMLTN/destello_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='30' x:Name="Imagen_carambano" HorizontalAlignment="Left" Height="100" Margin="300,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='31' x:Name="Imagen_carambano_Copiar" HorizontalAlignment="Left" Height="100" Margin="469,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='32' x:Name="Imagen_carambano_Copiar1" HorizontalAlignment="Left" Height="100" Margin="573,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='33' x:Name="Imagen_carambano_Copiar2" HorizontalAlignment="Left" Height="100" Margin="665,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='34' x:Name="Imagen_carambano_Copiar3" HorizontalAlignment="Left" Height="100" Margin="785,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='35' x:Name="Imagen_carambano_Copiar4" HorizontalAlignment="Left" Height="100" Margin="909,112,0,0" VerticalAlignment="Top" Width="48" Source="/Assets/pokemons/PiplupMLTN/carambano.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='36' x:Name="imagen_copo_de_nieve" HorizontalAlignment="Left" Height="154" Margin="856,386,0,0" VerticalAlignment="Top" Width="141" Source="/Assets/pokemons/PiplupMLTN/copo_de_nieve_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='37' x:Name="imagen_copo_de_nieve_Copiar" HorizontalAlignment="Left" Height="154" Margin="856,386,0,0" VerticalAlignment="Top" Width="141" Source="/Assets/pokemons/PiplupMLTN/copo_de_nieve_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='38' x:Name="imagen_ola" HorizontalAlignment="Left" Height="82" Margin="808,75,0,0" VerticalAlignment="Top" Width="145" Source="/Assets/pokemons/PiplupMLTN/ola.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='39' x:Name="imagen_tabla_surf" HorizontalAlignment="Left" Height="151" Margin="1240,400,0,0" VerticalAlignment="Top" Width="123" Source="/Assets/pokemons/PiplupMLTN/tabla_surf.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='40' x:Name="imagen_espiral" HorizontalAlignment="Left" Height="104" Margin="933,211,0,0" VerticalAlignment="Top" Width="112" Source="/Assets/pokemons/PiplupMLTN/espiral_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='41' x:Name="imagen_espiral_Copiar" HorizontalAlignment="Left" Height="104" Margin="933,211,0,0" VerticalAlignment="Top" Width="112" Source="/Assets/pokemons/PiplupMLTN/espiral_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='42' x:Name="imagen_alma" HorizontalAlignment="Left" Height="180" Margin="1098,191,0,0" VerticalAlignment="Top" Width="190" Source="/Assets/pokemons/PiplupMLTN/alma.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='43' x:Name="imagen_gota" HorizontalAlignment="Left" Height="39" Margin="507,376,0,0" VerticalAlignment="Top" Width="41" Source="/Assets/pokemons/PiplupMLTN/gota_sin_fondo.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='44' x:Name="imagen_bocadillo" HorizontalAlignment="Left" Height="100" Margin="664,328,0,0" VerticalAlignment="Top" Width="151" Source="/Assets/pokemons/PiplupMLTN/bocadillo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='45' x:Name="imagen_cruz1" HorizontalAlignment="Left" Height="73" Margin="573,207,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/pokemons/PiplupMLTN/cruz.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='46' x:Name="imagen_cruz2" HorizontalAlignment="Left" Height="73" Margin="481,206,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/pokemons/PiplupMLTN/cruz.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='47' x:Name="imagen_cruz3" HorizontalAlignment="Left" Height="73" Margin="673,206,0,0" VerticalAlignment="Top" Width="100" Source="/Assets/pokemons/PiplupMLTN/cruz.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='48' x:Name="imagen_pocion" HorizontalAlignment="Left" Height="100" Margin="713,448,0,0" VerticalAlignment="Top" Width="85" Source="/Assets/pokemons/PiplupMLTN/pocion_roja_sin_fondo.png" Opacity="0.01" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image x:ConnectionId='49' x:Name="image1" Height="100" Width="100" Margin="560,475,703,265" Source="/Assets/pokemons/PiplupMLTN/bola_rayo_sin_fondo.png" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                </Grid>
+            </Viewbox>
             <TextBlock x:ConnectionId='18' x:Name="txtNombre" Grid.Column="1" HorizontalAlignment="Left" Margin="545,752,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Piplup" VerticalAlignment="Top" Height="62" Width="132" FontSize="40"/>
 
         </Grid>

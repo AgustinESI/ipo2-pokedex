@@ -7,15 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:ConnectionId='2' x:Name="gsepectabattle">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Button x:ConnectionId='3' x:Name="onevsone" Content="1 vs 1"  FontFamily="Berlin Sans FB" Margin="0,299,0,0" VerticalAlignment="Top" Height="392" Width="596" HorizontalAlignment="Center" FontSize="120" Foreground="Black"                       />
-        <Button x:ConnectionId='4' x:Name="onevsia" Content="1 vs IA"  FontFamily="Berlin Sans FB" Margin="0,299,0,0" VerticalAlignment="Top" Height="392" Width="596" HorizontalAlignment="Center" FontSize="120" Foreground="Black" Grid.Column="1"                      />
+    <Viewbox>
+
+        <Grid x:ConnectionId='2' x:Name="gsepectabattle" Height="1000" Width="1500">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='3' x:Name="onevsone" Content="1 vs 1"  FontFamily="Berlin Sans FB" Margin="0,299,0,0" VerticalAlignment="Top" Height="392" Width="596" HorizontalAlignment="Center" FontSize="120" Foreground="Black"                       />
+            <Button x:ConnectionId='4' x:Name="onevsia" Content="1 vs IA"  FontFamily="Berlin Sans FB" Margin="0,299,0,0" VerticalAlignment="Top" Height="392" Width="596" HorizontalAlignment="Center" FontSize="120" Foreground="Black" Grid.Column="1"                      />
 
 
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Page>
 

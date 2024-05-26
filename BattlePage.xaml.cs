@@ -26,9 +26,13 @@ namespace ipo2_pokedex
 
         public int turn = 1;
 
+        private bool isVoiceReaderActive = false;
+        private VoiceReader voiceReader;
+
         public BattlePage()
         {
             this.InitializeComponent();
+            voiceReader = new VoiceReader();
 
 
 
@@ -325,6 +329,8 @@ namespace ipo2_pokedex
                     turn = 0;
                     this.disableAllButtons();
                     endGame("El ganador es " + selectedPokemon1.name + "!");
+                    string texto = "El ganador es" + selectedPokemon1.name;
+                    voiceReader.LeerTexto(texto);
                 }
                 else
                 {
@@ -371,6 +377,8 @@ namespace ipo2_pokedex
                     turn = 0;
                     this.disableAllButtons();
                     endGame("El ganador es " + selectedPokemon2.name + "!");
+                    string texto = "El ganador es" + selectedPokemon2.name;
+                    voiceReader.LeerTexto(texto);
                 }
                 else
                 {
@@ -415,6 +423,8 @@ namespace ipo2_pokedex
                     turn = 0;
                     this.disableAllButtons();
                     endGame("El ganador es " + selectedPokemon1.name + "!");
+                    string texto = "El ganador es" + selectedPokemon1.name;
+                    voiceReader.LeerTexto(texto);
                 }
                 else
                 {
@@ -465,6 +475,8 @@ namespace ipo2_pokedex
                     turn = 0;
                     this.disableAllButtons();
                     endGame("El ganador es " + selectedPokemon2.name + "!");
+                    string texto = "El ganador es" + selectedPokemon2.name;
+                    voiceReader.LeerTexto(texto);
                 }
                 else
                 {
@@ -486,10 +498,14 @@ namespace ipo2_pokedex
                 this.message.Text = this.selectedPokemon1.name + " huyo correctamente";
                 this.disableAllButtons();
                 endGame(this.selectedPokemon1.name + " huyo correctamente, Empate");
+                string texto = selectedPokemon1.name + "ha huido. Empate";
+                voiceReader.LeerTexto(texto);
             }
             else
             {
                 this.message.Text = this.selectedPokemon1.name + " no pudo escapar";
+                string texto = selectedPokemon1.name + "no ha podido escapar";
+                voiceReader.LeerTexto(texto);
                 if (turn == 1)
                 {
                     turn = 2;
@@ -519,10 +535,14 @@ namespace ipo2_pokedex
                 this.message.Text = this.selectedPokemon2.name + " huyo correctamente";
                 this.disableAllButtons();
                 endGame(this.selectedPokemon2.name + " huyo correctamente, Empate");
+                string texto = selectedPokemon1.name + "ha huido. Empate";
+                voiceReader.LeerTexto(texto);
             }
             else
             {
                 this.message.Text = this.selectedPokemon2.name + " no pudo escapar";
+                string texto = selectedPokemon1.name + "no ha podido escapar";
+                voiceReader.LeerTexto(texto);
                 if (turn == 1)
                 {
                     turn = 2;
@@ -636,10 +656,14 @@ namespace ipo2_pokedex
             if (turn == 1)
             {
                 this.message.Text = this.selectedPokemon1.name + " ha utilizando el ataque " + btn.Content + ", turno de " + this.selectedPokemon2.name;
+                string texto = selectedPokemon1.name + "ha utilizado el" + btn.Content + ".Turno de" + selectedPokemon2.name;
+                voiceReader.LeerTexto(texto);
             }
             else
             {
                 this.message.Text = this.selectedPokemon2.name + " ha utilizando el ataque " + btn.Content + ", turno de " + this.selectedPokemon1.name;
+                string texto = selectedPokemon2.name + "ha utilizado el" + btn.Content + ".Turno de" + selectedPokemon1.name;
+                voiceReader.LeerTexto(texto);
             }
 
         }
@@ -649,10 +673,14 @@ namespace ipo2_pokedex
             if (turn == 1)
             {
                 this.message.Text = this.selectedPokemon1.name + " ha utilizando el ataque " + btn.Content + " y ha derrotado a " + this.selectedPokemon2.name;
+                string texto = selectedPokemon1.name + "ha utilizado el" + btn.Content + "y ha derrotado a " + selectedPokemon2.name;
+                voiceReader.LeerTexto(texto);
             }
             else
             {
                 this.message.Text = this.selectedPokemon2.name + " ha utilizando el ataque " + btn.Content + " y ha derrotado a " + this.selectedPokemon1.name;
+                string texto = selectedPokemon2.name + "ha utilizado el" + btn.Content + "y ha derrotado a" + selectedPokemon1.name;
+                voiceReader.LeerTexto(texto);
             }
 
         }

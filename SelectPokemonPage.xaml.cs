@@ -16,7 +16,8 @@ namespace ipo2_pokedex
     /// </summary>
     public sealed partial class SelectPokemonPage : Page
     {
-
+        private bool isVoiceReaderActive = false;
+        private VoiceReader voiceReader;
 
         List<Pokemon> Pokemons { get; set; }
         List<Pokemon> PokemonsAux1 { get; set; } = new List<Pokemon>();
@@ -31,6 +32,8 @@ namespace ipo2_pokedex
             this.InitializeComponent();
 
             this.Loaded += MainPage_Loaded;
+            voiceReader = new VoiceReader();
+
         }
 
         private async void MainPage_Loaded(object sender, RoutedEventArgs e)
@@ -77,6 +80,10 @@ namespace ipo2_pokedex
 
             Selection["p1"] = selectedPokemon;
 
+
+            string texto = selectedPokemon.name;
+            voiceReader.LeerTexto(texto);
+            
             this.gvPokemonsPlayer2.Visibility = Visibility.Visible;
 
             foreach (Pokemon pokemon in PokemonsAux1)
@@ -86,6 +93,7 @@ namespace ipo2_pokedex
                     this.PokemonsAux2.Add(pokemon);
                     TemplatePokemon template = new TemplatePokemon(pokemon);
                     this.gvPokemonsPlayer2.Items.Add(template);
+                   
                 }
             }
 
@@ -101,6 +109,9 @@ namespace ipo2_pokedex
             Selection["p2"] = selectedPokemon;
             Selection["option"] = this.option;
             Frame.Navigate(typeof(BattlePage), this);
+
+            string texto = selectedPokemon.name;
+            voiceReader.LeerTexto(texto);
 
             this.gvPokemonsPlayer1.IsItemClickEnabled = false;
 

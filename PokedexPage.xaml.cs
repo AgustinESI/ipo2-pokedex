@@ -20,12 +20,16 @@ namespace ipo2_pokedex
         List<Pokemon> Pokemons { get; set; }
         List<Pokemon> PokemonsAux { get; set; } = new List<Pokemon>();
         Boolean captured = false;
+        private bool isVoiceReaderActive = false;
+        private VoiceReader voiceReader;
 
         public PokedexPage()
         {
             this.InitializeComponent();
 
-            this.Loaded += MainPage_Loaded;           
+            this.Loaded += MainPage_Loaded;
+            voiceReader = new VoiceReader();
+
         }
 
         private async void MainPage_Loaded(object sender, RoutedEventArgs e)
@@ -112,7 +116,6 @@ namespace ipo2_pokedex
 
             Pokemon pokemon = PokemonsAux[this.gvPokemons.SelectedIndex];
             Frame.Navigate(typeof(PokemonDetailPage), pokemon);
-
         }
 
         private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
@@ -120,15 +123,26 @@ namespace ipo2_pokedex
             this.gvPokemons.Items.Clear();
             this.PokemonsAux.Clear();
 
-
+            var button = sender as Button;
+            /*if (button != null)
+            {
+                string texto = "Pokemons Capturados";
+                voiceReader.LeerTexto(texto);
+            }*/
 
             if (this.captured)
             {
                 foreach (Pokemon p in Pokemons)
                 {
+                    if (button != null)
+                    {
+                        string texto = "Pokemons  No Capturados";
+                        voiceReader.LeerTexto(texto);
+                    }
                     PokemonsAux.Add(p);
                     TemplatePokemon template = new TemplatePokemon(p);
                     this.gvPokemons.Items.Add(template);
+                    
                 }
                 captured = false;
             }
@@ -138,9 +152,15 @@ namespace ipo2_pokedex
                 {
                     if (p.captured)
                     {
+                        if (button != null)
+                        {
+                            string texto = "Pokemons Capturados";
+                            voiceReader.LeerTexto(texto);
+                        }
                         PokemonsAux.Add(p);
                         TemplatePokemon template = new TemplatePokemon(p);
                         this.gvPokemons.Items.Add(template);
+                        
                     }
                 }
                 captured = true;

@@ -23,22 +23,37 @@ namespace ipo2_pokedex
     public sealed partial class SelectBattlePage : Page
     {
         public int option = 0;
+        private bool isVoiceReaderActive = false;
+        private VoiceReader voiceReader;
 
         public SelectBattlePage()
         {
             this.InitializeComponent();
+            voiceReader = new VoiceReader();
         }
 
         private void onevsone_Click(object sender, RoutedEventArgs e)
         {
             this.option = 1;
             Frame.Navigate(typeof(SelectPokemonPage), this);
+            var button = sender as Button;
+            if (button != null)
+            {
+                string texto = "Uno Versus Uno";
+                voiceReader.LeerTexto(texto);
+            }
         }
 
         private void onevsia_Click(object sender, RoutedEventArgs e)
         {
             this.option = 2;
             Frame.Navigate(typeof(SelectPokemonPage), this);
+            var button = sender as Button;
+            if (button != null)
+            {
+                string texto = "Uno Versus IA";
+                voiceReader.LeerTexto(texto);
+            }
         }
     }
 }

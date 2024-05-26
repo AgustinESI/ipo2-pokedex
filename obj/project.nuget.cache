@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l1lFlNVPmiYRc+0F5SzGUWFrWxdUEAB2RKn81sIQhrbpqmu3h3qccN+Lh01bqjBUaUJZVUXxVx44sIdDffNyKw==",
+  "dgSpecHash": "9mwqkrV8DDQSr1zIBSnM8hBSB/9M9CkAeBSmiZ/iNPfUKTTl5JHnmqc4H+9s+BvvRIXlVGrl1brTbxIyr4cSZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Universidad\\CURSOS\\3º CURSO\\2º Cuatrimestre\\Interacción Persona-Ordenador 2 (IPO 2)\\Laboratorio\\2º Entrega\\ipo2-pokedex.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Source\\Repos\\ipo2-pokedex\\ipo2-pokedex.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",

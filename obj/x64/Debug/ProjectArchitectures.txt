@@ -1,1 +1,1 @@
-C:\Users\Usuario\Desktop\Universidad\CURSOS\3º CURSO\2º Cuatrimestre\Interacción Persona-Ordenador 2 (IPO 2)\Laboratorio\2º Entrega\ipo2-pokedex.csproj;x64
+C:\Users\Usuario\Source\Repos\ipo2-pokedex\ipo2-pokedex.csproj;x64

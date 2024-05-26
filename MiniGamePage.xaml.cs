@@ -23,10 +23,18 @@ namespace ipo2_pokedex
         private string UpgradePokemon ="";
         private int Lifes = 3;
         private int PokemonsToWin = 6;
+        private string p1nameAux;
+        private string p2nameAux;
+        private string p3nameAux;
+        private string p4nameAux;
+
+        private bool isVoiceReaderActive = false;
+        private VoiceReader voiceReader;
         public MiniGamePage()
         {
             this.InitializeComponent();
             this.Loaded += MainPage_Loaded;
+            voiceReader = new VoiceReader();
         }
 
         private async void MainPage_Loaded(object sender, RoutedEventArgs e)
@@ -89,6 +97,7 @@ namespace ipo2_pokedex
             this.p1description.Text = this.PokemonsSelected[0].description.Replace(this.PokemonsSelected[0].name, "****");
             this.p1description.Text = this.p1description.Text.Replace(this.PokemonsSelected[0].name.ToUpper(), "****");
             this.p1name.Text = "****";
+            p1nameAux = this.PokemonsSelected[0].name;
             this.p1types.Text = this.PokemonsSelected[0].type;
 
             this.p2.Source = new BitmapImage(getPokemonType(this.PokemonsSelected[1]));
@@ -96,6 +105,7 @@ namespace ipo2_pokedex
             this.p2description.Text = this.PokemonsSelected[1].description.Replace(this.PokemonsSelected[1].name, "****");
             this.p2description.Text = this.p2description.Text.Replace(this.PokemonsSelected[1].name.ToUpper(), "****");
             this.p2name.Text = "****";
+            p2nameAux = this.PokemonsSelected[1].name;
             this.p2types.Text = this.PokemonsSelected[1].type;
 
             this.p3.Source = new BitmapImage(getPokemonType(this.PokemonsSelected[2]));
@@ -103,6 +113,7 @@ namespace ipo2_pokedex
             this.p3description.Text = this.PokemonsSelected[2].description.Replace(this.PokemonsSelected[2].name, "****");
             this.p3description.Text = this.p3description.Text.Replace(this.PokemonsSelected[2].name.ToUpper(), "****");
             this.p3name.Text = "****";
+            p3nameAux = this.PokemonsSelected[2].name;
             this.p3types.Text = this.PokemonsSelected[2].type;
 
             this.p4.Source = new BitmapImage(getPokemonType(this.PokemonsSelected[3]));
@@ -110,10 +121,14 @@ namespace ipo2_pokedex
             this.p4description.Text = this.PokemonsSelected[3].description.Replace(this.PokemonsSelected[3].name, "****");
             this.p4description.Text = this.p4description.Text.Replace(this.PokemonsSelected[3].name.ToUpper(), "****");
             this.p4name.Text = "****";
+            p4nameAux = this.PokemonsSelected[3].name;
             this.p4types.Text = this.PokemonsSelected[3].type;
 
             GuessPokemon = this.PokemonsSelected[new Random().Next(this.PokemonsSelected.Count - 1)];
             this.message.Text = this.message.Text + "¿Que Pokemon es " + GuessPokemon.name + "?";
+            string texto = "¿Que Pokemon es " + GuessPokemon.name + "?";
+            voiceReader.LeerTexto(texto);
+
         }
 
         private Uri getPokemonType(Pokemon pokemon)
@@ -143,7 +158,7 @@ namespace ipo2_pokedex
                 {
 
                     case "p1select":
-                        if (this.p1name.Text.Equals(this.GuessPokemon.name))
+                        if (p1nameAux.Equals(this.GuessPokemon.name))
                         {
                             this.selectionOk();
                         }
@@ -153,7 +168,7 @@ namespace ipo2_pokedex
                         }
                         break;
                     case "p2select":
-                        if (this.p2name.Text.Equals(this.GuessPokemon.name))
+                        if (p2nameAux.Equals(this.GuessPokemon.name))
                         {
                             this.selectionOk();
                         }
@@ -163,7 +178,7 @@ namespace ipo2_pokedex
                         }
                         break;
                     case "p3select":
-                        if (this.p3name.Text.Equals(this.GuessPokemon.name))
+                        if (p3nameAux.Equals(this.GuessPokemon.name))
                         {
                             this.selectionOk();
                         }
@@ -173,7 +188,7 @@ namespace ipo2_pokedex
                         }
                         break;
                     case "p4select":
-                        if (this.p4name.Text.Equals(this.GuessPokemon.name))
+                        if (p4nameAux.Equals(this.GuessPokemon.name))
                         {
                             this.selectionOk();
                         }
@@ -199,10 +214,14 @@ namespace ipo2_pokedex
                 if (this.PokemonsToWin == 0)
                 {
                     this.message.Text = "Superaste el reto! Subiste 400 xp a tu Pokemon "+this.UpgradePokemon;
+                    string texto = "Superaste el reto! Subiste 400 xp a tu Pokemon ";
+                    voiceReader.LeerTexto(texto);
                 }
                 else
                 {
                     this.message.Text = "Correcto! ";
+                    string texto = "¡Correcto!";
+                    voiceReader.LeerTexto(texto);
                     this.generatePokemons();
                 }
 
@@ -219,6 +238,8 @@ namespace ipo2_pokedex
                 if (this.Lifes == 0)
                 {
                     this.message.Text = "Has perdido!";
+                    string texto = "Has perdido";
+                    voiceReader.LeerTexto(texto);
 
                     this.p1select.Opacity = 40;
                     this.p1select.IsTapEnabled = false;
@@ -235,6 +256,8 @@ namespace ipo2_pokedex
                 else
                 {
                     this.message.Text = "Te equivocaste de pokemon, te quedan " + this.Lifes + " vidas y " + this.PokemonsToWin + " Pokemons por acertar.";
+                    string texto = "Te equivocaste de pokemon, te quedan " + this.Lifes + " vidas y " + this.PokemonsToWin + " Pokemons por acertar.";
+                    voiceReader.LeerTexto(texto);
                 }
             }
         }
