@@ -97,6 +97,8 @@ namespace ipo2_pokedex
         {
             this.gvPokemons.Items.Clear();
             this.PokemonsAux.Clear();
+            string texto = "Buscar Pokemons";
+            voiceReader.LeerTexto(texto);
 
             foreach (Pokemon p in Pokemons)
             {
@@ -124,11 +126,6 @@ namespace ipo2_pokedex
             this.PokemonsAux.Clear();
 
             var button = sender as Button;
-            /*if (button != null)
-            {
-                string texto = "Pokemons Capturados";
-                voiceReader.LeerTexto(texto);
-            }*/
 
             if (this.captured)
             {

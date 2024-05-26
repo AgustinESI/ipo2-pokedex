@@ -198,6 +198,7 @@
     <Compile Include="ViewPokemonPage.xaml.cs">
       <DependentUpon>ViewPokemonPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VoiceReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

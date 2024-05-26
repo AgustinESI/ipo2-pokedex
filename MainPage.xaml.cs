@@ -21,6 +21,7 @@ namespace ipo2_pokedex
         //private MediaElement mediaElement;
         private bool isVoiceReaderActive = false;
         private VoiceReader voiceReader;
+        private bool previousToggleState = false;
 
         public MainPage()
         {
@@ -33,30 +34,48 @@ namespace ipo2_pokedex
             //synthesizer = new SpeechSynthesizer();
             //mediaElement = new MediaElement();
             voiceReader = new VoiceReader();
+            string texto = "¡Bienvenido a nuestra App Pokemon. Si quieres un lector de voz, habilitalo en nuestro menú!";
+            voiceReader.LeerTexto(texto);
 
 
         }
 
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
-            isVoiceReaderActive = lector_de_voz.IsOn;
-            string texto = "Lector de voz activado";
-            voiceReader.LeerTexto(texto);
-            if (!isVoiceReaderActive)
+            bool currentToggleState = lector_de_voz.IsOn; // Obtener el estado actual del ToggleSwitch
+
+            // Verificar si el estado actual es diferente al estado anterior
+            if (currentToggleState != previousToggleState)
             {
-                texto = "Lector de voz desactivado";
+                isVoiceReaderActive = currentToggleState; // Actualizar el estado del lector de voz
+
+                // Actualizar el estado anterior del ToggleSwitch
+                previousToggleState = currentToggleState;
+
+                string texto = isVoiceReaderActive ? "Lector de voz activado" : "Lector de voz desactivado";
                 voiceReader.LeerTexto(texto);
-                // DetenerLectura();
-                voiceReader.DetenerLectura();
 
-
+                if (!isVoiceReaderActive)
+                {
+                    // Detener el lector de voz
+                    voiceReader.DetenerLectura();
+                }
+            }
+            else
+            {
+                // Si el estado del ToggleSwitch no ha cambiado, detener el lector de voz si está desactivado
+                if (!currentToggleState)
+                {
+                    voiceReader.DetenerLectura();
+                }
             }
         }
 
-       /* private void DetenerLectura()
-        {
-            mediaElement.Stop();
-        }*/
+
+        /* private void DetenerLectura()
+         {
+             mediaElement.Stop();
+         }*/
 
         /*private async void LeerTexto(string texto)
         {

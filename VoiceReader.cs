@@ -2,7 +2,7 @@
 using Windows.Media.SpeechSynthesis;
 using Windows.UI.Xaml.Controls;
 
-public class VoiceReader
+public class VoiceReader //lector de voz
 {
     private SpeechSynthesizer synthesizer;
     private MediaElement mediaElement;
@@ -24,5 +24,6 @@ public class VoiceReader
     {
         mediaElement.Stop();
     }
+    
 }
 

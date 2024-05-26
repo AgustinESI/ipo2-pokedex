@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media.SpeechSynthesis;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,10 +26,12 @@ namespace ipo2_pokedex
     public sealed partial class PokemonDetailPage : Page
     {
         public Pokemon poke;
+        private bool isVoiceReaderActive = false;
+        private VoiceReader voiceReader;
         public PokemonDetailPage()
         {
             this.InitializeComponent();
-
+            voiceReader = new VoiceReader();
         }
 
 
@@ -40,7 +43,7 @@ namespace ipo2_pokedex
             // Verificar si se pasó un objeto Pokemon como parámetro
             if (e.Parameter is Pokemon pokemon)
             {
-                this.poke = pokemon; 
+                this.poke = pokemon;
                 this.name.Text = pokemon.name;
                 this.image.Source = new BitmapImage(new Uri(pokemon.image));
                 this.specie.Text = pokemon.specie;
@@ -48,6 +51,8 @@ namespace ipo2_pokedex
                 this.id.Text = pokemon.id;
                 this.width.Text = "WT: " + pokemon.weight;
                 this.heigth.Text = "HT: " + pokemon.height;
+                voiceReader.LeerTexto(pokemon.name);
+                ;
 
                 if (pokemon.captured)
                 {
@@ -143,6 +148,8 @@ namespace ipo2_pokedex
         {
             Frame PokemonDetailPage = (Frame)this.Parent;
             PokemonDetailPage.Navigate(typeof(ViewPokemonPage), this);
+            string texto = "Ver Pokemon";
+            voiceReader.LeerTexto(texto);
         }
     }
 }
