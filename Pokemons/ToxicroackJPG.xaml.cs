@@ -23,8 +23,8 @@ namespace ipo2_pokedex
     public sealed partial class ToxicroackJPG : UserControl, iPokemon
     {
 
-        public double Vida { get; set; }
-        public double Energia { get; set; }
+        public double Vida { get { return this.BarraVida.Value; } set {this.BarraVida.Value=value; } }
+        public double Energia { get {return this.BarraEnergia.Value; } set {this.BarraEnergia.Value=value; } }
         public string Nombre { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Categoría { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Tipo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }

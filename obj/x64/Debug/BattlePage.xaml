@@ -22,14 +22,34 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Viewbox Margin="40,15,40,15" Grid.Row="1">
-                <Grid x:ConnectionId='16' x:Name="pokemon1" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
+            <Button x:ConnectionId='2' x:Name="pocionR1" Margin="627,22,0,0" Grid.Row="1" VerticalAlignment="Top" FocusVisualPrimaryBrush="{x:Null}" Foreground="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}"                       >
+                <Image x:ConnectionId='24' x:Name="pocionR" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" Stretch="Fill" Source="/Assets/pokemons/SnorlaxROC/pocionR.png"/>
+            </Button>
+            <Button x:ConnectionId='3' x:Name="pocionA1" Margin="627,75,0,0" Grid.Row="1" VerticalAlignment="Top"                        FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}">
+                <Image x:ConnectionId='23' x:Name="pocionA" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/Assets/pokemons/SnorlaxROC/pocionA.png"  RenderTransformOrigin="0.5,0.5" Height="48" Width="69">
+                    <Image.RenderTransform>
+                        <CompositeTransform ScaleX="-1"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+            <Button x:ConnectionId='4' x:Name="pocionR_Copiar1" Grid.Column="1" Margin="613,45,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}"                              >
+                <Image x:ConnectionId='22' x:Name="pocionR_Copiar" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" Stretch="Fill" Source="/Assets/pokemons/SnorlaxROC/pocionR.png"/>
+            </Button>
+            <Button x:ConnectionId='5' x:Name="pocionA_copia1" Grid.Column="1" Margin="613,98,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}"                             >
+                <Image x:ConnectionId='21' x:Name="pocionA_Copiar" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/Assets/pokemons/SnorlaxROC/pocionA.png"  RenderTransformOrigin="0.5,0.5" Height="48" Width="69">
+                    <Image.RenderTransform>
+                        <CompositeTransform ScaleX="-1"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+            <Viewbox Margin="40,5,40,25" Grid.Row="1">
+                <Grid x:ConnectionId='20' x:Name="pokemon1" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
             </Viewbox>
             <Viewbox Margin="40,21,40,9" Grid.Column="1">
-                <Grid x:ConnectionId='15' x:Name="pokemon2" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
+                <Grid x:ConnectionId='19' x:Name="pokemon2" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
             </Viewbox>
             <Viewbox>
-                <Grid x:ConnectionId='9' x:Name="p2actions" Height="450" Width="750">
+                <Grid x:ConnectionId='13' x:Name="p2actions" Height="450" Width="750">
 
                     <Grid.RowDefinitions>
                         <RowDefinition Height="15*"/>
@@ -47,15 +67,15 @@
                     <Grid.Background>
                         <ImageBrush ImageSource="/Assets/images/message-removebg-preview.png"/>
                     </Grid.Background>
-                    <Button x:ConnectionId='10' x:Name="p2strong" x:Uid="p2strong" FontFamily="Berlin Sans FB" Content="Ataque Fuerte" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                        HorizontalAlignment="Center" IsEnabled="False" Grid.Column="0" Grid.Row="2"/>
-                    <Button x:ConnectionId='11' x:Name="p2weak" x:Uid="p2weak" FontFamily="Berlin Sans FB" Content="Ataque Flojo" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                      IsEnabled="False" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center"/>
-                    <Button x:ConnectionId='12' x:Name="p2flee" x:Uid="p2flee" FontFamily="Berlin Sans FB" Content="Huir"  VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                HorizontalAlignment="Center" IsEnabled="False" Grid.Column="0" Grid.Row="3"/>
-                    <TextBlock x:ConnectionId='13' x:Name="p2name" x:Uid="p2name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="33,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="46" Width="680" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="36"/>
-                    <Button x:ConnectionId='14' x:Name="p2ultrabeast" x:Uid="p2ultrabeast" FontFamily="Berlin Sans FB" Content="Mega-Evolución" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                        HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" IsEnabled="False" Opacity="0"/>
+                    <Button x:ConnectionId='14' x:Name="p2strong" x:Uid="p2strong" FontFamily="Berlin Sans FB" Content="Ataque Fuerte" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                        HorizontalAlignment="Center" IsEnabled="False" Grid.Column="0" Grid.Row="2"/>
+                    <Button x:ConnectionId='15' x:Name="p2weak" x:Uid="p2weak" FontFamily="Berlin Sans FB" Content="Ataque Flojo" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                      IsEnabled="False" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center"/>
+                    <Button x:ConnectionId='16' x:Name="p2flee" x:Uid="p2flee" FontFamily="Berlin Sans FB" Content="Huir"  VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                HorizontalAlignment="Center" IsEnabled="False" Grid.Column="0" Grid.Row="3"/>
+                    <TextBlock x:ConnectionId='17' x:Name="p2name" x:Uid="p2name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="33,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="46" Width="680" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="36"/>
+                    <Button x:ConnectionId='18' x:Name="p2ultrabeast" x:Uid="p2ultrabeast" FontFamily="Berlin Sans FB" Content="Mega-Evolución" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                        HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" IsEnabled="False" Opacity="0"/>
                 </Grid>
             </Viewbox>
             <Viewbox Grid.ColumnSpan="2" Margin="746,6,4,94" Grid.RowSpan="2" Grid.Row="1">
-                <Grid x:ConnectionId='3' x:Name="p1actions" Height="450" Width="750">
+                <Grid x:ConnectionId='7' x:Name="p1actions" Height="450" Width="750">
                     <Grid.Background>
                         <ImageBrush ImageSource="/Assets/images/message-removebg-preview.png"/>
                     </Grid.Background>
@@ -73,17 +93,17 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
 
-                    <Button x:ConnectionId='4' x:Name="p1strong" x:Uid="p1strong" FontFamily="Berlin Sans FB" Content="Ataque Fuerte" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                        HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0"/>
-                    <Button x:ConnectionId='5' x:Name="p1weak" x:Uid="p1weak" FontFamily="Berlin Sans FB" Content="Ataque Flojo" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                      HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1"/>
-                    <Button x:ConnectionId='6' x:Name="p1flee" x:Uid="p1flee" FontFamily="Berlin Sans FB" Content="Huir" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0"/>
-                    <Button x:ConnectionId='7' x:Name="p1ultrabeast" x:Uid="p1ultrabeast" FontFamily="Berlin Sans FB" Content="Mega-Evolución" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                        HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" IsEnabled="False" Opacity="0"/>
-                    <TextBlock x:ConnectionId='8' x:Name="p1name" x:Uid="p1name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="33,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="46" Width="680" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="36"/>
+                    <Button x:ConnectionId='8' x:Name="p1strong" x:Uid="p1strong" FontFamily="Berlin Sans FB" Content="Ataque Fuerte" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                        HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0"/>
+                    <Button x:ConnectionId='9' x:Name="p1weak" x:Uid="p1weak" FontFamily="Berlin Sans FB" Content="Ataque Flojo" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                      HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1"/>
+                    <Button x:ConnectionId='10' x:Name="p1flee" x:Uid="p1flee" FontFamily="Berlin Sans FB" Content="Huir" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0"/>
+                    <Button x:ConnectionId='11' x:Name="p1ultrabeast" x:Uid="p1ultrabeast" FontFamily="Berlin Sans FB" Content="Mega-Evolución" VerticalAlignment="Center" Height="92" Width="286" FontSize="36" Foreground="Black"                        HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" IsEnabled="False" Opacity="0"/>
+                    <TextBlock x:ConnectionId='12' x:Name="p1name" x:Uid="p1name" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" Margin="33,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="46" Width="680" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="36"/>
 
 
                 </Grid>
             </Viewbox>
             <Viewbox Grid.ColumnSpan="2" Margin="0,442,4,9" Grid.Row="1" Grid.RowSpan="2">
-                <TextBox x:ConnectionId='2' x:Name="message" FontFamily="Berlin Sans FB" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="1481" FontSize="30" TextAlignment="Center" Foreground="White" Background="#FF2C4B60" BorderBrush="#FFC6A341" BorderThickness="10,10,10,10" Padding="10,10,10,10" IsReadOnly="True" SelectionHighlightColor="#FF2C4B60" PlaceholderForeground="White" SelectionHighlightColorWhenNotFocused="#FFC6A341" FocusVisualPrimaryBrush="#99000000"/>
+                <TextBox x:ConnectionId='6' x:Name="message" FontFamily="Berlin Sans FB" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="1481" FontSize="30" TextAlignment="Center" Foreground="White" Background="#FF2C4B60" BorderBrush="#FFC6A341" BorderThickness="10,10,10,10" Padding="10,10,10,10" IsReadOnly="True" SelectionHighlightColor="#FF2C4B60" PlaceholderForeground="White" SelectionHighlightColorWhenNotFocused="#FFC6A341" FocusVisualPrimaryBrush="#99000000"/>
             </Viewbox>
 
         </Grid>

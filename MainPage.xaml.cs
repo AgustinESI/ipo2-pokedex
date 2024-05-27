@@ -282,6 +282,19 @@ namespace ipo2_pokedex
 
         }
 
+        private void SymbolIcon_Ajustes_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            FrameMain.Navigate(typeof(MiniGamePage), this);
+            sView_Abajo_Principal.IsPaneOpen = false;
+            sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
+            var button = sender as Button;
+            if (button != null)
+            {
+                string texto = button.Content.ToString();
+                voiceReader.LeerTexto(texto);
+            }
+        }
+
         private void UpdateLanguage(string languageCode)
         {
             // Aquí actualizas los textos de la UI con los recursos correspondientes al idioma seleccionado.
@@ -335,9 +348,7 @@ namespace ipo2_pokedex
 
         }
 
-        
-
-
+      
     }
 
 

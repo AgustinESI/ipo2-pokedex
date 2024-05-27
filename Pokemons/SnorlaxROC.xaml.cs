@@ -307,8 +307,8 @@ namespace ipo2_pokedex
         {
             if (est_muerto == false)
             {
-                if (est_herido == true || est_cansado == true)
-                {
+               // if (est_herido == true || est_cansado == true)
+               // {
                     anima = (Storyboard)this.Resources["bostezo_siesta_energia"];
                     anima.Begin();
                     await Task.Delay(1500);
@@ -324,7 +324,7 @@ namespace ipo2_pokedex
                     {
                         a_oriCan();
                     }
-                }
+               // }
             }
 
 

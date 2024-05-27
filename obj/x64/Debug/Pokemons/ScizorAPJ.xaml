@@ -2254,13 +2254,13 @@
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Image x:ConnectionId='15' x:Name="imFondo" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="7" Grid.ColumnSpan="3" Source="/Assets/pokemons/ScizorAPJ/paisajePokemon.png" Stretch="UniformToFill" RenderTransformOrigin="0.695,0.715"/>
-        <Button x:ConnectionId='16' x:Name="btnAtqDebil" Grid.Row="4" Background="White"                           Content="Ataque Debil" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Button x:ConnectionId='17' x:Name="btnAtqFuerte" Grid.Row="4" Background="White"                            Content="Ataque Fuerte" HorizontalAlignment="Center" Margin="0,120,0,0"/>
-        <Button x:ConnectionId='18' x:Name="btnEscudo" Grid.Row="4" Background="White"                         Content="Escudo" HorizontalAlignment="Center" Margin="0,0,0,120"/>
-        <Button x:ConnectionId='19' x:Name="btnDescansar" Grid.Row="4" Background="White"                            Content="Descansar" HorizontalAlignment="Center" Margin="0,0,0,240"/>
-        <Button x:ConnectionId='20' x:Name="btnDerrotado" Grid.Row="4" Background="White"                            Content="Derrotado" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Center"/>
-        <Button x:ConnectionId='21' x:Name="btnHerido" Grid.Row="4" Background="White"                         Content="Herido" HorizontalAlignment="Center" Margin="0,400,0,0" VerticalAlignment="Center"/>
-        <Button x:ConnectionId='22' x:Name="btnCansado" Grid.Row="4" Background="White"                          Content="Cansado" HorizontalAlignment="Center" Margin="0,500,0,0" VerticalAlignment="Center"/>
+        <Button x:ConnectionId='16' x:Name="btnAtqDebil" Grid.Row="4" Background="White"                           Content="Ataque Debil" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed"/>
+        <Button x:ConnectionId='17' x:Name="btnAtqFuerte" Grid.Row="4" Background="White"                            Content="Ataque Fuerte" HorizontalAlignment="Center" Margin="0,120,0,0" Visibility="Collapsed"/>
+        <Button x:ConnectionId='18' x:Name="btnEscudo" Grid.Row="4" Background="White"                         Content="Escudo" HorizontalAlignment="Center" Margin="0,0,0,120" Visibility="Collapsed"/>
+        <Button x:ConnectionId='19' x:Name="btnDescansar" Grid.Row="4" Background="White"                            Content="Descansar" HorizontalAlignment="Center" Margin="0,0,0,240" Visibility="Collapsed"/>
+        <Button x:ConnectionId='20' x:Name="btnDerrotado" Grid.Row="4" Background="White"                            Content="Derrotado" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Center" Visibility="Collapsed"/>
+        <Button x:ConnectionId='21' x:Name="btnHerido" Grid.Row="4" Background="White"                         Content="Herido" HorizontalAlignment="Center" Margin="0,400,0,0" VerticalAlignment="Center" Visibility="Collapsed"/>
+        <Button x:ConnectionId='22' x:Name="btnCansado" Grid.Row="4" Background="White"                          Content="Cansado" HorizontalAlignment="Center" Margin="0,500,0,0" VerticalAlignment="Center" Visibility="Collapsed"/>
 
         <Image x:ConnectionId='23' x:Name="icoSalud" Source="Assets/pokemons/ScizorAPJ/icoSalud.png" Grid.Row="1" Stretch="Uniform"/>
         <Image x:ConnectionId='24' x:Name="icoEnergia" Source="Assets/pokemons/ScizorAPJ/icoEnergia.png" Stretch="Uniform" Grid.Row="3"/>
@@ -2275,16 +2275,16 @@
         <Border x:ConnectionId='29' x:Name="brdNombre" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Background="DimGray" BorderThickness="2" BorderBrush="Black" Padding="10,0,10,3">
             <TextBlock x:ConnectionId='97' x:Name="txtNombre"  Text="Scizor" Foreground="White" TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         </Border>
-        <Border x:ConnectionId='30' x:Name="brdOpciones" BorderThickness="2" BorderBrush="Black" VerticalAlignment="Top"  HorizontalAlignment="Right" Grid.Row="4" Grid.Column="2">
+        <Border x:ConnectionId='30' x:Name="brdOpciones" BorderThickness="2" BorderBrush="Black" VerticalAlignment="Top"  HorizontalAlignment="Right" Grid.Row="4" Grid.Column="2" Visibility="Collapsed">
             <StackPanel x:ConnectionId='88' x:Name="stckOpcionesInterfaz" Background="GhostWhite" Padding="5">
-                <ToggleSwitch x:ConnectionId='89' x:Name="tgMenu" Header="Opciones Interfaz"                         />
-                <StackPanel x:ConnectionId='90' x:Name="stckOpcionesDesplegables" Background="GhostWhite" Padding="5" Grid.Row="4" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right">
+                <ToggleSwitch x:ConnectionId='89' x:Name="tgMenu" Header="Opciones Interfaz"                          Visibility="Collapsed"/>
+                <StackPanel x:ConnectionId='90' x:Name="stckOpcionesDesplegables" Background="GhostWhite" Padding="5" Grid.Row="4" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right" Visibility="Collapsed">
                     <ToggleSwitch x:ConnectionId='91' x:Name="tgFondo" Header="Ver fondo"                          />
                     <ToggleSwitch x:ConnectionId='92' x:Name="tgFilaVida" Header="Ver fila de vida"                             />
                     <ToggleSwitch x:ConnectionId='93' x:Name="tgFilaEnergia" Header="Ver fila de energía"                                />
                     <ToggleSwitch x:ConnectionId='94' x:Name="tgPocionVida" Header="Ver pocion de vida"                               />
-                    <ToggleSwitch x:ConnectionId='95' x:Name="tgPocionEnergia" Header="Ver pocion de energía"                                  />
-                    <ToggleSwitch x:ConnectionId='96' x:Name="tgNombre" Header="Ver nombre"                           />
+                    <ToggleSwitch x:ConnectionId='95' x:Name="tgPocionEnergia" Header="Ver pocion de energía"                                   Visibility="Collapsed"/>
+                    <ToggleSwitch x:ConnectionId='96' x:Name="tgNombre" Header="Ver nombre"                            Visibility="Collapsed"/>
                 </StackPanel>
             </StackPanel>
         </Border>

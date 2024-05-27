@@ -2444,10 +2444,10 @@
         <Image x:ConnectionId='15' x:Name="FondoImagen" Source="/Assets+Pokemon+Inicial/Imagenes/Fondo.jpg" VerticalAlignment="Top" HorizontalAlignment="Center" Height="913" Width="1500" Margin="0,-3,0,0" Grid.RowSpan="4" Stretch="UniformToFill" Grid.ColumnSpan="3"/>
 
         <!-- Barra de Vida -->
-        <ProgressBar x:ConnectionId='16' x:Name="BarraVida" HorizontalAlignment="Center" Height="43" Width="1169" Background="#33FF0000" Foreground="Red" FocusVisualSecondaryBrush="#99EC0B0B" Grid.Column="1"/>
+        <ProgressBar x:ConnectionId='16' x:Name="BarraVida" HorizontalAlignment="Center" Height="43" Width="1169" Background="#33F12345" Foreground="#FFD40000" FocusVisualSecondaryBrush="#99FF0000" Grid.Column="1" Value="80"/>
 
         <!-- Barra de Energía -->
-        <ProgressBar x:ConnectionId='17' x:Name="BarraEnergia" HorizontalAlignment="Center" Height="42" Width="1169" Background="#33F3FF00" Foreground="Yellow" FocusVisualSecondaryBrush="#99EC0B0B" Grid.Row="1" Grid.Column="1"/>
+        <ProgressBar x:ConnectionId='17' x:Name="BarraEnergia" HorizontalAlignment="Center" Height="42" Width="1169" Background="#33EDF006" Foreground="Yellow" FocusVisualSecondaryBrush="{x:Null}" Grid.Row="1" Grid.Column="1" Value="60"/>
 
         <!-- Imagen Energía -->
         <Image x:ConnectionId='18' x:Name="img_Energia" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.03,0.04" RequestedTheme="Default" Grid.Row="1" Source="/Assets+Pokemon+inicial/Imagenes/Energi.png" Stretch="Uniform"/>

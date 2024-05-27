@@ -220,24 +220,24 @@ namespace ipo2_pokedex
         {
             if (ver)
             {
-                this.pbVida.Visibility = Visibility.Visible;
+                this.imPocion.Visibility = Visibility.Visible;
             }
             else
             {
-                this.pbVida.Visibility = Visibility.Collapsed;
+                this.imPocion.Visibility = Visibility.Collapsed;
             }
         }
 
         public void verPocionEnergia(bool ver)
         {
-            if (ver)
-            {
-                this.pbProteccion.Visibility = Visibility.Visible;
-            }
-            else
-            {
-                this.pbProteccion.Visibility = Visibility.Collapsed;
-            }
+           // if (ver)
+           // {
+           //     this.pbProteccion.Visibility = Visibility.Visible;
+           // }
+           // else
+          //  {
+           //     this.pbProteccion.Visibility = Visibility.Collapsed;
+           // }
         }
 
         public void verNombre(bool ver)

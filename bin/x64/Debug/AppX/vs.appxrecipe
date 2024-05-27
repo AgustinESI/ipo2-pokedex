@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-27T08:18:04.623</Modified>
+      <Modified>2024-05-27T17:22:44.334</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\ipo2-pokedex.exe">
       <PackagePath>entrypoint\ipo2-pokedex.exe</PackagePath>
-      <Modified>2024-05-27T08:18:03.277</Modified>
+      <Modified>2024-05-27T17:22:43.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\json.net\1.0.33\lib\netstandard2.0\Json.Net.dll">
       <PackagePath>Json.Net.dll</PackagePath>
@@ -1106,119 +1106,119 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\ipo2-pokedex.xr.xml">
       <PackagePath>ipo2-pokedex.xr.xml</PackagePath>
-      <Modified>2024-05-27T08:01:56.580</Modified>
+      <Modified>2024-05-27T16:57:01.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.579</Modified>
+      <Modified>2024-05-27T17:22:43.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\BattlePage.xbf">
       <PackagePath>BattlePage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:01.701</Modified>
+      <Modified>2024-05-27T17:22:42.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Doubts.xbf">
       <PackagePath>Doubts.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:01.702</Modified>
+      <Modified>2024-05-27T17:22:42.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\InicioPage.xbf">
       <PackagePath>InicioPage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.580</Modified>
+      <Modified>2024-05-27T17:22:43.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\MiniGamePage.xbf">
       <PackagePath>MiniGamePage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:01.710</Modified>
+      <Modified>2024-05-27T17:22:42.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\MoreInformation.xbf">
       <PackagePath>MoreInformation.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.580</Modified>
+      <Modified>2024-05-27T17:22:43.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\GrookeyJGPMP.xbf">
       <PackagePath>Pokemons\GrookeyJGPMP.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:01.848</Modified>
+      <Modified>2024-05-27T17:22:42.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\LaprasACE.xbf">
       <PackagePath>Pokemons\LaprasACE.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:01.922</Modified>
+      <Modified>2024-05-27T17:22:42.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\MakuhitaAPQ.xbf">
       <PackagePath>Pokemons\MakuhitaAPQ.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:01.951</Modified>
+      <Modified>2024-05-27T17:22:42.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\DragoniteCSD.xbf">
       <PackagePath>Pokemons\DragoniteCSD.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.001</Modified>
+      <Modified>2024-05-27T17:22:42.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\GengarJCC.xbf">
       <PackagePath>Pokemons\GengarJCC.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.074</Modified>
+      <Modified>2024-05-27T17:22:42.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\PikachuAPCC.xbf">
       <PackagePath>Pokemons\PikachuAPCC.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.085</Modified>
+      <Modified>2024-05-27T17:22:42.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\ArticunoACG.xbf">
       <PackagePath>Pokemons\ArticunoACG.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.140</Modified>
+      <Modified>2024-05-27T17:22:42.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\CharizardASM.xbf">
       <PackagePath>Pokemons\CharizardASM.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.182</Modified>
+      <Modified>2024-05-27T17:22:42.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.186</Modified>
+      <Modified>2024-05-27T17:22:42.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\PiplupMLTN.xbf">
       <PackagePath>Pokemons\PiplupMLTN.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.242</Modified>
+      <Modified>2024-05-27T17:22:42.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\PokedexPage.xbf">
       <PackagePath>PokedexPage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.584</Modified>
+      <Modified>2024-05-27T17:22:43.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\PokemonDetailPage.xbf">
       <PackagePath>PokemonDetailPage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.584</Modified>
+      <Modified>2024-05-27T17:22:43.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\SnorlaxROC.xbf">
       <PackagePath>Pokemons\SnorlaxROC.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.311</Modified>
+      <Modified>2024-05-27T17:22:42.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\ScizorAPJ.xbf">
       <PackagePath>Pokemons\ScizorAPJ.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.430</Modified>
+      <Modified>2024-05-27T17:22:43.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\SquirtleJRSL1.xbf">
       <PackagePath>Pokemons\SquirtleJRSL1.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.475</Modified>
+      <Modified>2024-05-27T17:22:43.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\SelectBattlePage.xbf">
       <PackagePath>SelectBattlePage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.585</Modified>
+      <Modified>2024-05-27T17:22:43.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\SelectPokemonPage.xbf">
       <PackagePath>SelectPokemonPage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.585</Modified>
+      <Modified>2024-05-27T17:22:43.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Style\DarkThemeResources.xbf">
       <PackagePath>Style\DarkThemeResources.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.578</Modified>
+      <Modified>2024-05-27T17:22:43.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Style\LightThemeResources.xbf">
       <PackagePath>Style\LightThemeResources.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.579</Modified>
+      <Modified>2024-05-27T17:22:43.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\TemplatePokemon.xbf">
       <PackagePath>TemplatePokemon.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.586</Modified>
+      <Modified>2024-05-27T17:22:43.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\ToxicroackJPG.xbf">
       <PackagePath>Pokemons\ToxicroackJPG.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.576</Modified>
+      <Modified>2024-05-27T17:22:43.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\ViewPokemonPage.xbf">
       <PackagePath>ViewPokemonPage.xbf</PackagePath>
-      <Modified>2024-05-27T08:18:02.586</Modified>
+      <Modified>2024-05-27T17:22:43.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1226,11 +1226,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-27T08:12:47.830</Modified>
+      <Modified>2024-05-27T15:20:27.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Core\ipo2-pokedex.exe">
       <PackagePath>ipo2-pokedex.exe</PackagePath>
-      <Modified>2024-05-27T08:18:04.615</Modified>
+      <Modified>2024-05-27T17:22:44.328</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

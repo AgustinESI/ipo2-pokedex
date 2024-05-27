@@ -59,7 +59,7 @@
                         <Button AutomationProperties.Name="Mini Juego" x:Name="btn_MiniJuego" x:Uid="btn_MiniJuego" Content="Mini Juego" Width="252" Margin="8,0,0,0" Click="btn_MiniJuego_Click" Grid.Column="1" Grid.Row="4" Height="33"/>
                         <Button AutomationProperties.Name="Mas Información" x:Name="btn_MasInfo" x:Uid="btn_MasInfo" Content="Mas Información" Width="252" Margin="8,0,0,0" Click="btn_MasInfo_Click" Grid.Column="1" Grid.Row="3" Height="33"/>
 
-                        <SymbolIcon x:Name="SymbolIcon_Ajustes" Grid.Row="3" Symbol="Setting" Margin="0,50,0,0" Grid.RowSpan="2"/>
+                        <SymbolIcon x:Name="SymbolIcon_Ajustes" Grid.Row="3" Symbol="Setting" Margin="0,50,0,0" Grid.RowSpan="2" PointerReleased="SymbolIcon_Ajustes_PointerReleased"/>
                         <ToggleSwitch x:Name="SelectIdioma" x:Uid="SelectIdioma" Header="Idioma" OffContent="Español" OnContent="English" Grid.Column="1" Margin="10,9,0,0" Grid.Row="5" VerticalAlignment="Top" Toggled="SelectIdioma_Toggled"/>
 
                     </Grid>

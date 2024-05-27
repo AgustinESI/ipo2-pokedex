@@ -94,7 +94,8 @@ namespace ipo2_pokedex
                     charizard.verNombre(false);
                     //charizard.verFilaEnergia(false);
                     //charizard.verFilaVida(false);
-
+                    charizard.verPocionEnergia(false);
+                    charizard.verPocionVida(false);
                     return charizard;
                 case "Piplup":
                     PiplupMLTN piplup = new PiplupMLTN();
@@ -104,6 +105,8 @@ namespace ipo2_pokedex
                     //piplup.verFilaEnergia(false);
                     //piplup.verFilaVida(false);
                     piplup.verNombre(false);
+                    piplup.verPocionEnergia(false);
+                    piplup.verPocionVida(false);
 
                     return piplup;
                 case "Snorlax":
@@ -114,7 +117,8 @@ namespace ipo2_pokedex
                     //snorlax.verFilaEnergia(false);
                     //snorlax.verFilaVida(false);
                     snorlax.verNombre(false);
-
+                    snorlax.verPocionEnergia(false);
+                    snorlax.verPocionVida(false);
                     return snorlax;
 
                 case "Articuno":
@@ -125,7 +129,8 @@ namespace ipo2_pokedex
                     //articuno.verFilaEnergia(false);
                     //articuno.verFilaVida(false);
                     articuno.verNombre(false);
-
+                    articuno.verPocionEnergia(false);
+                    articuno.verPocionVida(false);
                     return articuno;
                 case "Pikachu":
                     PikachuAPCC pikachu = new PikachuAPCC();
@@ -135,7 +140,8 @@ namespace ipo2_pokedex
                     //pikachu.verFilaEnergia(false);
                     //pikachu.verFilaVida(false);
                     pikachu.verNombre(false);
-
+                    pikachu.verPocionEnergia(false);
+                    pikachu.verPocionVida(false);
                     return pikachu;
 
                 case "Dragonite":
@@ -146,7 +152,8 @@ namespace ipo2_pokedex
                     //dragonite.verFilaEnergia(false);
                     //dragonite.verFilaVida(false);
                     dragonite.verNombre(false);
-
+                    dragonite.verPocionEnergia(false);
+                    dragonite.verPocionVida(false);
                     return dragonite;
 
                 case "Gengar":
@@ -157,7 +164,8 @@ namespace ipo2_pokedex
                     //gengar.verFilaEnergia(false);
                     //gengar.verFilaVida(false);
                     gengar.verNombre(false);
-
+                    gengar.verPocionEnergia(false);
+                    gengar.verPocionVida(false);
                     return gengar;
                 case "Grookey":
                     GrookeyJGPMP grookey = new GrookeyJGPMP();
@@ -167,7 +175,8 @@ namespace ipo2_pokedex
                     //grookey.verFilaEnergia(false);
                     //grookey.verFilaVida(false);
                     grookey.verNombre(false);
-
+                    grookey.verPocionEnergia(false);
+                    grookey.verPocionVida(false);
                     return grookey;
 
                 case "Lapras":
@@ -178,7 +187,8 @@ namespace ipo2_pokedex
                     //lapras.verFilaEnergia(false);
                     //lapras.verFilaVida(false);
                     lapras.verNombre(false);
-
+                    lapras.verPocionEnergia(false);
+                    lapras.verPocionVida(false);
                     return lapras;
 
                 case "Makuhita":
@@ -200,7 +210,8 @@ namespace ipo2_pokedex
                     //scizor.verFilaEnergia(false);
                     //scizor.verFilaVida(false);
                     scizor.verNombre(false);
-
+                    scizor.verPocionEnergia(false);
+                    scizor.verPocionVida(false);
                     return scizor;
 
                 case "Toxicroak":
@@ -211,7 +222,8 @@ namespace ipo2_pokedex
                     //toxicroak.verFilaEnergia(false);
                     //toxicroak.verFilaVida(false);
                     toxicroak.verNombre(false);
-
+                    toxicroak.verPocionEnergia(false);
+                    toxicroak.verPocionVida(false);
                     return toxicroak;
 
                 case "Squirtle":
@@ -222,7 +234,8 @@ namespace ipo2_pokedex
                     //squirtle.verFilaEnergia(false);
                     //squirtle.verFilaVida(false);
                     squirtle.verNombre(false);
-
+                    squirtle.verPocionEnergia(false);
+                    squirtle.verPocionVida(false);
                     return squirtle;
             }
 
@@ -770,11 +783,9 @@ namespace ipo2_pokedex
 
         private void createNotification(Pokemon attack, Pokemon defend, string attackName)
         {
-            if (false)
-            {
 
 
-                new ToastContentBuilder()
+                 new ToastContentBuilder()
                 .AddArgument("action", "Favoritos")
                 .AddArgument("conversationId", 9813)
                 .AddText(attack.name + " hizo ataque " + attackName)
@@ -786,8 +797,56 @@ namespace ipo2_pokedex
                 .AddArgument("action", "reply")
                 )
                 .Show();
+            
+        }
+
+       
+
+       
+
+        private async void pocionR1_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            if (p1 is iPokemon pokemon1 && p2 is iPokemon pokemon2 && turn == 1)
+            {
+
+                pokemon1.animacionDescasar();
+                pokemon1.Vida = 100;
+                await Task.Delay(7000);
             }
         }
 
+        private async void pocionA1_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            if (p1 is iPokemon pokemon1 && p2 is iPokemon pokemon2 && turn == 1)
+            {
+
+
+                pokemon1.animacionDescasar();
+                pokemon1.Energia = 100;
+                await Task.Delay(7000);
+            }
+        }
+
+        private async void pocionR_Copiar1_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            if (p1 is iPokemon pokemon1 && p2 is iPokemon pokemon2 && turn == 2)
+            {
+
+                pokemon2.animacionDescasar();
+                pokemon2.Vida = 100;
+                await Task.Delay(7000);
+            }
+        }
+
+        private async void pocionA_copia1_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            if (p1 is iPokemon pokemon1 && p2 is iPokemon pokemon2 && turn == 2)
+            {
+
+                pokemon2.animacionDescasar();
+                pokemon2.Vida = 100;
+                await Task.Delay(7000);
+            }
+        }
     }
 }

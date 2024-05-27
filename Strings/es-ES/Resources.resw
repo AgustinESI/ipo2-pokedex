@@ -123,8 +123,23 @@
   <data name="btnFAQ.Content" xml:space="preserve">
     <value>PYR</value>
   </data>
+  <data name="cuartoCuerpo.Text" xml:space="preserve">
+    <value>Para aumentar la accesibilidad de nuestro programa, tiene un lector automático incorporado que leerá todos los siitos a donde pueda acceder el usuario.</value>
+  </data>
+  <data name="cuartoTitulo.Text" xml:space="preserve">
+    <value>Información sobre la accesibilidad</value>
+  </data>
+  <data name="desarrolladores2.Content" xml:space="preserve">
+    <value>Desarrolladores</value>
+  </data>
   <data name="DesaText.Text" xml:space="preserve">
     <value>Desarrolladores del proyecto</value>
+  </data>
+  <data name="faq2.Content" xml:space="preserve">
+    <value>PYR</value>
+  </data>
+  <data name="faqTitulo2.Text" xml:space="preserve">
+    <value>PYR</value>
   </data>
   <data name="GitAgustin.Content" xml:space="preserve">
     <value>Ver Perfil GitHub</value>
@@ -165,6 +180,24 @@
   <data name="player2.Text" xml:space="preserve">
     <value>JUGADOR 2</value>
   </data>
+  <data name="primerCuerpo.Text" xml:space="preserve">
+    <value>En el apartado de pokedex hay un listado de pokemons completo desde la primera hasta 7 edición, en la parte superior se puede filtrar por los pokemons capturados (desarrollados por los compañeros), existe un buscador para filtrar por el nombre del pokemons. Aquellos pokemons capturados aparecen con una pokedex.</value>
+  </data>
+  <data name="primerTitulo.Text" xml:space="preserve">
+    <value>Información sobre la Pokedex</value>
+  </data>
+  <data name="quintoCuerpo.Text" xml:space="preserve">
+    <value>Para que nuestro programa tenga internacionalización, hemos dado la posibilidad de traducirlo en dos idiomas: Inglés y Español. Esto se conseguirá pinchando en los botones con las banderas correspondientes.</value>
+  </data>
+  <data name="quintoTitulo.Text" xml:space="preserve">
+    <value>Información sobre la internacionalización</value>
+  </data>
+  <data name="segundoCupero.Text" xml:space="preserve">
+    <value>Se puede seleccionar dos modos de juego, 1 vs 1 y 1 vs la Inteligencia artificial. Los pokemons solo estan seleccionables aquellos capturados (desarrollados por los alumnos). Existen 2 tipos de ataques (Ataque Fuerte, Ataque Flojo), existe la posibilidad de huir del combate y en función del pokemon puede evolucionar.</value>
+  </data>
+  <data name="segundoTitulo.Text" xml:space="preserve">
+    <value>Información sobre el combate</value>
+  </data>
   <data name="tblifes.Text" xml:space="preserve">
     <value>Vidas</value>
   </data>
@@ -173,6 +206,12 @@
   </data>
   <data name="tbstars.Text" xml:space="preserve">
     <value>Aciertos</value>
+  </data>
+  <data name="tercerCuerpo.Text" xml:space="preserve">
+    <value>Seleccionando uno de los pokemons de la lista en la parte de abajo a la derecha, podemos subir la experiencia del pokemon y asi poder mejorar a los pokemons para que se desenvuelvan mejor en combate. El juego consiste en adivinar el pokemon entre las opciones presentadas, debes acertar un mínimo de 6 pokemons y solo tiene 3 vidas disponibles.</value>
+  </data>
+  <data name="tercerTitulo.Text" xml:space="preserve">
+    <value>Información sobre el mini juego</value>
   </data>
   <data name="textCap.Text" xml:space="preserve">
     <value>Capturados</value>

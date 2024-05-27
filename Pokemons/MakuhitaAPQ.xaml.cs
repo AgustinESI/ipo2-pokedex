@@ -23,6 +23,7 @@ namespace ipo2_pokedex
     public sealed partial class MakuhitaAPQ : UserControl, iPokemon
     {
         public bool KeyPreview { get; }
+
         public double Vida
         {
             get { return this.pbVida.Value; }

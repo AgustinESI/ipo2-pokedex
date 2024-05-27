@@ -22,7 +22,27 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Viewbox Margin="40,15,40,15" Grid.Row="1">
+            <Button x:Name="pocionR1" Margin="627,22,0,0" Grid.Row="1" VerticalAlignment="Top" FocusVisualPrimaryBrush="{x:Null}" Foreground="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" Click="pocionR1_Click">
+                <Image x:Name="pocionR" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" Stretch="Fill" Source="/Assets/pokemons/SnorlaxROC/pocionR.png"/>
+            </Button>
+            <Button x:Name="pocionA1" Margin="627,75,0,0" Grid.Row="1" VerticalAlignment="Top" Click="pocionA1_Click" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}">
+                <Image x:Name="pocionA" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/Assets/pokemons/SnorlaxROC/pocionA.png"  RenderTransformOrigin="0.5,0.5" Height="48" Width="69">
+                    <Image.RenderTransform>
+                        <CompositeTransform ScaleX="-1"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+            <Button x:Name="pocionR_Copiar1" Grid.Column="1" Margin="613,45,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Click="pocionR_Copiar1_Click">
+                <Image x:Name="pocionR_Copiar" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" Stretch="Fill" Source="/Assets/pokemons/SnorlaxROC/pocionR.png"/>
+            </Button>
+            <Button x:Name="pocionA_copia1" Grid.Column="1" Margin="613,98,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Click="pocionA_copia1_Click">
+                <Image x:Name="pocionA_Copiar" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/Assets/pokemons/SnorlaxROC/pocionA.png"  RenderTransformOrigin="0.5,0.5" Height="48" Width="69">
+                    <Image.RenderTransform>
+                        <CompositeTransform ScaleX="-1"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+            <Viewbox Margin="40,5,40,25" Grid.Row="1">
                 <Grid x:Name="pokemon1" HorizontalAlignment="Center" Width="730" Height="480" VerticalAlignment="Center" Padding="30,30,30,30"/>
             </Viewbox>
             <Viewbox Margin="40,21,40,9" Grid.Column="1">

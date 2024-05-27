@@ -123,8 +123,23 @@
   <data name="btnFAQ.Content" xml:space="preserve">
     <value>FAQ</value>
   </data>
+  <data name="cuartoCuerpo.Text" xml:space="preserve">
+    <value>To increase the accessibility of our program, it has a built-in automatic reader that will read all the sites the user can access.</value>
+  </data>
+  <data name="cuartoTitulo.Text" xml:space="preserve">
+    <value>Information about accessibility</value>
+  </data>
+  <data name="desarrolladores2.Content" xml:space="preserve">
+    <value>Developers</value>
+  </data>
   <data name="DesaText.Text" xml:space="preserve">
     <value>Project developers</value>
+  </data>
+  <data name="faq2.Content" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="faqTitulo2.Text" xml:space="preserve">
+    <value>FAQ</value>
   </data>
   <data name="GitAgustin.Content" xml:space="preserve">
     <value>View GitHub profile</value>
@@ -165,6 +180,24 @@
   <data name="player2.Text" xml:space="preserve">
     <value>PLAYER 2</value>
   </data>
+  <data name="primerCuerpo.Text" xml:space="preserve">
+    <value>In the pokedex section there is a complete list of pokemons from the first to 7th edition, at the top you can filter by the captured pokemons (developed by your companions), there is a search engine to filter by the name of the pokemon. Those captured pokemon appear with a pokeball</value>
+  </data>
+  <data name="primerTitulo.Text" xml:space="preserve">
+    <value>Information about the pokedex</value>
+  </data>
+  <data name="quintoCuerpo.Text" xml:space="preserve">
+    <value>So that our program has internationalization, we have given the possibility of translating it into two languages: English and Spanish. This will be achieved by clicking on the corresponding button</value>
+  </data>
+  <data name="quintoTitulo.Text" xml:space="preserve">
+    <value>Information about the internationalization</value>
+  </data>
+  <data name="segundoCupero.Text" xml:space="preserve">
+    <value>You can select two game modes, 1 vs 1 and 1 vs Artificial Intelligence. The Pokémon are only selectable those captured (developed by the students). There are 2 types of attacks (Strong Attack, Weak Attack), there is the possibility of fleeing from combat and depending on the pokemon it can evolve</value>
+  </data>
+  <data name="segundoTitulo.Text" xml:space="preserve">
+    <value>Information about the combat</value>
+  </data>
   <data name="tblifes.Text" xml:space="preserve">
     <value>Lifes</value>
   </data>
@@ -173,6 +206,12 @@
   </data>
   <data name="tbstars.Text" xml:space="preserve">
     <value>Successes</value>
+  </data>
+  <data name="tercerCuerpo.Text" xml:space="preserve">
+    <value>By selecting one of the pokemon from the list at the bottom right, we can increase the pokemon's experience and thus be able to improve the pokemon so that they perform better in combat. The game consists of guessing the pokemon among the options presented, you must guess a minimum of 6 pokemon and it only has 3 lives available.</value>
+  </data>
+  <data name="tercerTitulo.Text" xml:space="preserve">
+    <value>Information about MiniGame</value>
   </data>
   <data name="textCap.Text" xml:space="preserve">
     <value>Captured</value>
