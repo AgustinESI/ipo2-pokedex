@@ -293,6 +293,7 @@ namespace ipo2_pokedex
                 btn_LuchaPokemon.Content = "Battle Pokemon";
                 btn_MasInfo.Content = "More Info";
                 SelectIdioma.Header = "Language";
+                Tema.Content = "Light/Dark Theme";
                 //lector_de_voz.Header = "Voice reades";
                 // Actualiza otros elementos de la UI según sea necesario
             }
@@ -304,6 +305,7 @@ namespace ipo2_pokedex
                 btn_LuchaPokemon.Content = "Lucha Pokemon";
                 btn_MasInfo.Content = "Más Info";
                 SelectIdioma.Header = "Idioma";
+                Tema.Content = "Tema Claro/Oscuro";
                // lector_de_voz.Header = "Lector de voz";
                 // Actualiza otros elementos de la UI según sea necesario
             }

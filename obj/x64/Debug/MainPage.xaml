@@ -25,7 +25,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button x:ConnectionId='3' Content="Tema Claro / Oscuro"                                 Grid.Column="0" Margin="72,0,0,0"/>
+            <Button x:ConnectionId='3' x:Name="Tema" x:Uid="Tema" Content="Tema Claro / Oscuro"                                 Grid.Column="0" Margin="62,10,0,0" VerticalAlignment="Top"/>
 
             <Border x:ConnectionId='4' x:Name="Border_Arriba_Blanco" Grid.ColumnSpan="2">
                 <Button x:ConnectionId='20' x:Name="Btn_Menu" Margin="0,10,0,0"                        VerticalAlignment="Top">

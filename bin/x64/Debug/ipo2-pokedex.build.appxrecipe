@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-DOB7OBI</Machine>
-    <WindowsUser>Usuario</WindowsUser>
+    <Machine>ROBERTO</Machine>
+    <WindowsUser>rober</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>236830dc-f19e-492a-afa8-12cf9fee7752</PackageIdentityName>
     <PackageIdentityPublisher>CN=agust</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\ipo2-pokedex.exe">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\ipo2-pokedex.exe">
       <PackagePath>entrypoint\ipo2-pokedex.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\json.net\1.0.33\lib\netstandard2.0\Json.Net.dll">
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\json.net\1.0.33\lib\netstandard2.0\Json.Net.dll">
       <PackagePath>Json.Net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\newtonsoft.json\13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\newtonsoft.json\13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
@@ -43,885 +43,885 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\pokemonList.json">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\pokemonList.json">
       <PackagePath>pokemonList.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\battleground.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\battleground.jpg">
       <PackagePath>Assets\images\battleground.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\icon\portada.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\icon\portada.jpg">
       <PackagePath>Assets\images\icon\portada.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\pokedex.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\pokedex.jpg">
       <PackagePath>Assets\images\pokedex.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\charizard.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\charizard.jpg">
       <PackagePath>Assets\pokemons\CharizardASM\charizard.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\escenariopokemon.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\escenariopokemon.jpg">
       <PackagePath>Assets\pokemons\DragoniteCSD\escenariopokemon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GengarJCC\z10o_buuk_210129.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GengarJCC\z10o_buuk_210129.jpg">
       <PackagePath>Assets\pokemons\GengarJCC\z10o_buuk_210129.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\imgFondo.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\imgFondo.jpg">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\imgFondo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\forest.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\forest.jpg">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\forest.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\forest2.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\forest2.jpg">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\forest2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\MakuhitaAPQ\fondo.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\MakuhitaAPQ\fondo.jpg">
       <PackagePath>Assets\pokemons\MakuhitaAPQ\fondo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PikachuAPCC\pocima_azul.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PikachuAPCC\pocima_azul.jpg">
       <PackagePath>Assets\pokemons\PikachuAPCC\pocima_azul.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PikachuAPCC\rayo.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PikachuAPCC\rayo.jpg">
       <PackagePath>Assets\pokemons\PikachuAPCC\rayo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PikachuAPCC\vida.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PikachuAPCC\vida.jpg">
       <PackagePath>Assets\pokemons\PikachuAPCC\vida.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\arañazo.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\arañazo.jpg">
       <PackagePath>Assets\pokemons\SnorlaxROC\arañazo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\cartoon-bunny-easy-to-use-without-gradients-or-other-effects-vector.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\cartoon-bunny-easy-to-use-without-gradients-or-other-effects-vector.jpg">
       <PackagePath>Assets\pokemons\SnorlaxROC\cartoon-bunny-easy-to-use-without-gradients-or-other-effects-vector.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\fondo.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\fondo.jpg">
       <PackagePath>Assets\pokemons\SnorlaxROC\fondo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\fondo.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\fondo.jpg">
       <PackagePath>Assets\pokemons\SquirtleJRSL\fondo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Fondo.jpg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Fondo.jpg">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Fondo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Grass.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Grass.png">
       <PackagePath>Assets\images\cards\Grass.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Fire.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Fire.png">
       <PackagePath>Assets\images\cards\Fire.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Fighting.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Fighting.png">
       <PackagePath>Assets\images\cards\Fighting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Dark.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Dark.png">
       <PackagePath>Assets\images\cards\Dark.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Dragon.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Dragon.png">
       <PackagePath>Assets\images\cards\Dragon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Empty.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Empty.png">
       <PackagePath>Assets\images\cards\Empty.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Steel.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Steel.png">
       <PackagePath>Assets\images\cards\Steel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Psychic.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Psychic.png">
       <PackagePath>Assets\images\cards\Psychic.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Water.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Water.png">
       <PackagePath>Assets\images\cards\Water.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\cards\Electric.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\cards\Electric.png">
       <PackagePath>Assets\images\cards\Electric.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\developers\agustin.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\developers\agustin.png">
       <PackagePath>Assets\images\developers\agustin.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\developers\miriam.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\developers\miriam.png">
       <PackagePath>Assets\images\developers\miriam.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\developers\roberto.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\developers\roberto.png">
       <PackagePath>Assets\images\developers\roberto.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\hearts\hearts-0.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\hearts\hearts-0.png">
       <PackagePath>Assets\images\hearts\hearts-0.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\hearts\hearts-1.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\hearts\hearts-1.png">
       <PackagePath>Assets\images\hearts\hearts-1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\hearts\hearts-2.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\hearts\hearts-2.png">
       <PackagePath>Assets\images\hearts\hearts-2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\hearts\hearts-3.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\hearts\hearts-3.png">
       <PackagePath>Assets\images\hearts\hearts-3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\icon\pokeball.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\icon\pokeball.png">
       <PackagePath>Assets\images\icon\pokeball.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\icon\search-white.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\icon\search-white.png">
       <PackagePath>Assets\images\icon\search-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\main_background.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\main_background.png">
       <PackagePath>Assets\images\main_background.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\message-removebg-preview.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\message-removebg-preview.png">
       <PackagePath>Assets\images\message-removebg-preview.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\pokeball_background_cornet.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\pokeball_background_cornet.png">
       <PackagePath>Assets\images\pokeball_background_cornet.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\pokemons\charizard.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\pokemons\charizard.png">
       <PackagePath>Assets\images\pokemons\charizard.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\icon\search.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\icon\search.png">
       <PackagePath>Assets\images\icon\search.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\stars\star-0.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\stars\star-0.png">
       <PackagePath>Assets\images\stars\star-0.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\stars\star-1.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\stars\star-1.png">
       <PackagePath>Assets\images\stars\star-1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\stars\star-2.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\stars\star-2.png">
       <PackagePath>Assets\images\stars\star-2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\stars\star-3.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\stars\star-3.png">
       <PackagePath>Assets\images\stars\star-3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\stars\star-4.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\stars\star-4.png">
       <PackagePath>Assets\images\stars\star-4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\stars\star-5.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\stars\star-5.png">
       <PackagePath>Assets\images\stars\star-5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\stars\star-6.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\stars\star-6.png">
       <PackagePath>Assets\images\stars\star-6.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\corazonVida.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\corazonVida.png">
       <PackagePath>Assets\pokemons\ArticunoACG\corazonVida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\energia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\energia.png">
       <PackagePath>Assets\pokemons\ArticunoACG\energia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\fondoPokemon1.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\fondoPokemon1.png">
       <PackagePath>Assets\pokemons\ArticunoACG\fondoPokemon1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\pocimaEnergia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\pocimaEnergia.png">
       <PackagePath>Assets\pokemons\ArticunoACG\pocimaEnergia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\pocimaVida.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\pocimaVida.png">
       <PackagePath>Assets\pokemons\ArticunoACG\pocimaVida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\background.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\background.png">
       <PackagePath>Assets\pokemons\CharizardASM\background.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\background1.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\background1.png">
       <PackagePath>Assets\pokemons\CharizardASM\background1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\blue_potion.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\blue_potion.png">
       <PackagePath>Assets\pokemons\CharizardASM\blue_potion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\espiral.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\espiral.png">
       <PackagePath>Assets\pokemons\CharizardASM\espiral.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\garra.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\garra.png">
       <PackagePath>Assets\pokemons\CharizardASM\garra.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\green_potion.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\green_potion.png">
       <PackagePath>Assets\pokemons\CharizardASM\green_potion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\heart.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\heart.png">
       <PackagePath>Assets\pokemons\CharizardASM\heart.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\lanzallamas.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\lanzallamas.png">
       <PackagePath>Assets\pokemons\CharizardASM\lanzallamas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\lanzallamas_azul.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\lanzallamas_azul.png">
       <PackagePath>Assets\pokemons\CharizardASM\lanzallamas_azul.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\mano_mewing.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\mano_mewing.png">
       <PackagePath>Assets\pokemons\CharizardASM\mano_mewing.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\mano_mewing_black.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\mano_mewing_black.png">
       <PackagePath>Assets\pokemons\CharizardASM\mano_mewing_black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\mewing.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\mewing.png">
       <PackagePath>Assets\pokemons\CharizardASM\mewing.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\mewing_black.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\mewing_black.png">
       <PackagePath>Assets\pokemons\CharizardASM\mewing_black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\shield.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\shield.png">
       <PackagePath>Assets\pokemons\CharizardASM\shield.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\angel.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\angel.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\angel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\arañazo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\arañazo.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\arañazo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\colazo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\colazo.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\colazo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\escudoesfera.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\escudoesfera.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\escudoesfera.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\escudoReal.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\escudoReal.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\escudoReal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\explosion.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\explosion.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\explosion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\herido.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\herido.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\herido.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\humoenfado.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\humoenfado.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\humoenfado.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\img_meteorito.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\img_meteorito.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\img_meteorito.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\img_stamina.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\img_stamina.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\img_stamina.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\muerto.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\muerto.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\muerto.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\oxigeno.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\oxigeno.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\oxigeno.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\pocionstamina.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\pocionstamina.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\pocionstamina.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\pocionvida.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\pocionvida.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\pocionvida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\recuperarenergiavida.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\recuperarenergiavida.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\recuperarenergiavida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\stamina.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\stamina.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\stamina.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\sudor.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\sudor.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\sudor.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\termometro.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\termometro.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\termometro.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\Vidapokemon2.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\Vidapokemon2.png">
       <PackagePath>Assets\pokemons\DragoniteCSD\Vidapokemon2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GengarJCC\corazon.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GengarJCC\corazon.png">
       <PackagePath>Assets\pokemons\GengarJCC\corazon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GengarJCC\energia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GengarJCC\energia.png">
       <PackagePath>Assets\pokemons\GengarJCC\energia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GengarJCC\pocion.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GengarJCC\pocion.png">
       <PackagePath>Assets\pokemons\GengarJCC\pocion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GengarJCC\pocionEnergia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GengarJCC\pocionEnergia.png">
       <PackagePath>Assets\pokemons\GengarJCC\pocionEnergia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\Corazon.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\Corazon.png">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\Corazon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\PocionEnergia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\PocionEnergia.png">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\PocionEnergia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\PocionVida.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\PocionVida.png">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\PocionVida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\Power.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\Power.png">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\Power.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\almohada2.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\almohada2.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\almohada2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\brillo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\brillo.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\brillo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\bubble.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\bubble.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\bubble.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\destello.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\destello.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\destello.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\escudo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\escudo.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\escudo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\heart.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\heart.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\heart.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\heart_potion.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\heart_potion.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\heart_potion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\moraton.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\moraton.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\moraton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\shield.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\shield.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\shield.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\shield_potion.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\shield_potion.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\shield_potion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\sudor.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\sudor.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\sudor.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\tirita.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\tirita.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\tirita.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\UI_Pokemon\tumba3.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\UI_Pokemon\tumba3.png">
       <PackagePath>Assets\pokemons\LaprasACE\UI_Pokemon\tumba3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\MakuhitaAPQ\Corazon.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\MakuhitaAPQ\Corazon.png">
       <PackagePath>Assets\pokemons\MakuhitaAPQ\Corazon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\MakuhitaAPQ\Energia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\MakuhitaAPQ\Energia.png">
       <PackagePath>Assets\pokemons\MakuhitaAPQ\Energia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\MakuhitaAPQ\PocionEnergia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\MakuhitaAPQ\PocionEnergia.png">
       <PackagePath>Assets\pokemons\MakuhitaAPQ\PocionEnergia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\MakuhitaAPQ\PocionVida.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\MakuhitaAPQ\PocionVida.png">
       <PackagePath>Assets\pokemons\MakuhitaAPQ\PocionVida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PikachuAPCC\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PikachuAPCC\SplashScreen.png">
       <PackagePath>Assets\pokemons\PikachuAPCC\SplashScreen.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PikachuAPCC\wp10311649.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PikachuAPCC\wp10311649.png">
       <PackagePath>Assets\pokemons\PikachuAPCC\wp10311649.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\alma.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\alma.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\alma.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\bocadillo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\bocadillo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\bocadillo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\bola_rayo_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\bola_rayo_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\bola_rayo_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\burbujas.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\burbujas.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\burbujas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\carambano.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\carambano.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\carambano.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\copo_de_nieve_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\copo_de_nieve_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\copo_de_nieve_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\corazon_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\corazon_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\corazon_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\cruz.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\cruz.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\cruz.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\cubito_de_hielo_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\cubito_de_hielo_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\cubito_de_hielo_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\destello_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\destello_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\destello_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\energia_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\energia_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\energia_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\escudo_de_hielo_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\escudo_de_hielo_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\escudo_de_hielo_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\espiral_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\espiral_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\espiral_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\FondoFinal.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\FondoFinal.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\FondoFinal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\gota_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\gota_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\gota_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\herida1.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\herida1.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\herida1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\lloro.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\lloro.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\lloro.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\ojeras_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\ojeras_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\ojeras_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\ola.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\ola.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\ola.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\pocion_amarilla_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\pocion_amarilla_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\pocion_amarilla_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\pocion_roja_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\pocion_roja_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\pocion_roja_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\rayo_burbuja_sin_fondo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\rayo_burbuja_sin_fondo.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\rayo_burbuja_sin_fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\tabla_surf.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\tabla_surf.png">
       <PackagePath>Assets\pokemons\PiplupMLTN\tabla_surf.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ScizorAPJ\icoEnergia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ScizorAPJ\icoEnergia.png">
       <PackagePath>Assets\pokemons\ScizorAPJ\icoEnergia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ScizorAPJ\icoSalud.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ScizorAPJ\icoSalud.png">
       <PackagePath>Assets\pokemons\ScizorAPJ\icoSalud.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ScizorAPJ\paisajePokemon.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ScizorAPJ\paisajePokemon.png">
       <PackagePath>Assets\pokemons\ScizorAPJ\paisajePokemon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ScizorAPJ\PocionEnergia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ScizorAPJ\PocionEnergia.png">
       <PackagePath>Assets\pokemons\ScizorAPJ\PocionEnergia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ScizorAPJ\PocionSalud.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ScizorAPJ\PocionSalud.png">
       <PackagePath>Assets\pokemons\ScizorAPJ\PocionSalud.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\1fa78.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\1fa78.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\1fa78.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\arabn.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\arabn.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\arabn.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\arañazoSan2.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\arañazoSan2.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\arañazoSan2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\arañazoSangre.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\arañazoSangre.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\arañazoSangre.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\baba.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\baba.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\baba.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\caida.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\caida.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\caida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\cama.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\cama.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\cama.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\cartel-minimo-ilustracion-vector-arbol-coco_969863-6808.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\cartel-minimo-ilustracion-vector-arbol-coco_969863-6808.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\cartel-minimo-ilustracion-vector-arbol-coco_969863-6808.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\corazon.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\corazon.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\corazon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\energia.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\energia.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\energia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\heridas.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\heridas.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\heridas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\lapida.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\lapida.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\lapida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\manta.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\manta.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\manta.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\moraton.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\moraton.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\moraton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\moraton2.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\moraton2.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\moraton2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\ojosmuerto.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\ojosmuerto.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\ojosmuerto.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\pocionA.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\pocionA.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\pocionA.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\pocionR.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\pocionR.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\pocionR.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\tierra.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\tierra.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\tierra.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\tierrabn.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\tierrabn.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\tierrabn.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\z.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\z.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\z.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\z2b.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\z2b.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\z2b.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\zb.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\zb.png">
       <PackagePath>Assets\pokemons\SnorlaxROC\zb.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\1up.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\1up.png">
       <PackagePath>Assets\pokemons\SquirtleJRSL\1up.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\Burbuja.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\Burbuja.png">
       <PackagePath>Assets\pokemons\SquirtleJRSL\Burbuja.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\escudo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\escudo.png">
       <PackagePath>Assets\pokemons\SquirtleJRSL\escudo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\GotadeAgua.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\GotadeAgua.png">
       <PackagePath>Assets\pokemons\SquirtleJRSL\GotadeAgua.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\Pegar.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\Pegar.png">
       <PackagePath>Assets\pokemons\SquirtleJRSL\Pegar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\pngegg.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\pngegg.png">
       <PackagePath>Assets\pokemons\SquirtleJRSL\pngegg.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Agujero.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Agujero.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Agujero.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Bostezo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Bostezo.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Bostezo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Burbujas.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Burbujas.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Burbujas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Calavera.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Calavera.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Calavera.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Corazon.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Corazon.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Corazon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Dormir.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Dormir.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Dormir.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Energi.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Energi.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Energi.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Escudo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Escudo.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Escudo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\herida_1.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\herida_1.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\herida_1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Herida_2.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Herida_2.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Herida_2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Herida_3.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Herida_3.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Herida_3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\muerto.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\muerto.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\muerto.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\nubes moradas.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\nubes moradas.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\nubes moradas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\NubesOscuras.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\NubesOscuras.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\NubesOscuras.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Planta.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Planta.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Planta.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Planta_2.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Planta_2.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Planta_2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Pocima_Energia-removebg-preview.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Pocima_Energia-removebg-preview.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Pocima_Energia-removebg-preview.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Pocima_Vida-removebg-preview.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Pocima_Vida-removebg-preview.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Pocima_Vida-removebg-preview.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Imagenes\Venom.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Imagenes\Venom.png">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Imagenes\Venom.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\images\pokemon-battle-background.gif">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\images\pokemon-battle-background.gif">
       <PackagePath>Assets\images\pokemon-battle-background.gif</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\burbujas.gif">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\burbujas.gif">
       <PackagePath>Assets\pokemons\SquirtleJRSL\burbujas.gif</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SquirtleJRSL\Chorro.gif">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SquirtleJRSL\Chorro.gif">
       <PackagePath>Assets\pokemons\SquirtleJRSL\Chorro.gif</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\CabezazoRalentizado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\CabezazoRalentizado.mp3">
       <PackagePath>Assets\pokemons\ArticunoACG\CabezazoRalentizado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\DerrotadoBien.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\DerrotadoBien.mp3">
       <PackagePath>Assets\pokemons\ArticunoACG\DerrotadoBien.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\Escudo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\Escudo.mp3">
       <PackagePath>Assets\pokemons\ArticunoACG\Escudo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\RayoHielo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\RayoHielo.mp3">
       <PackagePath>Assets\pokemons\ArticunoACG\RayoHielo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ArticunoACG\RecuperarVida.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ArticunoACG\RecuperarVida.mp3">
       <PackagePath>Assets\pokemons\ArticunoACG\RecuperarVida.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\audios\evolucion.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\audios\evolucion.mp3">
       <PackagePath>Assets\pokemons\CharizardASM\audios\evolucion.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\audios\garra.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\audios\garra.mp3">
       <PackagePath>Assets\pokemons\CharizardASM\audios\garra.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\audios\lanzallamas.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\audios\lanzallamas.mp3">
       <PackagePath>Assets\pokemons\CharizardASM\audios\lanzallamas.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\audios\mewing.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\audios\mewing.mp3">
       <PackagePath>Assets\pokemons\CharizardASM\audios\mewing.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\CharizardASM\audios\recuperado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\CharizardASM\audios\recuperado.mp3">
       <PackagePath>Assets\pokemons\CharizardASM\audios\recuperado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\Ataque.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\Ataque.mp3">
       <PackagePath>Assets\pokemons\DragoniteCSD\Ataque.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\cansado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\cansado.mp3">
       <PackagePath>Assets\pokemons\DragoniteCSD\cansado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\CuraVida.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\CuraVida.mp3">
       <PackagePath>Assets\pokemons\DragoniteCSD\CuraVida.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\default.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\default.mp3">
       <PackagePath>Assets\pokemons\DragoniteCSD\default.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\Enfado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\Enfado.mp3">
       <PackagePath>Assets\pokemons\DragoniteCSD\Enfado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\escudo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\escudo.mp3">
       <PackagePath>Assets\pokemons\DragoniteCSD\escudo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\herido.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\herido.mp3">
       <PackagePath>Assets\pokemons\DragoniteCSD\herido.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\muertedef.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\muertedef.mp3">
       <PackagePath>Assets\pokemons\DragoniteCSD\muertedef.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\AtaqueDebil.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\AtaqueDebil.mp3">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\AtaqueDebil.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\AtaqueFuerte.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\AtaqueFuerte.mp3">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\AtaqueFuerte.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\Derrotado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\Derrotado.mp3">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\Derrotado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\Descanso.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\Descanso.mp3">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\Descanso.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\AtaqueDebil.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\AtaqueDebil.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\AtaqueDebil.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\AtaqueFuerte.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\AtaqueFuerte.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\AtaqueFuerte.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\Cansado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\Cansado.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\Cansado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\Descanso.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\Descanso.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\Descanso.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\Escudo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\Escudo.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\Escudo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\lapras.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\lapras.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\lapras.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\Muerte.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\Muerte.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\Muerte.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\PonerEscudo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\PonerEscudo.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\PonerEscudo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\PowerDown.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\PowerDown.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\PowerDown.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\PowerUp.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\PowerUp.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\PowerUp.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\QuitarCansado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\QuitarCansado.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\QuitarCansado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\LaprasACE\Sounds\QuitarEscudo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\LaprasACE\Sounds\QuitarEscudo.mp3">
       <PackagePath>Assets\pokemons\LaprasACE\Sounds\QuitarEscudo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\sonido_cansado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\sonido_cansado.mp3">
       <PackagePath>Assets\pokemons\PiplupMLTN\sonido_cansado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\sonido_derrotado.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\sonido_derrotado.mp3">
       <PackagePath>Assets\pokemons\PiplupMLTN\sonido_derrotado.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\sonido_descanso.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\sonido_descanso.mp3">
       <PackagePath>Assets\pokemons\PiplupMLTN\sonido_descanso.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\sonido_escudo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\sonido_escudo.mp3">
       <PackagePath>Assets\pokemons\PiplupMLTN\sonido_escudo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\sonido_frioPolar.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\sonido_frioPolar.mp3">
       <PackagePath>Assets\pokemons\PiplupMLTN\sonido_frioPolar.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\sonido_surf.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\sonido_surf.mp3">
       <PackagePath>Assets\pokemons\PiplupMLTN\sonido_surf.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\aDormir.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\aDormir.mp3">
       <PackagePath>Assets\pokemons\SnorlaxROC\aDormir.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\derrumbe.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\derrumbe.mp3">
       <PackagePath>Assets\pokemons\SnorlaxROC\derrumbe.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\escudo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\escudo.mp3">
       <PackagePath>Assets\pokemons\SnorlaxROC\escudo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\muerte.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\muerte.mp3">
       <PackagePath>Assets\pokemons\SnorlaxROC\muerte.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\roncar.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\roncar.mp3">
       <PackagePath>Assets\pokemons\SnorlaxROC\roncar.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\uñas.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\uñas.mp3">
       <PackagePath>Assets\pokemons\SnorlaxROC\uñas.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\SnorlaxROC\vidaBaja.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\SnorlaxROC\vidaBaja.mp3">
       <PackagePath>Assets\pokemons\SnorlaxROC\vidaBaja.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Muerte.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Muerte.mp3">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Muerte.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Sonidos\AtaqueDebil2.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Sonidos\AtaqueDebil2.mp3">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Sonidos\AtaqueDebil2.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Sonidos\AtaqueFuerte.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Sonidos\AtaqueFuerte.mp3">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Sonidos\AtaqueFuerte.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Sonidos\Bostezo.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Sonidos\Bostezo.mp3">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Sonidos\Bostezo.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Sonidos\Herido.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Sonidos\Herido.mp3">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Sonidos\Herido.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Sonidos\Muerte.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Sonidos\Muerte.mp3">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Sonidos\Muerte.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\ToxicroackJPG\Sonidos\Ronquido.mp3">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\ToxicroackJPG\Sonidos\Ronquido.mp3">
       <PackagePath>Assets\pokemons\ToxicroackJPG\Sonidos\Ronquido.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\colazo.wav">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\colazo.wav">
       <PackagePath>Assets\pokemons\DragoniteCSD\colazo.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\DragoniteCSD\explosion.wav">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\DragoniteCSD\explosion.wav">
       <PackagePath>Assets\pokemons\DragoniteCSD\explosion.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\GrookeyJGPMP\Escudo.mp4">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\GrookeyJGPMP\Escudo.mp4">
       <PackagePath>Assets\pokemons\GrookeyJGPMP\Escudo.mp4</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PikachuAPCC\pocima.jpeg">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PikachuAPCC\pocima.jpeg">
       <PackagePath>Assets\pokemons\PikachuAPCC\pocima.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Assets\pokemons\PiplupMLTN\sonido_herir.m4a">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Assets\pokemons\PiplupMLTN\sonido_herir.m4a">
       <PackagePath>Assets\pokemons\PiplupMLTN\sonido_herir.m4a</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\ipo2-pokedex.xr.xml">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\ipo2-pokedex.xr.xml">
       <PackagePath>ipo2-pokedex.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\BattlePage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\BattlePage.xbf">
       <PackagePath>BattlePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Doubts.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Doubts.xbf">
       <PackagePath>Doubts.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\InicioPage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\InicioPage.xbf">
       <PackagePath>InicioPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\MiniGamePage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\MiniGamePage.xbf">
       <PackagePath>MiniGamePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\MoreInformation.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\MoreInformation.xbf">
       <PackagePath>MoreInformation.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\GrookeyJGPMP.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\GrookeyJGPMP.xbf">
       <PackagePath>Pokemons\GrookeyJGPMP.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\LaprasACE.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\LaprasACE.xbf">
       <PackagePath>Pokemons\LaprasACE.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\MakuhitaAPQ.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\MakuhitaAPQ.xbf">
       <PackagePath>Pokemons\MakuhitaAPQ.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\DragoniteCSD.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\DragoniteCSD.xbf">
       <PackagePath>Pokemons\DragoniteCSD.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\GengarJCC.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\GengarJCC.xbf">
       <PackagePath>Pokemons\GengarJCC.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\PikachuAPCC.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\PikachuAPCC.xbf">
       <PackagePath>Pokemons\PikachuAPCC.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\ArticunoACG.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\ArticunoACG.xbf">
       <PackagePath>Pokemons\ArticunoACG.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\CharizardASM.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\CharizardASM.xbf">
       <PackagePath>Pokemons\CharizardASM.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\PiplupMLTN.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\PiplupMLTN.xbf">
       <PackagePath>Pokemons\PiplupMLTN.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\PokedexPage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\PokedexPage.xbf">
       <PackagePath>PokedexPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\PokemonDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\PokemonDetailPage.xbf">
       <PackagePath>PokemonDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\SnorlaxROC.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\SnorlaxROC.xbf">
       <PackagePath>Pokemons\SnorlaxROC.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\ScizorAPJ.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\ScizorAPJ.xbf">
       <PackagePath>Pokemons\ScizorAPJ.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\SquirtleJRSL1.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\SquirtleJRSL1.xbf">
       <PackagePath>Pokemons\SquirtleJRSL1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\SelectBattlePage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\SelectBattlePage.xbf">
       <PackagePath>SelectBattlePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\SelectPokemonPage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\SelectPokemonPage.xbf">
       <PackagePath>SelectPokemonPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Style\DarkThemeResources.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Style\DarkThemeResources.xbf">
       <PackagePath>Style\DarkThemeResources.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Style\LightThemeResources.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Style\LightThemeResources.xbf">
       <PackagePath>Style\LightThemeResources.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\TemplatePokemon.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\TemplatePokemon.xbf">
       <PackagePath>TemplatePokemon.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\ToxicroackJPG.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Pokemons\ToxicroackJPG.xbf">
       <PackagePath>Pokemons\ToxicroackJPG.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\ViewPokemonPage.xbf">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\ViewPokemonPage.xbf">
       <PackagePath>ViewPokemonPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Core\ipo2-pokedex.exe">
+    <AppxPackagedFile Include="C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\bin\x64\Debug\Core\ipo2-pokedex.exe">
       <PackagePath>ipo2-pokedex.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
