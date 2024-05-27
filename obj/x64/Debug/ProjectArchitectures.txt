@@ -1,1 +1,1 @@
-C:\Users\rober\Source\Repos\ipo2-pokedex_fin_fin\ipo2-pokedex.csproj;x64
+C:\Users\Usuario\Source\Repos\ipo2-pokedex\ipo2-pokedex.csproj;x64

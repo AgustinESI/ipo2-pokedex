@@ -29,6 +29,15 @@ namespace ipo2_pokedex
         public MainPage()
         {
             this.InitializeComponent();
+
+            if (Application.Current.RequestedTheme == ApplicationTheme.Dark)
+            {
+                this.RequestedTheme = ElementTheme.Dark;
+            }
+            else
+            {
+                this.RequestedTheme = ElementTheme.Light;
+            }
             FrameMain.Navigate(typeof(InicioPage), this);
             sView_Abajo_Principal.IsPaneOpen = true;
             sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
@@ -39,7 +48,7 @@ namespace ipo2_pokedex
             //synthesizer = new SpeechSynthesizer();
             //mediaElement = new MediaElement();
             voiceReader = new VoiceReader();
-            string texto = "¡Bienvenido a nuestra App Pokemon. Si quieres un lector de voz, habilitalo en nuestro menú!";
+            string texto = "¡Bienvenido a nuestra aplicación Pokemon.";
             voiceReader.LeerTexto(texto);
 
 
@@ -67,36 +76,36 @@ namespace ipo2_pokedex
             }
         }
 
-        private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
-        {
-            bool currentToggleState = lector_de_voz.IsOn; // Obtener el estado actual del ToggleSwitch
+        /* private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
+         {
+             bool currentToggleState = lector_de_voz.IsOn; // Obtener el estado actual del ToggleSwitch
 
-            // Verificar si el estado actual es diferente al estado anterior
-            if (currentToggleState != previousToggleState)
-            {
-                isVoiceReaderActive = currentToggleState; // Actualizar el estado del lector de voz
+             // Verificar si el estado actual es diferente al estado anterior
+             if (currentToggleState != previousToggleState)
+             {
+                 isVoiceReaderActive = currentToggleState; // Actualizar el estado del lector de voz
 
-                // Actualizar el estado anterior del ToggleSwitch
-                previousToggleState = currentToggleState;
+                 // Actualizar el estado anterior del ToggleSwitch
+                 previousToggleState = currentToggleState;
 
-                string texto = isVoiceReaderActive ? "Lector de voz activado" : "Lector de voz desactivado";
-                voiceReader.LeerTexto(texto);
+                 string texto = isVoiceReaderActive ? "Lector de voz activado" : "Lector de voz desactivado";
+                 voiceReader.LeerTexto(texto);
 
-                if (!isVoiceReaderActive)
-                {
-                    // Detener el lector de voz
-                    voiceReader.DetenerLectura();
-                }
-            }
-            else
-            {
-                // Si el estado del ToggleSwitch no ha cambiado, detener el lector de voz si está desactivado
-                if (!currentToggleState)
-                {
-                    voiceReader.DetenerLectura();
-                }
-            }
-        }
+                 if (!isVoiceReaderActive)
+                 {
+                     // Detener el lector de voz
+                     voiceReader.DetenerLectura();
+                 }
+             }
+             else
+             {
+                 // Si el estado del ToggleSwitch no ha cambiado, detener el lector de voz si está desactivado
+                 if (!currentToggleState)
+                 {
+                     voiceReader.DetenerLectura();
+                 }
+             }
+         }*/
 
 
         /* private void DetenerLectura()
@@ -114,7 +123,27 @@ namespace ipo2_pokedex
             }
         }*/
 
+        private void ToggleThemeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.RequestedTheme == ElementTheme.Light)
+            {
+                SetDarkTheme();
+            }
+            else
+            {
+                SetLightTheme();
+            }
+        }
 
+        private void SetDarkTheme()
+        {
+            this.RequestedTheme = ElementTheme.Dark;
+        }
+
+        private void SetLightTheme()
+        {
+            this.RequestedTheme = ElementTheme.Light;
+        }
 
 
         private void opcionVolver(object sender, BackRequestedEventArgs e)
@@ -202,7 +231,13 @@ namespace ipo2_pokedex
             FrameMain.Navigate(typeof(InicioPage), this);
             sView_Abajo_Principal.IsPaneOpen = true;
             sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
-          
+            var button = sender as Button;
+            if (button != null)
+            {
+                string texto = button.Content.ToString();
+                voiceReader.LeerTexto(texto);
+            }
+
         }
         private void SymbolIcon_Pokedex_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
@@ -210,7 +245,12 @@ namespace ipo2_pokedex
             FrameMain.Navigate(typeof(PokedexPage), this); 
             sView_Abajo_Principal.IsPaneOpen = false;
             sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
-            //leerFrase("Pokedex");
+            var button = sender as Button;
+            if (button != null)
+            {
+                string texto = button.Content.ToString();
+                voiceReader.LeerTexto(texto);
+            }
         }
         private void SymbolIcon_Lucha_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
@@ -218,7 +258,13 @@ namespace ipo2_pokedex
             FrameMain.Navigate(typeof(SelectBattlePage), this); 
             sView_Abajo_Principal.IsPaneOpen = false;
             sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
-           
+            var button = sender as Button;
+            if (button != null)
+            {
+                string texto = button.Content.ToString();
+                voiceReader.LeerTexto(texto);
+            }
+
         }
         private void SymbolIcon_MasInfo_PointerReleased(object sender, PointerRoutedEventArgs e) 
         {
@@ -226,7 +272,13 @@ namespace ipo2_pokedex
             FrameMain.Navigate(typeof(MoreInformation), this); 
             sView_Abajo_Principal.IsPaneOpen = false;
             sView_Abajo_Principal.DisplayMode = SplitViewDisplayMode.CompactOverlay;
-            
+            var button = sender as Button;
+            if (button != null)
+            {
+                string texto = button.Content.ToString();
+                voiceReader.LeerTexto(texto);
+            }
+
 
         }
 
@@ -241,7 +293,7 @@ namespace ipo2_pokedex
                 btn_LuchaPokemon.Content = "Battle Pokemon";
                 btn_MasInfo.Content = "More Info";
                 SelectIdioma.Header = "Language";
-                lector_de_voz.Header = "Voice reades";
+                //lector_de_voz.Header = "Voice reades";
                 // Actualiza otros elementos de la UI según sea necesario
             }
             else if (languageCode == "es")
@@ -252,7 +304,7 @@ namespace ipo2_pokedex
                 btn_LuchaPokemon.Content = "Lucha Pokemon";
                 btn_MasInfo.Content = "Más Info";
                 SelectIdioma.Header = "Idioma";
-                lector_de_voz.Header = "Lector de voz";
+               // lector_de_voz.Header = "Lector de voz";
                 // Actualiza otros elementos de la UI según sea necesario
             }
         }

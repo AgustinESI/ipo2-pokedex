@@ -12,7 +12,7 @@
   <Properties>
     <DisplayName>ipo2_pokedex</DisplayName>
     <PublisherDisplayName>agust</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\images\icon\pokeball.png</Logo>
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0" />
@@ -25,9 +25,15 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="ipo2-pokedex.exe" EntryPoint="ipo2_pokedex.App">
-      <uap:VisualElements DisplayName="ipo2_pokedex" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="ipo2_pokedex" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      <uap:VisualElements DisplayName="ipo2_pokedex" Square150x150Logo="Assets\images\icon\pokeball.png" Square44x44Logo="Assets\images\icon\pokeball.png" Description="ipo2_pokedex" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\images\icon\pokeball.png" Square71x71Logo="Assets\images\icon\pokeball.png" Square310x310Logo="Assets\images\icon\pokeball.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\images\icon\portada.jpg" />
       </uap:VisualElements>
     </Application>
   </Applications>
@@ -48,11 +54,11 @@
     <build:Item Name="VisualStudio" Version="17.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
     <build:Item Name="OperatingSystem" Version="10.0.22621.2860 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.9.37031.30835" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.8.37317.37065" />
     <build:Item Name="ProjectGUID" Value="{0FAD70C6-AA25-4739-A35F-5BF1767D85C5}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0" />
-    <build:Item Name="MakePri.exe" Version="10.0.22621.3233 (WinBuild.160101.0800)" />
+    <build:Item Name="MakePri.exe" Version="10.0.22621.2428 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

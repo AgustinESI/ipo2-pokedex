@@ -234,6 +234,7 @@
     <Content Include="Assets\images\hearts\hearts-2.png" />
     <Content Include="Assets\images\hearts\hearts-3.png" />
     <Content Include="Assets\images\icon\pokeball.png" />
+    <Content Include="Assets\images\icon\portada.jpg" />
     <Content Include="Assets\images\icon\search-white.png" />
     <Content Include="Assets\images\main_background.png" />
     <Content Include="Assets\images\message-removebg-preview.png" />
@@ -565,6 +566,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SelectPokemonPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\DarkThemeResources.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\LightThemeResources.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

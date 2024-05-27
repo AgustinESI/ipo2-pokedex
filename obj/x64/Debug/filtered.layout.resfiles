@@ -18,6 +18,7 @@ Assets\images\hearts\hearts-1.png
 Assets\images\hearts\hearts-2.png
 Assets\images\hearts\hearts-3.png
 Assets\images\icon\pokeball.png
+Assets\images\icon\portada.jpg
 Assets\images\icon\search.png
 Assets\images\icon\search-white.png
 Assets\images\main_background.png
@@ -282,6 +283,8 @@ Pokemons\SquirtleJRSL1.xbf
 Pokemons\ToxicroackJPG.xbf
 SelectBattlePage.xbf
 SelectPokemonPage.xbf
+Style\DarkThemeResources.xbf
+Style\LightThemeResources.xbf
 TemplatePokemon.xbf
 ViewPokemonPage.xbf
 pokemonList.json

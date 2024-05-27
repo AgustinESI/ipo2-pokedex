@@ -2,7 +2,18 @@
     x:Class="ipo2_pokedex.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ipo2_pokedex">
+    xmlns:local="using:ipo2_pokedex"
+    RequestedTheme="Light">
 
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Recursos para el Modo Claro -->
+                <ResourceDictionary Source="ms-appx:///Style/LightThemeResources.xaml"/>
+                <!-- Recursos para el Modo Oscuro -->
+                <ResourceDictionary Source="ms-appx:///Style/DarkThemeResources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>
 
