@@ -34,7 +34,6 @@ namespace ipo2_pokedex
 
         private async void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            // Execute the readFile method here
             await readFile();
         }
 

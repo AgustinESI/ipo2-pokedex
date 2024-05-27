@@ -317,7 +317,6 @@ C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\BattlePage.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\MiniGamePage.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\GrookeyJGPMP.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\LaprasACE.xbf
-C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\MakuhitaAPQ.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\DragoniteCSD.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\GengarJCC.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\PikachuAPCC.xbf
@@ -360,8 +359,6 @@ C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\GrookeyJGPMP.g
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\GrookeyJGPMP.g.cs
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\LaprasACE.g.i.cs
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\LaprasACE.g.cs
-C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\MakuhitaAPQ.g.i.cs
-C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\MakuhitaAPQ.g.cs
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\DragoniteCSD.g.i.cs
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\DragoniteCSD.g.cs
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\GengarJCC.g.i.cs
@@ -402,7 +399,6 @@ C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\BattlePage.xaml
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\MiniGamePage.xaml
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\GrookeyJGPMP.xaml
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\LaprasACE.xaml
-C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\MakuhitaAPQ.xaml
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\DragoniteCSD.xaml
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\GengarJCC.xaml
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\PikachuAPCC.xaml
@@ -425,7 +421,6 @@ C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\BattlePage.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\MiniGamePage.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\GrookeyJGPMP.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\LaprasACE.xbf
-C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\MakuhitaAPQ.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\DragoniteCSD.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\GengarJCC.xbf
 C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\PikachuAPCC.xbf
@@ -850,3 +845,8 @@ C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\obj\x64\Debug\ProjectArchitec
 C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214534760000000.json
 C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638316334480000000.json
 C:\Users\rober\Source\Repos\ipo2-pokedex_fin_final\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638441419520000000.json
+C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\ChandelureNDAA.g.i.cs
+C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\ChandelureNDAA.g.cs
+C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\ChandelureNDAA.xaml
+C:\Users\Usuario\Source\Repos\ipo2-pokedex\obj\x64\Debug\Pokemons\ChandelureNDAA.xbf
+C:\Users\Usuario\Source\Repos\ipo2-pokedex\bin\x64\Debug\Pokemons\ChandelureNDAA.xbf

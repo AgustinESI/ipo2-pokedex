@@ -144,14 +144,14 @@
     <Compile Include="MoreInformation.xaml.cs">
       <DependentUpon>MoreInformation.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pokemons\ChandelureNDAA.xaml.cs">
+      <DependentUpon>ChandelureNDAA.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pokemons\GrookeyJGPMP.xaml.cs">
       <DependentUpon>GrookeyJGPMP.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pokemons\LaprasACE.xaml.cs">
       <DependentUpon>LaprasACE.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pokemons\MakuhitaAPQ.xaml.cs">
-      <DependentUpon>MakuhitaAPQ.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pokemons\DragoniteCSD.xaml.cs">
       <DependentUpon>DragoniteCSD.xaml</DependentUpon>
@@ -260,6 +260,26 @@
     <Content Include="Assets\pokemons\ArticunoACG\pocimaVida.png" />
     <Content Include="Assets\pokemons\ArticunoACG\RayoHielo.mp3" />
     <Content Include="Assets\pokemons\ArticunoACG\RecuperarVida.mp3" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\AtaqueDebilSonido.mp3" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\AtaqueFuerteSonido.mp4" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\CansadoSonido.mp4" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\corazon.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\fondo.jpg" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\HeridoSonido.mp4" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\MuerteSonido.mp4" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\Normal.mp4" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\pocionAmarilla.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\pocionMorada.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\rayo.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\SplashScreen.scale-200.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\StoreLogo.png" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\VidaSonidoFeliz.mp4" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\VueloSonido.mp4" />
+    <Content Include="Assets\pokemons\ChandelureNDAA\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\pokemons\CharizardASM\audios\evolucion.mp3" />
     <Content Include="Assets\pokemons\CharizardASM\audios\garra.mp3" />
     <Content Include="Assets\pokemons\CharizardASM\audios\lanzallamas.mp3" />
@@ -352,11 +372,6 @@
     <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\sudor.png" />
     <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\tirita.png" />
     <Content Include="Assets\pokemons\LaprasACE\UI_Pokemon\tumba3.png" />
-    <Content Include="Assets\pokemons\MakuhitaAPQ\Corazon.png" />
-    <Content Include="Assets\pokemons\MakuhitaAPQ\Energia.png" />
-    <Content Include="Assets\pokemons\MakuhitaAPQ\fondo.jpg" />
-    <Content Include="Assets\pokemons\MakuhitaAPQ\PocionEnergia.png" />
-    <Content Include="Assets\pokemons\MakuhitaAPQ\PocionVida.png" />
     <Content Include="Assets\pokemons\PikachuAPCC\pocima.jpeg" />
     <Content Include="Assets\pokemons\PikachuAPCC\pocima_azul.jpg" />
     <Content Include="Assets\pokemons\PikachuAPCC\rayo.jpg" />
@@ -501,15 +516,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pokemons\ChandelureNDAA.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pokemons\GrookeyJGPMP.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pokemons\LaprasACE.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Pokemons\MakuhitaAPQ.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

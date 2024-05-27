@@ -1,10 +1,11 @@
 ﻿<Page
-    x:Class="ipo2_pokedex.ViewPokemonPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:ipo2_pokedex"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:PokemonNoelia"
+    x:Class="ipo2_pokedex.ViewPokemonPage"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -18,10 +19,10 @@
         <local:GengarJCC x:ConnectionId='8' x:Name="Gengar" Visibility="Collapsed" />
         <local:GrookeyJGPMP x:ConnectionId='9' x:Name="Grookey" Visibility="Collapsed" />
         <local:LaprasACE x:ConnectionId='10' x:Name="Lapras" Visibility="Collapsed"/>
-        <local:MakuhitaAPQ x:ConnectionId='11' x:Name="Makuhita" Visibility="Collapsed" />
-        <local:ScizorAPJ x:ConnectionId='12' x:Name="Scizor" Visibility="Collapsed" />
-        <local:ToxicroackJPG x:ConnectionId='13' x:Name="Toxicroak" Visibility="Collapsed" />
-        <local:SquirtleJRSL1 x:ConnectionId='14' x:Name="Squirtle" Visibility="Collapsed" />
+        <local:ScizorAPJ x:ConnectionId='11' x:Name="Scizor" Visibility="Collapsed" />
+        <local:ToxicroackJPG x:ConnectionId='12' x:Name="Toxicroak" Visibility="Collapsed" />
+        <local:SquirtleJRSL1 x:ConnectionId='13' x:Name="Squirtle" Visibility="Collapsed" />
+        <Custom:ChandelureNDAA x:ConnectionId='14' x:Name="Chandelure" Visibility="Collapsed"/>
     </Grid>
 </Page>
 

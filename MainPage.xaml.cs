@@ -20,8 +20,7 @@ namespace ipo2_pokedex
     /// </summary>
     public partial class MainPage : Page
     {
-        //private SpeechSynthesizer synthesizer;
-        //private MediaElement mediaElement;
+  
         private bool isVoiceReaderActive = false;
         private VoiceReader voiceReader;
         private bool previousToggleState = false;
@@ -45,8 +44,6 @@ namespace ipo2_pokedex
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
             SystemNavigationManager.GetForCurrentView().BackRequested += opcionVolver;
 
-            //synthesizer = new SpeechSynthesizer();
-            //mediaElement = new MediaElement();
             voiceReader = new VoiceReader();
             string texto = "¡Bienvenido a nuestra aplicación Pokemon.";
             voiceReader.LeerTexto(texto);
@@ -56,13 +53,7 @@ namespace ipo2_pokedex
             var localSettings = ApplicationData.Current.LocalSettings;
             string userLanguage = localSettings.Values["AppLanguage"] as string;
             userLanguage = "es-ES";
-           // if (userLanguage == null)
-            //{
-                // Si no hay preferencia almacenada, usar el idioma del sistema
-                // string systemLanguage = Windows.System.UserProfile.GlobalizationPreferences.Languages[0];
-                // userLanguage = systemLanguage.StartsWith("es") ? "es-ES" : "en-GB";
-                
-            //}
+  
 
             if (userLanguage == "es-ES")
             {
@@ -76,52 +67,7 @@ namespace ipo2_pokedex
             }
         }
 
-        /* private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
-         {
-             bool currentToggleState = lector_de_voz.IsOn; // Obtener el estado actual del ToggleSwitch
-
-             // Verificar si el estado actual es diferente al estado anterior
-             if (currentToggleState != previousToggleState)
-             {
-                 isVoiceReaderActive = currentToggleState; // Actualizar el estado del lector de voz
-
-                 // Actualizar el estado anterior del ToggleSwitch
-                 previousToggleState = currentToggleState;
-
-                 string texto = isVoiceReaderActive ? "Lector de voz activado" : "Lector de voz desactivado";
-                 voiceReader.LeerTexto(texto);
-
-                 if (!isVoiceReaderActive)
-                 {
-                     // Detener el lector de voz
-                     voiceReader.DetenerLectura();
-                 }
-             }
-             else
-             {
-                 // Si el estado del ToggleSwitch no ha cambiado, detener el lector de voz si está desactivado
-                 if (!currentToggleState)
-                 {
-                     voiceReader.DetenerLectura();
-                 }
-             }
-         }*/
-
-
-        /* private void DetenerLectura()
-         {
-             mediaElement.Stop();
-         }*/
-
-        /*private async void LeerTexto(string texto)
-        {
-            if (isVoiceReaderActive)
-            {
-                var stream = await synthesizer.SynthesizeTextToStreamAsync(texto);
-                mediaElement.SetSource(stream, stream.ContentType);
-                mediaElement.Play();
-            }
-        }*/
+        
 
         private void ToggleThemeButton_Click(object sender, RoutedEventArgs e)
         {
@@ -307,8 +253,7 @@ namespace ipo2_pokedex
                 btn_MasInfo.Content = "More Info";
                 SelectIdioma.Header = "Language";
                 Tema.Content = "Light/Dark Theme";
-                //lector_de_voz.Header = "Voice reades";
-                // Actualiza otros elementos de la UI según sea necesario
+
             }
             else if (languageCode == "es")
             {
@@ -319,8 +264,7 @@ namespace ipo2_pokedex
                 btn_MasInfo.Content = "Más Info";
                 SelectIdioma.Header = "Idioma";
                 Tema.Content = "Tema Claro/Oscuro";
-               // lector_de_voz.Header = "Lector de voz";
-                // Actualiza otros elementos de la UI según sea necesario
+
             }
         }
 

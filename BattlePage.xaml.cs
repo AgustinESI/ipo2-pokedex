@@ -1,4 +1,5 @@
 ﻿using Microsoft.Toolkit.Uwp.Notifications;
+using PokemonNoelia;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -191,17 +192,6 @@ namespace ipo2_pokedex
                     lapras.verPocionVida(false);
                     return lapras;
 
-                case "Makuhita":
-                    MakuhitaAPQ makuhita = new MakuhitaAPQ();
-                    makuhita.verFondo(false);
-                    //makuhita.Vida = pokemon.health;
-                    //makuhita.Energia = 100;
-                    //makuhita.verFilaEnergia(false);
-                    //makuhita.verFilaVida(false);
-                    //makuhita.verNombre(false);
-
-                    return makuhita;
-
                 case "Scizor":
                     ScizorAPJ scizor = new ScizorAPJ();
                     scizor.verFondo(false);
@@ -237,6 +227,19 @@ namespace ipo2_pokedex
                     squirtle.verPocionEnergia(false);
                     squirtle.verPocionVida(false);
                     return squirtle;
+
+                case "Chandelure":
+                    ChandelureNDAA chandelure = new ChandelureNDAA();
+                    chandelure.verFondo(false);
+                    chandelure.Vida = pokemon.health;
+                    chandelure.Energia=100;
+                    chandelure.verNombre(false);
+                    chandelure.verPocionEnergia(false);
+                    chandelure.verPocionEnergia(false);
+                    //chandelure.verFilaEnergia(false);
+                    //chandelure.verFilaVida(false);
+                    return chandelure;
+
             }
 
             return null;

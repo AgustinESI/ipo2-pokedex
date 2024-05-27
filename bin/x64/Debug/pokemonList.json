@@ -6802,7 +6802,7 @@
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/296.png",
     "description": "MAKUHITA has a tireless spirit - it will never give up hope. It eats a lot of food,gets plenty of sleep,and it trains very rigorously. By living that way,this POKéMON packs its body with energy.",
     "combat": "False",
-    "captured": "True",
+    "captured": "False",
     "level": "20",
     "health": "100",
     "experience": "0"
@@ -14001,7 +14001,7 @@
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/609.png",
     "description": "It absorbs a spirit,which it then burns. By waving the flames on its arms,it puts its foes into a hypnotic trance.",
     "combat": "False",
-    "captured": "False",
+    "captured": "True",
     "level": "20",
     "health": "100",
     "experience": "0"

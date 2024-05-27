@@ -83,11 +83,6 @@ namespace ipo2_pokedex
                 this.Lapras.Visibility = Visibility.Visible;
             }
 
-            if (this.Makuhita.Name == pokemon.name)
-            {
-                this.Makuhita.Visibility = Visibility.Visible;
-            }
-
             if (this.Scizor.Name == pokemon.name)
             {
                 this.Scizor.Visibility = Visibility.Visible;
@@ -101,6 +96,11 @@ namespace ipo2_pokedex
             if (this.Squirtle.Name == pokemon.name)
             {
                 this.Squirtle.Visibility = Visibility.Visible;
+            }
+
+            if(this.Chandelure.Name == pokemon.name)
+            {
+                this.Chandelure.Visibility = Visibility.Visible;
             }
 
         }

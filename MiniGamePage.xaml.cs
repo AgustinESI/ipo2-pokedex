@@ -162,10 +162,8 @@ namespace ipo2_pokedex
         {
             var element = sender as FrameworkElement;
 
-            // Check if the element is not null
             if (element != null)
             {
-                // Get the name of the clicked element
                 string elementName = element.Name;
                 switch (elementName)
                 {

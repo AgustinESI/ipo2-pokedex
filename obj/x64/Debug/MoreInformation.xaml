@@ -30,7 +30,7 @@
             <Button x:ConnectionId='6' x:Name="GitRoberto" x:Uid="GitRoberto" Grid.Row="2" Content="Ver Perfil GitHub" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,250,0"                        Background="#FFE91E63"/>
 
 
-            <Image  Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="266" VerticalAlignment="Center" Width="150" Source="/Assets/images/developers/miriam.png" Margin="20,0,0,71"/>
+            <Image  Grid.Row="3" HorizontalAlignment="Left" Height="239" VerticalAlignment="Center" Width="224" Source="/Assets/images/developers/miriam.png" Margin="20,0,0,0"/>
             <TextBlock  Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Miriam López-Tercero Noblejas" VerticalAlignment="Center" Margin="376,0,0,25" FontSize="36" Foreground="White"/>
             <Button x:ConnectionId='7' x:Name="GitMiriam" x:Uid="GitMiriam" Grid.Row="3" Content="Ver Perfil GitHub" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,250,0"                        Background="#FFE91E63"/>
 

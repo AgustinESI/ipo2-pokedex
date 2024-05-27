@@ -54,11 +54,11 @@
     <build:Item Name="VisualStudio" Version="17.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
     <build:Item Name="OperatingSystem" Version="10.0.22621.2860 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.9.37031.30835" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.8.37317.37065" />
     <build:Item Name="ProjectGUID" Value="{0FAD70C6-AA25-4739-A35F-5BF1767D85C5}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0" />
-    <build:Item Name="MakePri.exe" Version="10.0.22621.3233 (WinBuild.160101.0800)" />
+    <build:Item Name="MakePri.exe" Version="10.0.22621.2428 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>
